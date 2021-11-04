@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-HRM" class="navigator-link">
+              <span class="suite-name border-failed">HRM</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-HRM" class="navigator-link ">
+                    <span>D:\TAM\Auto test\AutomationFC\04-Maven Framework\src\test\resources\runHRMTestcase.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-HRM" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-HRM" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-HRM" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-HRM" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-HRM" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-HRM" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 1 failed,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-HRM" class="hide-methods failed suite-HRM"> (hide)</a> <!-- hide-methods failed suite-HRM -->
+                      <a href="#" panel-name="suite-HRM" class="show-methods failed suite-HRM"> (show)</a> <!-- show-methods failed suite-HRM -->
+                    </span>
+                    <div class="method-list-content failed suite-HRM">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HRM" title="com.hrm.employee.Level_16_Live_Coding" class="method navigator-link" hash-for-method="Employee_03_Personal_Details">Employee_03_Personal_Details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-HRM -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-HRM" class="hide-methods passed suite-HRM"> (hide)</a> <!-- hide-methods passed suite-HRM -->
+                      <a href="#" panel-name="suite-HRM" class="show-methods passed suite-HRM"> (show)</a> <!-- show-methods passed suite-HRM -->
+                    </span>
+                    <div class="method-list-content passed suite-HRM">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HRM" title="com.hrm.employee.Level_16_Live_Coding" class="method navigator-link" hash-for-method="Employee_01_Add_New_Employee">Employee_01_Add_New_Employee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HRM" title="com.hrm.employee.Level_16_Live_Coding" class="method navigator-link" hash-for-method="Employee_02_Upload_Avatar">Employee_02_Upload_Avatar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HRM" title="com.hrm.employee.Level_16_Live_Coding" class="method navigator-link" hash-for-method="Employee_04_Contact_Details">Employee_04_Contact_Details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HRM" title="com.hrm.employee.Level_16_Live_Coding" class="method navigator-link" hash-for-method="Employee_05_Emergency_Details">Employee_05_Emergency_Details</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HRM" title="com.hrm.employee.Level_16_Live_Coding" class="method navigator-link" hash-for-method="Employee_06_Assigned_Dependents">Employee_06_Assigned_Dependents</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HRM" title="com.hrm.employee.Level_16_Live_Coding" class="method navigator-link" hash-for-method="Employee_07_Edit_View_Job">Employee_07_Edit_View_Job</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HRM" title="com.hrm.employee.Level_16_Live_Coding" class="method navigator-link" hash-for-method="Employee_08_Edit_View_Salary">Employee_08_Edit_View_Salary</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HRM" title="com.hrm.employee.Level_16_Live_Coding" class="method navigator-link" hash-for-method="Employee_09_Edit_View_Tax">Employee_09_Edit_View_Tax</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HRM" title="com.hrm.employee.Level_16_Live_Coding" class="method navigator-link" hash-for-method="Employee_10_Qualifications">Employee_10_Qualifications</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-HRM" title="com.hrm.employee.Level_16_Live_Coding" class="method navigator-link" hash-for-method="Employee_11_Search_Employee">Employee_11_Search_Employee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-HRM -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-HRM" class="panel HRM">
+          <div class="suite-HRM-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.hrm.employee.Level_16_Live_Coding</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_03_Personal_Details">
+                  </a> <!-- Employee_03_Personal_Details -->
+                  <span class="method-name">Employee_03_Personal_Details</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //input[@id=&apos;personal_txtEmpLastName&apos;] (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at commons.BasePage.waitForElementVisible(BasePage.java:526)
+	at commons.BasePage.enterToTextboxByID(BasePage.java:643)
+	at com.hrm.employee.Level_16_Live_Coding.Employee_03_Personal_Details(Level_16_Live_Coding.java:172)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //input[@id=&apos;personal_txtEmpLastName&apos;]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-EIC3NR5&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.2&apos;
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:10035/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 963b67f2-bf54-4485-b5dc-7ccee3d1bd50
+*** Element info: {Using=xpath, value=//input[@id=&apos;personal_txtEmpLastName&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 28 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HRM-class-failed -->
+          <div class="suite-HRM-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hrm.employee.Level_16_Live_Coding</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_01_Add_New_Employee">
+                  </a> <!-- Employee_01_Add_New_Employee -->
+                  <span class="method-name">Employee_01_Add_New_Employee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_02_Upload_Avatar">
+                  </a> <!-- Employee_02_Upload_Avatar -->
+                  <span class="method-name">Employee_02_Upload_Avatar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_04_Contact_Details">
+                  </a> <!-- Employee_04_Contact_Details -->
+                  <span class="method-name">Employee_04_Contact_Details</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_05_Emergency_Details">
+                  </a> <!-- Employee_05_Emergency_Details -->
+                  <span class="method-name">Employee_05_Emergency_Details</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_06_Assigned_Dependents">
+                  </a> <!-- Employee_06_Assigned_Dependents -->
+                  <span class="method-name">Employee_06_Assigned_Dependents</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_07_Edit_View_Job">
+                  </a> <!-- Employee_07_Edit_View_Job -->
+                  <span class="method-name">Employee_07_Edit_View_Job</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_08_Edit_View_Salary">
+                  </a> <!-- Employee_08_Edit_View_Salary -->
+                  <span class="method-name">Employee_08_Edit_View_Salary</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_09_Edit_View_Tax">
+                  </a> <!-- Employee_09_Edit_View_Tax -->
+                  <span class="method-name">Employee_09_Edit_View_Tax</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_10_Qualifications">
+                  </a> <!-- Employee_10_Qualifications -->
+                  <span class="method-name">Employee_10_Qualifications</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employee_11_Search_Employee">
+                  </a> <!-- Employee_11_Search_Employee -->
+                  <span class="method-name">Employee_11_Search_Employee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HRM-class-passed -->
+        </div> <!-- panel HRM -->
+        <div panel-name="test-xml-HRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\TAM\Auto test\AutomationFC\04-Maven Framework\src\test\resources\runHRMTestcase.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;HRM&quot;&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://opensource-demo.orangehrmlive.com/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;reportConfig.MethodListener&quot;/&gt;
+    &lt;listener class-name=&quot;reportConfig.ExtentTestListener&quot;/&gt;
+    &lt;listener class-name=&quot;reportConfig.ReportNGListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Run on IE&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;ie&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hrm.employee.Level_16_Live_Coding&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Run on IE --&gt;
+&lt;/suite&gt; &lt;!-- HRM --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-HRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for HRM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Run on IE (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-HRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for HRM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-HRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for HRM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_HRM');
+function tableData_HRM() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Employee_03_Personal_Details')
+data.setCell(0, 2, 'com.hrm.employee.Level_16_Live_Coding')
+data.setCell(0, 3, 72699);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Employee_01_Add_New_Employee')
+data.setCell(1, 2, 'com.hrm.employee.Level_16_Live_Coding')
+data.setCell(1, 3, 31626);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Employee_02_Upload_Avatar')
+data.setCell(2, 2, 'com.hrm.employee.Level_16_Live_Coding')
+data.setCell(2, 3, 24268);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Employee_07_Edit_View_Job')
+data.setCell(3, 2, 'com.hrm.employee.Level_16_Live_Coding')
+data.setCell(3, 3, 22);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Employee_05_Emergency_Details')
+data.setCell(4, 2, 'com.hrm.employee.Level_16_Live_Coding')
+data.setCell(4, 3, 18);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Employee_06_Assigned_Dependents')
+data.setCell(5, 2, 'com.hrm.employee.Level_16_Live_Coding')
+data.setCell(5, 3, 14);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Employee_10_Qualifications')
+data.setCell(6, 2, 'com.hrm.employee.Level_16_Live_Coding')
+data.setCell(6, 3, 9);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Employee_09_Edit_View_Tax')
+data.setCell(7, 2, 'com.hrm.employee.Level_16_Live_Coding')
+data.setCell(7, 3, 8);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Employee_04_Contact_Details')
+data.setCell(8, 2, 'com.hrm.employee.Level_16_Live_Coding')
+data.setCell(8, 3, 8);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Employee_08_Edit_View_Salary')
+data.setCell(9, 2, 'com.hrm.employee.Level_16_Live_Coding')
+data.setCell(9, 3, 4);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Employee_11_Search_Employee')
+data.setCell(10, 2, 'com.hrm.employee.Level_16_Live_Coding')
+data.setCell(10, 3, 3);
+window.suiteTableData['HRM']= { tableData: data, tableDiv: 'times-div-HRM'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-HRM">
+              </div> <!-- times-div-HRM -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-HRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for HRM</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Employee_03_Personal_Details</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><br><a target="_blank" href="data:image/png;base64,"><img src="data:image/png;base64," height='100' width='150'/> </a></br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-HRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-HRM" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hrm.employee.Level_16_Live_Coding</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">deleteAllFileInFolder</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">initBrowser(ie, https://opensource-demo.orangehrmlive.com/)</span>
+                <span class="method-start">87 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Employee_01_Add_New_Employee</span>
+                <span class="method-start">16792 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employee_02_Upload_Avatar</span>
+                <span class="method-start">48640 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Employee_03_Personal_Details</span>
+                <span class="method-start">72931 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employee_04_Contact_Details</span>
+                <span class="method-start">153703 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employee_05_Emergency_Details</span>
+                <span class="method-start">153718 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employee_06_Assigned_Dependents</span>
+                <span class="method-start">153747 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employee_07_Edit_View_Job</span>
+                <span class="method-start">153768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employee_08_Edit_View_Salary</span>
+                <span class="method-start">153815 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employee_09_Edit_View_Tax</span>
+                <span class="method-start">153854 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employee_10_Qualifications</span>
+                <span class="method-start">153871 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employee_11_Search_Employee</span>
+                <span class="method-start">153885 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">cleanBrowser(ie)</span>
+                <span class="method-start">153897 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
