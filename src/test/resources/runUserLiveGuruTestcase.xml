@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE project>
+<suite name="User_LiveGuru99" parallel="false">
+	<parameter name="url" value="http://live.techpanda.org/" />
+
+	<test name="Run on CHROME">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.liveguru.user.TC_01_Register" />
+		</classes>
+	</test>
+</suite>

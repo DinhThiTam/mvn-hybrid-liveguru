@@ -1,0 +1,1 @@
+{"uuid":"b37b00c8-4ada-40a5-8da2-8b176e829aae","name":"Run on CHROME","children":["72e744d4-8150-4923-97ec-fbb837d9080b"],"befores":[{"name":"deleteAllFileInFolder","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1639349363841,"stop":1639349363857}],"afters":[],"links":[],"start":1639349363797,"stop":1639349380456}

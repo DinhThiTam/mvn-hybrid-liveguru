@@ -19,6 +19,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageUIs.user.liveGuru99.BasePageUI;
+
 
 
 
@@ -540,6 +542,31 @@ public class BasePage {
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(getDynamicLocator(locator, params))));	
 	}
 	
+	//LiveGuru99
+	public void openToMenuAtHeaderByText(WebDriver driver, String menuText) {
+		waitForElementClickable(driver, BasePageUI.HEADER_ACCOUNT_CART_BY_TEXT, menuText);
+		clickToElement(driver, BasePageUI.HEADER_ACCOUNT_CART_BY_TEXT, menuText);
+	}
+	
+
+	public void clickToMenuLink(WebDriver driver, String positionName, String menuText) {
+		waitForElementClickable(driver, BasePageUI.MENU_LINK_BY_HEADERORFOOTER_AND_TEXT, positionName, menuText);
+		clickToElement(driver, BasePageUI.MENU_LINK_BY_HEADERORFOOTER_AND_TEXT,positionName, menuText);
+		
+	}
+	
+	public void enterToTextboxByID(WebDriver driver, String textboxID, String value) {
+		waitForElementVisible(driver, BasePageUI.TEXTBOX_BY_ID, textboxID);
+		senkeyToElement(driver, BasePageUI.TEXTBOX_BY_ID, value, textboxID);
+		
+	}
+	
+
+	public void clickToButtonByTitle(WebDriver driver, String buttonTitle) {
+		waitForElementClickable(driver, BasePageUI.BUTTON_TITLE, buttonTitle);
+		clickToElement(driver, BasePageUI.BUTTON_TITLE, buttonTitle);
+		
+	}
 
 	
 
