@@ -17,6 +17,8 @@ public class HomePO extends BasePage {
 		return isElementDisplayed(driver, HomePageUI.LOGO_AT_HOMEPAGE);
 	}
 
+
+
 	
 	
 	

@@ -5,4 +5,5 @@ public class BasePageUI {
 	public static final String MENU_LINK_BY_HEADERORFOOTER_AND_TEXT = "//div[contains(@class,'%s')]//a[text()='%s']";
 	public static final String TEXTBOX_BY_ID = "//input[@id='%s']";
 	public static final String BUTTON_TITLE = "//button[@title='%s']";
+	public static final String MENUNAME_SIDEBAR = "//a[contains(string(),'%s')]";
 }

@@ -1,77 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[INFO ] [2021-12-12 14:45:57,280] --------START delete file in folder---------
+      <![CDATA[[INFO ] [2021-12-13 09:33:22,817] --------START delete file in folder---------
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-12 14:45:57,282] --------END delete file in folder---------
+      <![CDATA[[INFO ] [2021-12-13 09:33:22,820] --------END delete file in folder---------
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-12 14:45:57,324] Pre-Condition - Step 01: Open browser 'chrome' and navigate 'http://live.techpanda.org/'
+      <![CDATA[[INFO ] [2021-12-13 09:33:22,860] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-12 14:46:09,687] Pre-Condition - Step 02: Verify HomePage is displayed
+      <![CDATA[[INFO ] [2021-12-13 09:33:39,766] Pre-Condition - Step 02: Verify HomePage is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-12 14:46:09,853] Pre-Condition - Step 03: Click 'Account' menu on header
+      <![CDATA[[INFO ] [2021-12-13 09:33:40,291] Pre-Condition - Step 03: Click 'Account' menu on header
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-12 14:46:10,101] Pre-Condition - Step 04: Open 'Register' page
+      <![CDATA[[INFO ] [2021-12-13 09:33:40,680] Pre-Condition - Step 04: Open 'Register' page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-12 14:46:11,684] Register_02 - Step 01: Enter valid info to 'First Name' textbox
+      <![CDATA[[INFO ] [2021-12-13 09:33:42,174] Register_01 - Step 01: Enter valid info to 'First Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-12 14:46:12,030] Register_02 - Step 02: Enter valid info to 'First Name' textbox
+      <![CDATA[[INFO ] [2021-12-13 09:33:42,360] Register_01- Step 02: Enter valid info to 'First Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-12 14:46:12,299] Register_02 - Step 03: Enter valid info to 'First Name' textbox
+      <![CDATA[[INFO ] [2021-12-13 09:33:42,544] Register_01 - Step 03: Enter valid info to 'First Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-12 14:46:12,495] Register_02 - Step 04: Enter valid info to 'First Name' textbox
+      <![CDATA[[INFO ] [2021-12-13 09:33:42,744] Register_01 - Step 04: Enter valid info to 'First Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-12 14:46:12,654] Register_02 - Step 05: Enter valid info to 'First Name' textbox
+      <![CDATA[[INFO ] [2021-12-13 09:33:42,879] Register_01 - Step 05: Enter valid info to 'First Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-12 14:46:12,907] Register_02 - Step 06: Click to 'Register' button
+      <![CDATA[[INFO ] [2021-12-13 09:33:43,070] Register_01 - Step 06: Click to 'Register' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-13 09:33:46,075] Register_01 - Step 07: Verify text dislayed after register successfully
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-13 09:33:46,165]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-13 09:33:46,605] Register_02 - Step 01: Open'Account Information' menu at sidebar
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-13 09:33:47,696] My_Account_01 - Step 11: Verify firstname infomation is updated successfully
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-13 09:33:47,792]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-13 09:33:47,792] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-13 09:33:47,888]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-13 09:33:47,888] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-13 09:33:48,003]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-13 09:33:48,050] Post-Condition - Close Browser - firefox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-13 09:33:48,051] OS name = windows 10
 <br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-12-12T22:45:57Z" name="User_LiveGuru99" finished-at="2021-12-12T22:46:14Z" duration-ms="17687">
+  <suite started-at="2021-12-13T17:33:22Z" name="User_LiveGuru99" finished-at="2021-12-13T17:33:49Z" duration-ms="26912">
     <groups>
     </groups>
-    <test started-at="2021-12-12T22:45:57Z" name="Run on CHROME" finished-at="2021-12-12T22:46:14Z" duration-ms="17687">
+    <test started-at="2021-12-13T17:33:22Z" name="Run on FIREFOX" finished-at="2021-12-13T17:33:49Z" duration-ms="26912">
       <class name="com.liveguru.user.TC_01_Register">
-        <test-method is-config="true" signature="deleteAllFileInFolder()[pri:0, instance:com.liveguru.user.TC_01_Register@7a231dfd]" started-at="2021-12-12T22:45:57Z" name="deleteAllFileInFolder" finished-at="2021-12-12T22:45:57Z" duration-ms="77" status="PASS">
+        <test-method is-config="true" signature="deleteAllFileInFolder()[pri:0, instance:com.liveguru.user.TC_01_Register@5411dd90]" started-at="2021-12-13T17:33:22Z" name="deleteAllFileInFolder" finished-at="2021-12-13T17:33:22Z" duration-ms="70" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-12-12 14:45:57,280] --------START delete file in folder---------
+              <![CDATA[[INFO ] [2021-12-13 09:33:22,817] --------START delete file in folder---------
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-12 14:45:57,282] --------END delete file in folder---------
+              <![CDATA[[INFO ] [2021-12-13 09:33:22,820] --------END delete file in folder---------
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- deleteAllFileInFolder -->
-        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.liveguru.user.TC_01_Register@7a231dfd]" started-at="2021-12-12T22:45:57Z" name="initBrowser" finished-at="2021-12-12T22:46:11Z" duration-ms="14044" status="PASS">
+        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.liveguru.user.TC_01_Register@5411dd90]" started-at="2021-12-13T17:33:22Z" name="initBrowser" finished-at="2021-12-13T17:33:41Z" duration-ms="18994" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="1">
@@ -82,52 +126,111 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-12-12 14:45:57,324] Pre-Condition - Step 01: Open browser 'chrome' and navigate 'http://live.techpanda.org/'
+              <![CDATA[[INFO ] [2021-12-13 09:33:22,860] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-12 14:46:09,687] Pre-Condition - Step 02: Verify HomePage is displayed
+              <![CDATA[[INFO ] [2021-12-13 09:33:39,766] Pre-Condition - Step 02: Verify HomePage is displayed
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-12 14:46:09,853] Pre-Condition - Step 03: Click 'Account' menu on header
+              <![CDATA[[INFO ] [2021-12-13 09:33:40,291] Pre-Condition - Step 03: Click 'Account' menu on header
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-12 14:46:10,101] Pre-Condition - Step 04: Open 'Register' page
+              <![CDATA[[INFO ] [2021-12-13 09:33:40,680] Pre-Condition - Step 04: Open 'Register' page
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="Register_01_Success_To_System()[pri:0, instance:com.liveguru.user.TC_01_Register@7a231dfd]" started-at="2021-12-12T22:46:11Z" name="Register_01_Success_To_System" finished-at="2021-12-12T22:46:14Z" duration-ms="3109" status="PASS">
+        <test-method signature="Register_01_Success_To_System()[pri:0, instance:com.liveguru.user.TC_01_Register@5411dd90]" started-at="2021-12-13T17:33:41Z" name="Register_01_Success_To_System" finished-at="2021-12-13T17:33:46Z" duration-ms="4301" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-12-12 14:46:11,684] Register_02 - Step 01: Enter valid info to 'First Name' textbox
+              <![CDATA[[INFO ] [2021-12-13 09:33:42,174] Register_01 - Step 01: Enter valid info to 'First Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-12 14:46:12,030] Register_02 - Step 02: Enter valid info to 'First Name' textbox
+              <![CDATA[[INFO ] [2021-12-13 09:33:42,360] Register_01- Step 02: Enter valid info to 'First Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-12 14:46:12,299] Register_02 - Step 03: Enter valid info to 'First Name' textbox
+              <![CDATA[[INFO ] [2021-12-13 09:33:42,544] Register_01 - Step 03: Enter valid info to 'First Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-12 14:46:12,495] Register_02 - Step 04: Enter valid info to 'First Name' textbox
+              <![CDATA[[INFO ] [2021-12-13 09:33:42,744] Register_01 - Step 04: Enter valid info to 'First Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-12 14:46:12,654] Register_02 - Step 05: Enter valid info to 'First Name' textbox
+              <![CDATA[[INFO ] [2021-12-13 09:33:42,879] Register_01 - Step 05: Enter valid info to 'First Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-12 14:46:12,907] Register_02 - Step 06: Click to 'Register' button
+              <![CDATA[[INFO ] [2021-12-13 09:33:43,070] Register_01 - Step 06: Click to 'Register' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-13 09:33:46,075] Register_01 - Step 07: Verify text dislayed after register successfully
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-13 09:33:46,165]  -------------------------- PASSED -------------------------- 
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- Register_01_Success_To_System -->
+        <test-method signature="Register_02_Check_Infomation_Registered()[pri:0, instance:com.liveguru.user.TC_01_Register@5411dd90]" started-at="2021-12-13T17:33:46Z" name="Register_02_Check_Infomation_Registered" finished-at="2021-12-13T17:33:48Z" duration-ms="1404" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-12-13 09:33:46,605] Register_02 - Step 01: Open'Account Information' menu at sidebar
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-13 09:33:47,696] My_Account_01 - Step 11: Verify firstname infomation is updated successfully
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-13 09:33:47,792]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-13 09:33:47,792] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-13 09:33:47,888]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-13 09:33:47,888] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-13 09:33:48,003]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register_02_Check_Infomation_Registered -->
+        <test-method is-config="true" signature="cleanBrowser(java.lang.String)[pri:0, instance:com.liveguru.user.TC_01_Register@5411dd90]" started-at="2021-12-13T17:33:48Z" name="cleanBrowser" finished-at="2021-12-13T17:33:49Z" duration-ms="1586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-12-13 09:33:48,050] Post-Condition - Close Browser - firefox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-13 09:33:48,051] OS name = windows 10
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cleanBrowser -->
       </class> <!-- com.liveguru.user.TC_01_Register -->
-    </test> <!-- Run on CHROME -->
+    </test> <!-- Run on FIREFOX -->
   </suite> <!-- User_LiveGuru99 -->
 </testng-results>

@@ -11,6 +11,12 @@ public class RegisterPO extends BasePage {
 		this.driver = driver;
 	}
 
+	public HomePO isMessageSuccessDisplayed() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+
 
 	
 

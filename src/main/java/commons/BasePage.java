@@ -561,12 +561,24 @@ public class BasePage {
 		
 	}
 	
-
 	public void clickToButtonByTitle(WebDriver driver, String buttonTitle) {
 		waitForElementClickable(driver, BasePageUI.BUTTON_TITLE, buttonTitle);
 		clickToElement(driver, BasePageUI.BUTTON_TITLE, buttonTitle);
 		
 	}
+	
+	public void OpenMenuAtSidebar(WebDriver driver, String sidebarName) {
+		waitForElementClickable(driver, BasePageUI.MENUNAME_SIDEBAR, sidebarName);
+		clickToElement(driver, BasePageUI.MENUNAME_SIDEBAR, sidebarName);
+		
+	}
+	
+
+	public String getTextboxValueByID(WebDriver driver, String textboxID, String value) {
+		waitForElementVisible(driver, BasePageUI.TEXTBOX_BY_ID, textboxID);
+		return getElementAttribute(driver, BasePageUI.TEXTBOX_BY_ID, value, textboxID);
+	}
+
 
 	
 

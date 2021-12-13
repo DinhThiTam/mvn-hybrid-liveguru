@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-User_LiveGuru99" title="com.liveguru.user.TC_01_Register" class="method navigator-link" hash-for-method="Register_01_Success_To_System">Register_01_Success_To_System</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_LiveGuru99" title="com.liveguru.user.TC_01_Register" class="method navigator-link" hash-for-method="Register_02_Check_Infomation_Registered">Register_02_Check_Infomation_Registered</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-User_LiveGuru99 -->
@@ -130,6 +135,13 @@
                   <span class="method-name">Register_01_Success_To_System</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_02_Check_Infomation_Registered">
+                  </a> <!-- Register_02_Check_Infomation_Registered -->
+                  <span class="method-name">Register_02_Check_Infomation_Registered</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-User_LiveGuru99-class-passed -->
         </div> <!-- panel User_LiveGuru99 -->
@@ -143,12 +155,12 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;User_LiveGuru99&quot;&gt;
   &lt;parameter name=&quot;url&quot; value=&quot;http://live.techpanda.org/&quot;/&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Run on CHROME&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Run on FIREFOX&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.liveguru.user.TC_01_Register&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Run on CHROME --&gt;
+  &lt;/test&gt; &lt;!-- Run on FIREFOX --&gt;
 &lt;/suite&gt; &lt;!-- User_LiveGuru99 --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -160,7 +172,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Run on CHROME (1 class)</span>
+                <span class="test-name">Run on FIREFOX (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -186,16 +198,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Register_01_Success_To_System')
 data.setCell(0, 2, 'com.liveguru.user.TC_01_Register')
-data.setCell(0, 3, 3109);
+data.setCell(0, 3, 4301);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Register_02_Check_Infomation_Registered')
+data.setCell(1, 2, 'com.liveguru.user.TC_01_Register')
+data.setCell(1, 3, 1404);
 window.suiteTableData['User_LiveGuru99']= { tableData: data, tableDiv: 'times-div-User_LiveGuru99'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-User_LiveGuru99">
               </div> <!-- times-div-User_LiveGuru99 -->
             </div> <!-- times-div -->
@@ -207,19 +223,42 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
+              <span class="reporter-method-name">Register_02_Check_Infomation_Registered</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:46,605] Register_02 - Step 01: Open'Account Information' menu at sidebar
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:47,696] My_Account_01 - Step 11: Verify firstname infomation is updated successfully
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:47,792]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:47,792] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:47,888]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:47,888] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:48,003]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
               <span class="reporter-method-name">Register_01_Success_To_System</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[INFO ] [2021-12-12 14:46:11,684] Register_02 - Step 01: Enter valid info to 'First Name' textbox
+                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:42,174] Register_01 - Step 01: Enter valid info to 'First Name' textbox
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-12 14:46:12,030] Register_02 - Step 02: Enter valid info to 'First Name' textbox
+                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:42,360] Register_01- Step 02: Enter valid info to 'First Name' textbox
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-12 14:46:12,299] Register_02 - Step 03: Enter valid info to 'First Name' textbox
+                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:42,544] Register_01 - Step 03: Enter valid info to 'First Name' textbox
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-12 14:46:12,495] Register_02 - Step 04: Enter valid info to 'First Name' textbox
+                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:42,744] Register_01 - Step 04: Enter valid info to 'First Name' textbox
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-12 14:46:12,654] Register_02 - Step 05: Enter valid info to 'First Name' textbox
+                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:42,879] Register_01 - Step 05: Enter valid info to 'First Name' textbox
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-12 14:46:12,907] Register_02 - Step 06: Click to 'Register' button
+                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:43,070] Register_01 - Step 06: Click to 'Register' button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:46,075] Register_01 - Step 07: Verify text dislayed after register successfully
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:46,165]  -------------------------- PASSED -------------------------- 
 <br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -244,13 +283,21 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
-                <span class="method-name">initBrowser(chrome, http://live.techpanda.org/)</span>
-                <span class="method-start">107 ms</span>
+                <span class="method-name">initBrowser(firefox, http://live.techpanda.org/)</span>
+                <span class="method-start">98 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">Register_01_Success_To_System</span>
-                <span class="method-start">14171 ms</span>
+                <span class="method-start">19119 ms</span>
               </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_02_Check_Infomation_Registered</span>
+                <span class="method-start">23849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">cleanBrowser(firefox)</span>
+                <span class="method-start">25297 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
