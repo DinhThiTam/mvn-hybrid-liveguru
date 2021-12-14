@@ -13,6 +13,11 @@ public class ShoppingCartPO extends BasePage {
 		this.driver = driver;
 	}
 
+	public boolean isShoppingCartEmptyMessageDisplayed() {
+		waitForElementVisible(driver, ShoppingCartPageUI.SHOPPING_CART_EMPTY_MESSAGE);
+		return isElementDisplayed(driver, ShoppingCartPageUI.SHOPPING_CART_EMPTY_MESSAGE);
+	}
+
 
 
 	

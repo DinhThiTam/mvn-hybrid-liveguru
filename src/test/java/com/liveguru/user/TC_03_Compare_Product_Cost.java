@@ -27,23 +27,23 @@ public class TC_03_Compare_Product_Cost extends BaseTest {
 		log.info("Pre-Condition - Step 02: Verify HomePage is displayed");
 		homePage.isLogoAtHomePageDisplayed();
 
-		log.info("Pre-Condition - Step 04: Open 'Register' page");
+		log.info("Pre-Condition - Step 03: Open 'Mobile' page");
 		homePage.clickToMenuLink(driver, "header", "Mobile");
 		mobilePage = PageGenerator.getMobilePage(driver);	
 	}
 
 	@Test
-	public void Login_01_Login_To_System() {
-		log.info("Pre-Condition - Step 04: Get cost of Sony Experia mobile");
+	public void TC_01_Compare_Product_Value() {
+		log.info("TC_01 - Step 01: Get cost of Sony Experia mobile");
 		costProduct= mobilePage.getProductPrice(driver,"product-price-1");
 		
-		log.info("Pre-Condition - Step 04: Click on Sony Experia detail");
+		log.info("TC_01 - Step 02: Click on Sony Experia detail");
 		mobilePage.openProductDetail(driver, "Sony Xperia");
 		
-		log.info("Pre-Condition - Step 04: Get cost of Sony Experia mobile from detail page");
+		log.info("TC_01 - Step 03: Get cost of Sony Experia mobile from detail page");
 		costProductDetail= mobilePage.getProductPrice(driver,"product-price-1");
 		
-		log.info("Pre-Condition - Step 04: Compare value product is equal");
+		log.info("TC_01 - Step 04: Compare value product is equal");
 		verifyEquals(costProductDetail, costProduct);
 	}
 	

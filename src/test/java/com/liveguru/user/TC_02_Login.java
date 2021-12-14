@@ -30,7 +30,7 @@ public class TC_02_Login extends BaseTest {
 		log.info("Pre-Condition - Step 03: Click 'Account' menu on header");
 		homePage.openToMenuAtHeaderByText(driver, "Account");
 
-		log.info("Pre-Condition - Step 04: Open 'Register' page");
+		log.info("Pre-Condition - Step 04: Open 'Log In' page");
 		homePage.clickToMenuLink(driver, "header", "Log In");
 		loginPage = PageGenerator.getLoginPage(driver);	
 	}
