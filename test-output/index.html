@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +102,7 @@
                     <div class="method-list-content passed suite-User_LiveGuru99">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-User_LiveGuru99" title="com.liveguru.user.TC_01_Register" class="method navigator-link" hash-for-method="Register_01_Success_To_System">Register_01_Success_To_System</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-User_LiveGuru99" title="com.liveguru.user.TC_01_Register" class="method navigator-link" hash-for-method="Register_02_Check_Infomation_Registered">Register_02_Check_Infomation_Registered</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-User_LiveGuru99" title="com.liveguru.user.TC_05_Maximum_Quantity_Add_To_Cart" class="method navigator-link" hash-for-method="Login_01_Login_To_System">Login_01_Login_To_System</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-User_LiveGuru99 -->
@@ -125,21 +120,14 @@
           <div class="suite-User_LiveGuru99-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.liveguru.user.TC_01_Register</span>
+              <span class="class-name">com.liveguru.user.TC_05_Maximum_Quantity_Add_To_Cart</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Register_01_Success_To_System">
-                  </a> <!-- Register_01_Success_To_System -->
-                  <span class="method-name">Register_01_Success_To_System</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Register_02_Check_Infomation_Registered">
-                  </a> <!-- Register_02_Check_Infomation_Registered -->
-                  <span class="method-name">Register_02_Check_Infomation_Registered</span>
+                  <a name="Login_01_Login_To_System">
+                  </a> <!-- Login_01_Login_To_System -->
+                  <span class="method-name">Login_01_Login_To_System</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -155,10 +143,16 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;User_LiveGuru99&quot;&gt;
   &lt;parameter name=&quot;url&quot; value=&quot;http://live.techpanda.org/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;reportConfig.MethodListener&quot;/&gt;
+    &lt;listener class-name=&quot;reportConfig.ReportNGListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Run on FIREFOX&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.liveguru.user.TC_01_Register&quot;/&gt;
+      &lt;class name=&quot;com.liveguru.user.TC_05_Maximum_Quantity_Add_To_Cart&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Run on FIREFOX --&gt;
 &lt;/suite&gt; &lt;!-- User_LiveGuru99 --&gt;
@@ -198,15 +192,11 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Register_01_Success_To_System')
-data.setCell(0, 2, 'com.liveguru.user.TC_01_Register')
-data.setCell(0, 3, 4301);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Register_02_Check_Infomation_Registered')
-data.setCell(1, 2, 'com.liveguru.user.TC_01_Register')
-data.setCell(1, 3, 1404);
+data.setCell(0, 1, 'Login_01_Login_To_System')
+data.setCell(0, 2, 'com.liveguru.user.TC_05_Maximum_Quantity_Add_To_Cart')
+data.setCell(0, 3, 5380);
 window.suiteTableData['User_LiveGuru99']= { tableData: data, tableDiv: 'times-div-User_LiveGuru99'}
 return data;
 }
@@ -223,42 +213,23 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">Register_02_Check_Infomation_Registered</span>
+              <span class="reporter-method-name">Login_01_Login_To_System</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:46,605] Register_02 - Step 01: Open'Account Information' menu at sidebar
+                <span class="reporter-method-output">[INFO ] [2021-12-14 09:08:26,328] Pre-Condition - Step 01: Click on 'ADD TO CART' for Sony Experia mobile
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:47,696] My_Account_01 - Step 11: Verify firstname infomation is updated successfully
+                <span class="reporter-method-output">[INFO ] [2021-12-14 09:08:28,287] Pre-Condition - Step 04: Change 'QTY' value is 501
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:47,792]  -------------------------- PASSED -------------------------- 
+                <span class="reporter-method-output">[INFO ] [2021-12-14 09:08:28,442] Pre-Condition - Step 04: Click to 'Update' button
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:47,792] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+                <span class="reporter-method-output">[INFO ] [2021-12-14 09:08:30,045] Pre-Condition - Step 04: Verify error message is displayed
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:47,888]  -------------------------- PASSED -------------------------- 
+                <span class="reporter-method-output">[INFO ] [2021-12-14 09:08:30,189]  -------------------------- PASSED -------------------------- 
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:47,888] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+                <span class="reporter-method-output">[INFO ] [2021-12-14 09:08:30,195] Pre-Condition - Step 04: Verify error message in table is displayed
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:48,003]  -------------------------- PASSED -------------------------- 
+                <span class="reporter-method-output">[INFO ] [2021-12-14 09:08:30,277]  -------------------------- PASSED -------------------------- 
 <br></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">Register_01_Success_To_System</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:42,174] Register_01 - Step 01: Enter valid info to 'First Name' textbox
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:42,360] Register_01- Step 02: Enter valid info to 'First Name' textbox
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:42,544] Register_01 - Step 03: Enter valid info to 'First Name' textbox
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:42,744] Register_01 - Step 04: Enter valid info to 'First Name' textbox
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:42,879] Register_01 - Step 05: Enter valid info to 'First Name' textbox
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:43,070] Register_01 - Step 06: Click to 'Register' button
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:46,075] Register_01 - Step 07: Verify text dislayed after register successfully
-<br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-13 09:33:46,165]  -------------------------- PASSED -------------------------- 
+                <span class="reporter-method-output">[INFO ] [2021-12-14 09:08:30,278] Pre-Condition - Step 04: Click to 'Empty Cart' link
 <br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -277,26 +248,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.liveguru.user.TC_01_Register</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.liveguru.user.TC_05_Maximum_Quantity_Add_To_Cart</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">deleteAllFileInFolder</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">initBrowser(firefox, http://live.techpanda.org/)</span>
-                <span class="method-start">98 ms</span>
+                <span class="method-start">73 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">Register_01_Success_To_System</span>
-                <span class="method-start">19119 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Register_02_Check_Infomation_Registered</span>
-                <span class="method-start">23849 ms</span>
+                <span class="method-name">Login_01_Login_To_System</span>
+                <span class="method-start">16391 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">cleanBrowser(firefox)</span>
-                <span class="method-start">25297 ms</span>
+                <span class="method-start">22084 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

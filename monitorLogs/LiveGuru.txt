@@ -1,23 +1,15 @@
-[INFO ] [2021-12-13 09:33:22,817] --------START delete file in folder---------
-[INFO ] [2021-12-13 09:33:22,820] --------END delete file in folder---------
-[INFO ] [2021-12-13 09:33:22,860] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
-[INFO ] [2021-12-13 09:33:39,766] Pre-Condition - Step 02: Verify HomePage is displayed
-[INFO ] [2021-12-13 09:33:40,291] Pre-Condition - Step 03: Click 'Account' menu on header
-[INFO ] [2021-12-13 09:33:40,680] Pre-Condition - Step 04: Open 'Register' page
-[INFO ] [2021-12-13 09:33:42,174] Register_01 - Step 01: Enter valid info to 'First Name' textbox
-[INFO ] [2021-12-13 09:33:42,360] Register_01- Step 02: Enter valid info to 'First Name' textbox
-[INFO ] [2021-12-13 09:33:42,544] Register_01 - Step 03: Enter valid info to 'First Name' textbox
-[INFO ] [2021-12-13 09:33:42,744] Register_01 - Step 04: Enter valid info to 'First Name' textbox
-[INFO ] [2021-12-13 09:33:42,879] Register_01 - Step 05: Enter valid info to 'First Name' textbox
-[INFO ] [2021-12-13 09:33:43,070] Register_01 - Step 06: Click to 'Register' button
-[INFO ] [2021-12-13 09:33:46,075] Register_01 - Step 07: Verify text dislayed after register successfully
-[INFO ] [2021-12-13 09:33:46,165]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-12-13 09:33:46,605] Register_02 - Step 01: Open'Account Information' menu at sidebar
-[INFO ] [2021-12-13 09:33:47,696] My_Account_01 - Step 11: Verify firstname infomation is updated successfully
-[INFO ] [2021-12-13 09:33:47,792]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-12-13 09:33:47,792] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
-[INFO ] [2021-12-13 09:33:47,888]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-12-13 09:33:47,888] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
-[INFO ] [2021-12-13 09:33:48,003]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-12-13 09:33:48,050] Post-Condition - Close Browser - firefox
-[INFO ] [2021-12-13 09:33:48,051] OS name = windows 10
+[INFO ] [2021-12-14 09:08:09,837] --------START delete file in folder---------
+[INFO ] [2021-12-14 09:08:09,839] --------END delete file in folder---------
+[INFO ] [2021-12-14 09:08:09,875] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-14 09:08:23,655] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-14 09:08:23,880] Pre-Condition - Step 04: Open 'Mobile' menu
+[INFO ] [2021-12-14 09:08:26,328] Pre-Condition - Step 01: Click on 'ADD TO CART' for Sony Experia mobile
+[INFO ] [2021-12-14 09:08:28,287] Pre-Condition - Step 04: Change 'QTY' value is 501
+[INFO ] [2021-12-14 09:08:28,442] Pre-Condition - Step 04: Click to 'Update' button
+[INFO ] [2021-12-14 09:08:30,045] Pre-Condition - Step 04: Verify error message is displayed
+[INFO ] [2021-12-14 09:08:30,189]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-14 09:08:30,195] Pre-Condition - Step 04: Verify error message in table is displayed
+[INFO ] [2021-12-14 09:08:30,277]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-14 09:08:30,278] Pre-Condition - Step 04: Click to 'Empty Cart' link
+[INFO ] [2021-12-14 09:08:31,875] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-14 09:08:31,875] OS name = windows 10

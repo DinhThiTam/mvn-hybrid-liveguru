@@ -1,0 +1,1 @@
+{"uuid":"8e2e4171-2687-4d36-a91e-2f3d760c3e29","name":"Run on FIREFOX","children":["4d9d8c29-eaf6-49ae-be99-a43ae494fd81"],"befores":[{"name":"deleteAllFileInFolder","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1639414612421,"stop":1639414612442}],"afters":[],"links":[],"start":1639414612362,"stop":1639414653035}

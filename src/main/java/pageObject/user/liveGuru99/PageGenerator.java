@@ -22,4 +22,19 @@ public class PageGenerator {
 
 		return new MyAccountPO(driver);
 	}
+	
+	public static LoginPO getLoginPage(WebDriver driver) {
+
+		return new LoginPO(driver);
+	}
+	
+	public static MobilePO getMobilePage(WebDriver driver) {
+
+		return new MobilePO(driver);
+	}
+	
+	public static ShoppingCartPO getShoppingCartPage(WebDriver driver) {
+
+		return new ShoppingCartPO(driver);
+	}
 }

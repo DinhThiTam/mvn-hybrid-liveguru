@@ -9,14 +9,15 @@ import org.testng.annotations.Test;
 
 import commons.BaseTest;
 import pageObject.user.liveGuru99.HomePO;
+import pageObject.user.liveGuru99.LoginPO;
 import pageObject.user.liveGuru99.MyAccountPO;
 import pageObject.user.liveGuru99.PageGenerator;
 import pageObject.user.liveGuru99.RegisterPO;
 import utilities.DataUtil;
 
-public class TC_01_Register extends BaseTest {
+public class TC_01_Register_Success extends BaseTest {
 	WebDriver driver;
-	String firstName, lastName, emailAddress, password;
+	public static String firstName, lastName,fullName, emailAddress, password;
 
 	@Parameters({ "browser", "url" })
 	@BeforeClass
@@ -27,9 +28,10 @@ public class TC_01_Register extends BaseTest {
 
 		firstName = fakeData.getFirstName();
 		lastName = fakeData.getLastName();
+		fullName = firstName + " " + lastName;
 		emailAddress = fakeData.getEmailAddress();
 		password = fakeData.getPassword();
-
+		
 		homePage = PageGenerator.getHomePO(driver);
 
 		log.info("Pre-Condition - Step 02: Verify HomePage is displayed");
@@ -44,7 +46,7 @@ public class TC_01_Register extends BaseTest {
 	}
 
 	@Test
-	public void Register_01_Success_To_System() {
+	public void  Register_01_Success_To_System() {
 		log.info("Register_01 - Step 01: Enter valid info to 'First Name' textbox");
 		registerPage.enterToTextboxByID(driver, "firstname",firstName);
 
@@ -65,7 +67,8 @@ public class TC_01_Register extends BaseTest {
 		myAccountPage = PageGenerator.getMyAccountPage(driver);
 		
 		log.info("Register_01 - Step 07: Verify text dislayed after register successfully");
-		verifyTrue(myAccountPage.isMessageSuccessDisplayed());
+		verifyTrue(myAccountPage.isErrorMessageDisplayed(driver,"Thank you for registering with Main Website Store."));
+		
 	}
 	
 	@Test
@@ -83,6 +86,7 @@ public class TC_01_Register extends BaseTest {
 		verifyEquals(myAccountPage.getTextboxValueByID(driver, "email", "value"), emailAddress);
 	}
 	
+
 	@Parameters("browser")
 	@AfterClass(alwaysRun=true)
 	public void cleanBrowser(String browserName) {
@@ -90,8 +94,8 @@ public class TC_01_Register extends BaseTest {
 		cleanBrowserAndDriver();
 	}
 	HomePO homePage;
-	RegisterPO registerPage;
 	MyAccountPO myAccountPage;
+	RegisterPO registerPage;
+	LoginPO loginPage;
 	DataUtil fakeData;
-	
 }

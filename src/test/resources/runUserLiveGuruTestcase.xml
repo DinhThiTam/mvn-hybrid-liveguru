@@ -2,11 +2,21 @@
 <!DOCTYPE project>
 <suite name="User_LiveGuru99" parallel="false">
 	<parameter name="url" value="http://live.techpanda.org/" />
+	
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="reportConfig.MethodListener" />
+		<listener class-name="reportConfig.ReportNGListener" />
+	</listeners>
 
 	<test name="Run on FIREFOX">
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="com.liveguru.user.TC_01_Register" />
+<!-- 			<class name="com.liveguru.user.TC_01_Register" /> -->
+<!-- 			<class name="com.liveguru.user.TC_02_Login" /> -->
+<!-- 			<class name="com.liveguru.user.TC_03_Compare_Product_Cost" /> -->
+			<class name="com.liveguru.user.TC_05_Maximum_Quantity_Add_To_Cart" />
 		</classes>
 	</test>
 	

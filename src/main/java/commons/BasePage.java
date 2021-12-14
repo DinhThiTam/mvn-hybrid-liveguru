@@ -20,6 +20,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import pageUIs.user.liveGuru99.BasePageUI;
+import pageUIs.user.liveGuru99.ShoppingCartPageUI;
 
 
 
@@ -578,6 +579,52 @@ public class BasePage {
 		waitForElementVisible(driver, BasePageUI.TEXTBOX_BY_ID, textboxID);
 		return getElementAttribute(driver, BasePageUI.TEXTBOX_BY_ID, value, textboxID);
 	}
+	
+
+	public boolean isTextDisplayed(WebDriver driver, String classText, String valueText) {
+		waitForElementVisible(driver, BasePageUI.TEXT_DISPLAYED_BY_CLASS_AND_TEXT, classText, valueText);
+		return isElementDisplayed(driver, BasePageUI.TEXT_DISPLAYED_BY_CLASS_AND_TEXT, classText, valueText);
+	}
+	
+	public String getProductPrice(WebDriver driver, String productID) {
+		waitForElementVisible(driver, BasePageUI.PRODUCT_PRICE_BY_ID, productID);
+		return getElementText(driver, BasePageUI.PRODUCT_PRICE_BY_ID, productID);
+	}
+	
+	public void openProductDetail(WebDriver driver, String productText) {
+		waitForElementClickable(driver, BasePageUI.PRODUCT_NAME_BY_TEXT, productText);
+		clickToElement(driver, BasePageUI.PRODUCT_NAME_BY_TEXT, productText);
+		
+	}
+	
+	public void clickToActionByProductNameAndActionName(WebDriver driver, String productName, String actionName) {
+		waitForElementClickable(driver, BasePageUI.ACTION_ITEM_BY_PRODUCTNAME_AND_ACTIONNAME, productName, actionName);
+		clickToElement(driver, BasePageUI.ACTION_ITEM_BY_PRODUCTNAME_AND_ACTIONNAME, productName, actionName);
+	}
+	
+
+	public void enterToTextboxByProductNameAndTitle(WebDriver driver, String productName, String title, String value) {
+		waitForElementVisible(driver, BasePageUI.ROW_VALUE_BY_PRODUCTNAME_AND_TITLE, productName, title);
+		senkeyToElement(driver, BasePageUI.ROW_VALUE_BY_PRODUCTNAME_AND_TITLE, value, productName, title);
+		
+	}
+	
+	public void clickToButtonByProductNameAndTitle(WebDriver driver, String productName, String title) {
+		waitForElementClickable(driver, BasePageUI.ROW_VALUE_BY_PRODUCTNAME_AND_TITLE, productName, title);
+		clickToElement(driver, BasePageUI.ROW_VALUE_BY_PRODUCTNAME_AND_TITLE, productName, title);
+		
+	}
+	
+	public String getErrorMessageInTableDisplayedByProductName(WebDriver driver, String productName) {
+		waitForElementVisible(driver, BasePageUI.MESSAGE_AT_TABLE_BY_PRODUCTNAME, productName);
+		return getElementText(driver, BasePageUI.MESSAGE_AT_TABLE_BY_PRODUCTNAME, productName);
+	}
+
+	public boolean isErrorMessageDisplayed(WebDriver driver, String messageText) {
+		waitForElementVisible(driver, BasePageUI.MESSAGE_DISPLAYED_BY_TEXT, messageText);
+		return isElementDisplayed(driver, BasePageUI.MESSAGE_DISPLAYED_BY_TEXT, messageText);
+	}
+
 
 
 	
