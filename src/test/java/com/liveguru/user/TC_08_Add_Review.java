@@ -97,7 +97,7 @@ public class TC_08_Add_Review extends BaseTest {
 		reviewPage.enterToTextboxByID(driver, "nickname_field", nickName);
 		
 		log.info("TC_01 - Step 13: Select to 'Quality 1' radio button");
-		reviewPage.checkToRadioButton(driver, "Quality 1_3");
+		reviewPage.checkToRadioButtonByID(driver, "Quality 1_3");
 		
 		log.info("TC_01 - Step 14: Click to 'Submit Review' button");
 		reviewPage.clickToButtonByTitle(driver, "Submit Review");

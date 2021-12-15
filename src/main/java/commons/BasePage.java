@@ -445,6 +445,12 @@ public class BasePage {
 		jsExecutor = (JavascriptExecutor) driver;
 		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", getElement(driver, locator));
 	}
+	
+	public void scrollToElement(WebDriver driver, String locator, String... params ) {
+		locator = getDynamicLocator(locator, params);
+		jsExecutor = (JavascriptExecutor) driver;
+		jsExecutor.executeScript("arguments[0].scrollIntoView(true);", getElement(driver, locator));
+	}
 
 	public void sendkeyToElementByJS(WebDriver driver, String locator, String value) {
 		jsExecutor = (JavascriptExecutor) driver;
@@ -646,7 +652,7 @@ public class BasePage {
 		return isElementDisplayed(driver, BasePageUI.MESSAGE_ERROR_BY_ID_AND_TEXT, containsID, textMessage);
 	}
 	
-	public void checkToRadioButton(WebDriver driver, String radioID) {
+	public void checkToRadioButtonByID(WebDriver driver, String radioID) {
 		waitForElementClickable(driver, BasePageUI.RADIO_BUTTON_BY_ID, radioID);
 		checkTheCheckboxOrRadio(driver, BasePageUI.RADIO_BUTTON_BY_ID, radioID);	
 	}
@@ -661,6 +667,15 @@ public class BasePage {
 		waitForElementVisible(driver, BasePageUI.DROPDOWN_BY_ID, dropdownID);
 		return getSelectedItemDropdown(driver, BasePageUI.DROPDOWN_BY_ID, dropdownID);
 	}
+	
+	public void clickToButtonContinueByOnclick(WebDriver driver, String onclick) {
+//		scrollToElement(driver, BasePageUI.CONTINUE_BUTTON_BY_ONCLICK, onclick);
+		waitForElementClickable(driver, BasePageUI.CONTINUE_BUTTON_BY_ONCLICK, onclick);
+		clickToElement(driver, BasePageUI.CONTINUE_BUTTON_BY_ONCLICK, onclick);
+		
+	}
+	
+	
 	
 	
 

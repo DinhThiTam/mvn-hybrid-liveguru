@@ -22,5 +22,5 @@ public class BasePageUI {
 	public static final String DROPDOWN_BY_ID = "//select[@id='%s']";
 	public static final String MESSAGE_ERROR_BY_ID_AND_TEXT = "//div[contains(@id,'%s') and text()='%s']";
 	public static final String LINK_PRODUCT_INFO_IN_PRODUCT_DETAIL_BY_CLASS_AND_TEXT = "//div[@class='product-shop']/div[@class='%s']//*[text()='%s']";
-	
+	public static final String CONTINUE_BUTTON_BY_ONCLICK = "//button[@onclick='%s']";
 }

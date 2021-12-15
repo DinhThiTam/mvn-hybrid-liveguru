@@ -21,7 +21,7 @@ import utilities.DataUtil;
 
 public class TC_09_Purchase_Products extends BaseTest {
 	WebDriver driver;
-	String myThoughts, myReview, nickName;
+	String country, state, zip, address, city, telephone;
 	
 	@Parameters({ "browser", "url" })
 	@BeforeClass
@@ -29,9 +29,12 @@ public class TC_09_Purchase_Products extends BaseTest {
 		log.info("Pre-Condition - Step 01: Open browser '" + browserName + "' and navigate '" + appURL + "'");
 		driver = getBrowserDriver(browserName, appURL);
 		
-		myThoughts = "My Thoughts";
-		myReview = "Acceptable quality";
-		nickName = "Automation";
+		country = "United States";
+		state = "New York";
+		zip = "543432";
+		city = "New York";
+		telephone = "0983980447";
+		address = "Street 1";
 		
 		homePage = PageGenerator.getHomePO(driver);
 
@@ -65,22 +68,49 @@ public class TC_09_Purchase_Products extends BaseTest {
 		shoppingCartPage = PageGenerator.getShoppingCartPage(driver);
 		
 		log.info("TC_01 - Step 02: Select 'Country' dropdown list");
-		shoppingCartPage.selectItemInDropdownByID(driver, "country","United States");
+		shoppingCartPage.selectItemInDropdownByID(driver, "country",country);
 		
 		log.info("TC_01 - Step 02: Verify item is selected");
-		verifyEquals(shoppingCartPage.getSelectItemInDropdownByID(driver, "country"),"United States");
+		verifyEquals(shoppingCartPage.getSelectItemInDropdownByID(driver, "country"),country);
 		
 		log.info("TC_01 - Step 02: Select 'State/Province' dropdown list");
-		shoppingCartPage.selectItemInDropdownByID(driver, "region_id","New York");
+		shoppingCartPage.selectItemInDropdownByID(driver, "region_id",state);
 		
 		log.info("TC_01 - Step 02: Verify item is selected");
-		verifyEquals(shoppingCartPage.getSelectItemInDropdownByID(driver, "region_id"),"New York");
+		verifyEquals(shoppingCartPage.getSelectItemInDropdownByID(driver, "region_id"),state);
 		
 		log.info("TC_01 - Step 02: Enter to 'Zip' textbox");
-		shoppingCartPage.enterToTextboxByID(driver, "postcode", "543432");
+		shoppingCartPage.enterToTextboxByID(driver, "postcode", zip);
 		
 		log.info("TC_01 - Step 02: Click to 'Estimate' button");
 		shoppingCartPage.clickToButtonByTitle(driver, "Estimate");
+		
+		verifyTrue(shoppingCartPage.isShipingCostGeneratedDisplayed());
+		shoppingCartPage.checkToRadioButtonByID(driver, "s_method_flatrate_flatrate");
+		shoppingCartPage.clickToButtonByTitle(driver, "Update Total");
+		verifyEquals(shoppingCartPage.getTextGrandTotal(), "$620.00");
+		shoppingCartPage.clickToButtonByTitle(driver, "Proceed to Checkout");
+		shoppingCartPage.enterToTextboxByID(driver, "billing:street1", country);
+
+		log.info("TC_01 - Step 02: Select 'State/Province' dropdown list");
+		shoppingCartPage.selectItemInDropdownByID(driver, "billing:region_id",state);
+		
+		log.info("TC_01 - Step 02: Verify item is selected");
+		verifyEquals(shoppingCartPage.getSelectItemInDropdownByID(driver, "billing:region_id"),state);
+		
+		shoppingCartPage.enterToTextboxByID(driver, "billing:postcode", zip);
+		shoppingCartPage.enterToTextboxByID(driver, "billing:city", city);
+		shoppingCartPage.enterToTextboxByID(driver, "billing:telephone", telephone);
+		shoppingCartPage.clickToButtonByTitle(driver, "Continue");
+		
+		shoppingCartPage.clickToButtonContinueByOnclick(driver, "shippingMethod.save()");
+		shoppingCartPage.checkToRadioButtonByID(driver, "p_method_checkmo");
+		shoppingCartPage.clickToButtonContinueByOnclick(driver, "payment.save()");
+		shoppingCartPage.clickToButtonByTitle(driver, "Place Order");
+		verifyTrue(shoppingCartPage.isPageTitleDisplayed());
+		String numberOrder = shoppingCartPage.getOrderNumber();
+		verifyEquals(shoppingCartPage.getFullOrderedNumber(),"Your order # is:" + numberOrder);
+		
 	}
 	
 
