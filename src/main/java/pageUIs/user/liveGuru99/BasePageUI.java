@@ -18,4 +18,8 @@ public class BasePageUI {
 	
 	public static final String PRODUCT_INFO_IN_TABLE_BY_IMG_PRODUCTNAME_PRICE_SKU = "//img[contains(@src,'%s')]/parent::a/following-sibling::h2[contains(string(),'%s')]/following-sibling::div[contains(string(),'%s')]/parent::td/parent::tr/parent::tbody/following-sibling::tbody//div[contains(string(),'%s')]";
 	public static final String TEXTAREA_BY_ID = "//textarea[@id='%s']";
+	public static final String RADIO_BUTTON_BY_ID = "//input[@id='%s']";
+	public static final String MESSAGE_ERROR_BY_ID_AND_TEXT = "//div[contains(@id,'%s') and text()='%s']";
+	public static final String LINK_PRODUCT_INFO_IN_PRODUCT_DETAIL_BY_CLASS_AND_TEXT = "//div[@class='product-shop']/div[@class='%s']//*[text()='%s']";
+	
 }

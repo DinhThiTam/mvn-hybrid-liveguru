@@ -1,0 +1,1 @@
+{"uuid":"0c4bf888-2cf6-4970-985a-d0c90e73065c","name":"Default test","children":["d469d3a0-f862-4c02-a482-411aed358091"],"befores":[{"name":"deleteAllFileInFolder","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1639582161844,"stop":1639582161857}],"afters":[],"links":[],"start":1639582161797,"stop":1639582162435}

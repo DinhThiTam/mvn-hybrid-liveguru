@@ -1,129 +1,273 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:20,163] --------START delete file in folder---------
+      <![CDATA[[INFO ] [2021-12-15 09:10:54,138] --------START delete file in folder---------
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:20,165] --------END delete file in folder---------
+      <![CDATA[[INFO ] [2021-12-15 09:10:54,140] --------END delete file in folder---------
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:20,194] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+      <![CDATA[[INFO ] [2021-12-15 09:10:54,191] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:33,618] TC_01 - Step 02: Verify HomePage is displayed
+      <![CDATA[[INFO ] [2021-12-15 09:11:10,900] Pre-Condition - Step 02: Verify HomePage is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:33,892] TC_01 - Step 03: Open 'Mobile' menu
+      <![CDATA[[INFO ] [2021-12-15 09:11:11,064] Pre-Condition - Step 03: Click 'Account' menu on header
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:36,625] TC_01 - Step 01: Click on 'Add to Compare' for IPhone mobile
+      <![CDATA[[INFO ] [2021-12-15 09:11:11,398] Pre-Condition - Step 04: Open 'Register' page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:38,242] TC_01 - Step 03: Verify message is displayed
+      <![CDATA[[INFO ] [2021-12-15 09:11:13,082] Register_01 - Step 01: Enter valid info to 'First Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:38,369] TC_01 - Step 01: Click on 'Add to Compare' for Sony Experia mobile
+      <![CDATA[[INFO ] [2021-12-15 09:11:13,280] Register_01- Step 02: Enter valid info to 'First Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:39,790] TC_01 - Step 03: Verify message is displayed
+      <![CDATA[[INFO ] [2021-12-15 09:11:13,445] Register_01 - Step 03: Enter valid info to 'First Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:39,967] TC_01 - Step 02: Get the active Window ID
+      <![CDATA[[INFO ] [2021-12-15 09:11:13,544] Register_01 - Step 04: Enter valid info to 'First Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:39,975] TC_01 - Step 02: Click on 'Compare' button
+      <![CDATA[[INFO ] [2021-12-15 09:11:13,639] Register_01 - Step 05: Enter valid info to 'First Name' textbox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:40,542] TC_01 - Step 02: Switch windown by windown ID
+      <![CDATA[[INFO ] [2021-12-15 09:11:13,802] Register_01 - Step 06: Click to 'Register' button
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:40,589] TC_01 - Step 03: Verify popup window is displayed
+      <![CDATA[[INFO ] [2021-12-15 09:11:16,887] Register_01 - Step 07: Verify text dislayed after register successfully
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:43,611]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-15 09:11:16,963]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:43,612] TC_01 - Step 03: Verify Heading 'Compare Products' is displayed
+      <![CDATA[[INFO ] [2021-12-15 09:11:17,338] Register_02 - Step 01: Open'Account Information' menu at sidebar
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:43,698]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-15 09:11:18,559] My_Account_01 - Step 11: Verify firstname infomation is updated successfully
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:43,699] TC_01 - Step 03: Verify mobile info 'Sony experia' is displayed
+      <![CDATA[[INFO ] [2021-12-15 09:11:18,675]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:43,772]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-15 09:11:18,675] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:43,773] TC_01 - Step 03: Verify mobile info 'Iphone' is displayed
+      <![CDATA[[INFO ] [2021-12-15 09:11:18,763]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:43,838]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-15 09:11:18,763] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:43,838] TC_01 - Step 03: Verify mobile info 'Iphone' is displayed
+      <![CDATA[[INFO ] [2021-12-15 09:11:18,863]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:43,916] TC_01 - Step 03: Switch to parent window
+      <![CDATA[[INFO ] [2021-12-15 09:11:18,900] Post-Condition - Close Browser - firefox
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:43,925] TC_01 - Step 03: Verify URL parent window is displayed
+      <![CDATA[[INFO ] [2021-12-15 09:11:18,901] OS name = windows 10
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:43,934]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-12-15 09:11:20,564] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:44,155] Post-Condition - Close Browser - firefox
+      <![CDATA[[INFO ] [2021-12-15 09:11:30,727] Pre-Condition - Step 02: Verify HomePage is displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-12-15 04:45:44,155] OS name = windows 10
+      <![CDATA[[INFO ] [2021-12-15 09:11:30,825] Pre-Condition - Step 03: Click 'Account' menu on header
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:11:31,128] Pre-Condition - Step 04: Open 'Log In' page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:11:32,312] Login_01 - Step 01: Enter valid info to 'Email Address' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:11:32,412] Login_01 - Step 02: Enter valid info to 'Password' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:11:32,557] Login_01 - Step 03: Click to 'Login' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:11:34,499] Login_01 - Step 04: Verify dashboard header text dislayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:11:34,573]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:11:34,573] Login_01 - Step 05: Verify text dislayed on dashoard
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:11:34,646]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:11:34,709] Post-Condition - Close Browser - firefox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:11:34,710] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:11:36,231] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:11:47,111] Pre-Condition - Step 02: Verify HomePage is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:11:47,215] Pre-Condition - Step 03: Click 'Account' menu on header
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:11:47,510] Pre-Condition - Step 04: Open 'Log In' page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:11:48,605] Pre-Condition - Step 05: Set login page cookie
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:11:58,341] Pre-Condition - Step 06: Open 'TV' menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:00,361] TC_01 - Step 01: Click on 'Samsung LCD' detail
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:02,871] TC_01 - Step 01: Click on 'Add your review' link
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:04,170] TC_01 - Step 01: Enter to 'Let us know your thoughts' textarea
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:04,337] TC_01 - Step 01: Enter to 'Summary of Your Review' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:04,585] TC_01 - Step 01: Enter to 'What's your nickname?' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:04,713] TC_01 - Step 01: Click to 'Submit Review' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:04,996] TC_01 - Step 01: Verify error message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:05,058]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:05,058] TC_01 - Step 01: Verify error message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:05,119]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:05,119] TC_01 - Step 01: Verify error message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:05,183]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:05,184] TC_01 - Step 01: Enter to 'Let us know your thoughts' textarea
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:05,286] TC_01 - Step 01: Enter to 'Summary of Your Review' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:05,383] TC_01 - Step 01: Enter to 'What's your nickname?' textbox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:05,472] TC_01 - Step 01: Select to 'Quality 1' radio button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:05,754] TC_01 - Step 01: Click to 'Submit Review' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:06,919] TC_01 - Step 01: Verify message is displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:07,014] Post-Condition - Close Browser - firefox
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2021-12-15 09:12:07,015] OS name = windows 10
 <br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-12-15T12:45:20Z" name="User_LiveGuru99" finished-at="2021-12-15T12:45:45Z" duration-ms="25751">
+  <suite started-at="2021-12-15T17:10:54Z" name="User_LiveGuru99" finished-at="2021-12-15T17:12:08Z" duration-ms="74661">
     <groups>
     </groups>
-    <test started-at="2021-12-15T12:45:20Z" name="Run on FIREFOX" finished-at="2021-12-15T12:45:45Z" duration-ms="25751">
-      <class name="com.liveguru.user.TC_06_Compare_Two_Products">
-        <test-method is-config="true" signature="deleteAllFileInFolder()[pri:0, instance:com.liveguru.user.TC_06_Compare_Two_Products@10bd9df0]" started-at="2021-12-15T12:45:20Z" name="deleteAllFileInFolder" finished-at="2021-12-15T12:45:20Z" duration-ms="59" status="PASS">
+    <test started-at="2021-12-15T17:10:54Z" name="Run on FIREFOX" finished-at="2021-12-15T17:12:08Z" duration-ms="74661">
+      <class name="com.liveguru.user.TC_01_Register_Success">
+        <test-method is-config="true" signature="deleteAllFileInFolder()[pri:0, instance:com.liveguru.user.TC_01_Register_Success@4c48fe92]" started-at="2021-12-15T17:10:54Z" name="deleteAllFileInFolder" finished-at="2021-12-15T17:10:54Z" duration-ms="96" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:20,163] --------START delete file in folder---------
+              <![CDATA[[INFO ] [2021-12-15 09:10:54,138] --------START delete file in folder---------
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:20,165] --------END delete file in folder---------
+              <![CDATA[[INFO ] [2021-12-15 09:10:54,140] --------END delete file in folder---------
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- deleteAllFileInFolder -->
-        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.liveguru.user.TC_06_Compare_Two_Products@10bd9df0]" started-at="2021-12-15T12:45:20Z" name="initBrowser" finished-at="2021-12-15T12:45:36Z" duration-ms="16170" status="PASS">
+        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.liveguru.user.TC_01_Register_Success@4c48fe92]" started-at="2021-12-15T17:10:54Z" name="initBrowser" finished-at="2021-12-15T17:11:12Z" duration-ms="18591" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -138,100 +282,92 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:20,194] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+              <![CDATA[[INFO ] [2021-12-15 09:10:54,191] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:33,618] TC_01 - Step 02: Verify HomePage is displayed
+              <![CDATA[[INFO ] [2021-12-15 09:11:10,900] Pre-Condition - Step 02: Verify HomePage is displayed
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:33,892] TC_01 - Step 03: Open 'Mobile' menu
+              <![CDATA[[INFO ] [2021-12-15 09:11:11,064] Pre-Condition - Step 03: Click 'Account' menu on header
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:11,398] Pre-Condition - Step 04: Open 'Register' page
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method signature="TC_01_Check_Allowed_Quantity()[pri:0, instance:com.liveguru.user.TC_06_Compare_Two_Products@10bd9df0]" started-at="2021-12-15T12:45:36Z" name="TC_01_Check_Allowed_Quantity" finished-at="2021-12-15T12:45:43Z" duration-ms="7560" status="PASS">
+        <test-method signature="Register_01_Success_To_System()[pri:0, instance:com.liveguru.user.TC_01_Register_Success@4c48fe92]" started-at="2021-12-15T17:11:12Z" name="Register_01_Success_To_System" finished-at="2021-12-15T17:11:16Z" duration-ms="4172" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:36,625] TC_01 - Step 01: Click on 'Add to Compare' for IPhone mobile
+              <![CDATA[[INFO ] [2021-12-15 09:11:13,082] Register_01 - Step 01: Enter valid info to 'First Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:38,242] TC_01 - Step 03: Verify message is displayed
+              <![CDATA[[INFO ] [2021-12-15 09:11:13,280] Register_01- Step 02: Enter valid info to 'First Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:38,369] TC_01 - Step 01: Click on 'Add to Compare' for Sony Experia mobile
+              <![CDATA[[INFO ] [2021-12-15 09:11:13,445] Register_01 - Step 03: Enter valid info to 'First Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:39,790] TC_01 - Step 03: Verify message is displayed
+              <![CDATA[[INFO ] [2021-12-15 09:11:13,544] Register_01 - Step 04: Enter valid info to 'First Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:39,967] TC_01 - Step 02: Get the active Window ID
+              <![CDATA[[INFO ] [2021-12-15 09:11:13,639] Register_01 - Step 05: Enter valid info to 'First Name' textbox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:39,975] TC_01 - Step 02: Click on 'Compare' button
+              <![CDATA[[INFO ] [2021-12-15 09:11:13,802] Register_01 - Step 06: Click to 'Register' button
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:40,542] TC_01 - Step 02: Switch windown by windown ID
+              <![CDATA[[INFO ] [2021-12-15 09:11:16,887] Register_01 - Step 07: Verify text dislayed after register successfully
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:40,589] TC_01 - Step 03: Verify popup window is displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:43,611]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:43,612] TC_01 - Step 03: Verify Heading 'Compare Products' is displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:43,698]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:43,699] TC_01 - Step 03: Verify mobile info 'Sony experia' is displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:43,772]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:43,773] TC_01 - Step 03: Verify mobile info 'Iphone' is displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:43,838]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:43,838] TC_01 - Step 03: Verify mobile info 'Iphone' is displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:43,916] TC_01 - Step 03: Switch to parent window
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:43,925] TC_01 - Step 03: Verify URL parent window is displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:43,934]  -------------------------- PASSED -------------------------- 
+              <![CDATA[[INFO ] [2021-12-15 09:11:16,963]  -------------------------- PASSED -------------------------- 
 <br>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- TC_01_Check_Allowed_Quantity -->
-        <test-method is-config="true" signature="cleanBrowser(java.lang.String)[pri:0, instance:com.liveguru.user.TC_06_Compare_Two_Products@10bd9df0]" started-at="2021-12-15T12:45:44Z" name="cleanBrowser" finished-at="2021-12-15T12:45:45Z" duration-ms="1671" status="PASS">
+        </test-method> <!-- Register_01_Success_To_System -->
+        <test-method signature="Register_02_Check_Infomation_Registered()[pri:0, instance:com.liveguru.user.TC_01_Register_Success@4c48fe92]" started-at="2021-12-15T17:11:17Z" name="Register_02_Check_Infomation_Registered" finished-at="2021-12-15T17:11:18Z" duration-ms="1529" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:17,338] Register_02 - Step 01: Open'Account Information' menu at sidebar
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:18,559] My_Account_01 - Step 11: Verify firstname infomation is updated successfully
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:18,675]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:18,675] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:18,763]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:18,763] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:18,863]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register_02_Check_Infomation_Registered -->
+        <test-method is-config="true" signature="cleanBrowser(java.lang.String)[pri:0, instance:com.liveguru.user.TC_01_Register_Success@4c48fe92]" started-at="2021-12-15T17:11:18Z" name="cleanBrowser" finished-at="2021-12-15T17:11:20Z" duration-ms="1664" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -241,16 +377,238 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:44,155] Post-Condition - Close Browser - firefox
+              <![CDATA[[INFO ] [2021-12-15 09:11:18,900] Post-Condition - Close Browser - firefox
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2021-12-15 04:45:44,155] OS name = windows 10
+              <![CDATA[[INFO ] [2021-12-15 09:11:18,901] OS name = windows 10
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- cleanBrowser -->
-      </class> <!-- com.liveguru.user.TC_06_Compare_Two_Products -->
+      </class> <!-- com.liveguru.user.TC_01_Register_Success -->
+      <class name="com.liveguru.user.TC_08_Add_Review">
+        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.liveguru.user.TC_08_Add_Review@38320e34]" started-at="2021-12-15T17:11:36Z" name="initBrowser" finished-at="2021-12-15T17:12:00Z" duration-ms="24122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://live.techpanda.org/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:36,231] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:47,111] Pre-Condition - Step 02: Verify HomePage is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:47,215] Pre-Condition - Step 03: Click 'Account' menu on header
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:47,510] Pre-Condition - Step 04: Open 'Log In' page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:48,605] Pre-Condition - Step 05: Set login page cookie
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:58,341] Pre-Condition - Step 06: Open 'TV' menu
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="TC_01_Add_Your_Review()[pri:0, instance:com.liveguru.user.TC_08_Add_Review@38320e34]" started-at="2021-12-15T17:12:00Z" name="TC_01_Add_Your_Review" description="Dependent by TC_02_Login" finished-at="2021-12-15T17:12:07Z" duration-ms="6654" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:00,361] TC_01 - Step 01: Click on 'Samsung LCD' detail
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:02,871] TC_01 - Step 01: Click on 'Add your review' link
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:04,170] TC_01 - Step 01: Enter to 'Let us know your thoughts' textarea
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:04,337] TC_01 - Step 01: Enter to 'Summary of Your Review' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:04,585] TC_01 - Step 01: Enter to 'What's your nickname?' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:04,713] TC_01 - Step 01: Click to 'Submit Review' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:04,996] TC_01 - Step 01: Verify error message is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:05,058]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:05,058] TC_01 - Step 01: Verify error message is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:05,119]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:05,119] TC_01 - Step 01: Verify error message is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:05,183]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:05,184] TC_01 - Step 01: Enter to 'Let us know your thoughts' textarea
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:05,286] TC_01 - Step 01: Enter to 'Summary of Your Review' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:05,383] TC_01 - Step 01: Enter to 'What's your nickname?' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:05,472] TC_01 - Step 01: Select to 'Quality 1' radio button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:05,754] TC_01 - Step 01: Click to 'Submit Review' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:06,919] TC_01 - Step 01: Verify message is displayed
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_01_Add_Your_Review -->
+        <test-method is-config="true" signature="cleanBrowser(java.lang.String)[pri:0, instance:com.liveguru.user.TC_08_Add_Review@38320e34]" started-at="2021-12-15T17:12:07Z" name="cleanBrowser" finished-at="2021-12-15T17:12:08Z" duration-ms="1657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:07,014] Post-Condition - Close Browser - firefox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:12:07,015] OS name = windows 10
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cleanBrowser -->
+      </class> <!-- com.liveguru.user.TC_08_Add_Review -->
+      <class name="com.liveguru.user.TC_02_Login">
+        <test-method is-config="true" signature="initBrowser(java.lang.String, java.lang.String)[pri:0, instance:com.liveguru.user.TC_02_Login@732c9b5c]" started-at="2021-12-15T17:11:20Z" name="initBrowser" finished-at="2021-12-15T17:11:32Z" duration-ms="11741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://live.techpanda.org/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:20,564] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:30,727] Pre-Condition - Step 02: Verify HomePage is displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:30,825] Pre-Condition - Step 03: Click 'Account' menu on header
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:31,128] Pre-Condition - Step 04: Open 'Log In' page
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="Login_01_Login_To_System()[pri:0, instance:com.liveguru.user.TC_02_Login@732c9b5c]" started-at="2021-12-15T17:11:32Z" name="Login_01_Login_To_System" description="Dependent by TC_01_Register_Success" finished-at="2021-12-15T17:11:34Z" duration-ms="2397" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:32,312] Login_01 - Step 01: Enter valid info to 'Email Address' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:32,412] Login_01 - Step 02: Enter valid info to 'Password' textbox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:32,557] Login_01 - Step 03: Click to 'Login' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:34,499] Login_01 - Step 04: Verify dashboard header text dislayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:34,573]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:34,573] Login_01 - Step 05: Verify text dislayed on dashoard
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:34,646]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_01_Login_To_System -->
+        <test-method is-config="true" signature="cleanBrowser(java.lang.String)[pri:0, instance:com.liveguru.user.TC_02_Login@732c9b5c]" started-at="2021-12-15T17:11:34Z" name="cleanBrowser" finished-at="2021-12-15T17:11:36Z" duration-ms="1522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:34,709] Post-Condition - Close Browser - firefox
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2021-12-15 09:11:34,710] OS name = windows 10
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cleanBrowser -->
+      </class> <!-- com.liveguru.user.TC_02_Login -->
     </test> <!-- Run on FIREFOX -->
   </suite> <!-- User_LiveGuru99 -->
 </testng-results>

@@ -44,7 +44,17 @@ public class PageGenerator {
 	}
 	
 	public static TVPO getTVPage(WebDriver driver) {
-
+		
 		return new TVPO(driver);
+	}
+	
+	public static ProductDetailsPO getProductDetailsPage(WebDriver driver) {
+
+		return new ProductDetailsPO(driver);
+	}
+	
+	public static ReviewPO getReviewPage(WebDriver driver) {
+
+		return new ReviewPO(driver);
 	}
 }

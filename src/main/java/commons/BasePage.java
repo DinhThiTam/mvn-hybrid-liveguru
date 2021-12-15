@@ -635,6 +635,21 @@ public class BasePage {
 		waitForElementVisible(driver, BasePageUI.TEXTAREA_BY_ID, textareaID);
 		senkeyToElement(driver, BasePageUI.TEXTAREA_BY_ID, value, textareaID);
 	}
+	
+	public void clickToLinkInProductDeatailsPage(WebDriver driver, String className, String linkText) {
+		waitForElementClickable(driver, BasePageUI.LINK_PRODUCT_INFO_IN_PRODUCT_DETAIL_BY_CLASS_AND_TEXT, className, linkText);
+		clickToElement(driver,BasePageUI.LINK_PRODUCT_INFO_IN_PRODUCT_DETAIL_BY_CLASS_AND_TEXT, className, linkText);
+	}
+	
+	public boolean isErrorMessageDisplayedByContainsIDAndText(WebDriver driver, String containsID, String textMessage) {
+		waitForElementVisible(driver, BasePageUI.MESSAGE_ERROR_BY_ID_AND_TEXT, containsID, textMessage);
+		return isElementDisplayed(driver, BasePageUI.MESSAGE_ERROR_BY_ID_AND_TEXT, containsID, textMessage);
+	}
+	
+	public void checkToRadioButton(WebDriver driver, String radioID) {
+		waitForElementClickable(driver, BasePageUI.RADIO_BUTTON_BY_ID, radioID);
+		checkTheCheckboxOrRadio(driver, BasePageUI.RADIO_BUTTON_BY_ID, radioID);	
+	}
 
 
 

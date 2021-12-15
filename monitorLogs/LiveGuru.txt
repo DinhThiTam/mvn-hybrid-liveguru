@@ -1,26 +1,62 @@
-[INFO ] [2021-12-15 04:45:20,163] --------START delete file in folder---------
-[INFO ] [2021-12-15 04:45:20,165] --------END delete file in folder---------
-[INFO ] [2021-12-15 04:45:20,194] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
-[INFO ] [2021-12-15 04:45:33,618] TC_01 - Step 02: Verify HomePage is displayed
-[INFO ] [2021-12-15 04:45:33,892] TC_01 - Step 03: Open 'Mobile' menu
-[INFO ] [2021-12-15 04:45:36,625] TC_01 - Step 01: Click on 'Add to Compare' for IPhone mobile
-[INFO ] [2021-12-15 04:45:38,242] TC_01 - Step 03: Verify message is displayed
-[INFO ] [2021-12-15 04:45:38,369] TC_01 - Step 01: Click on 'Add to Compare' for Sony Experia mobile
-[INFO ] [2021-12-15 04:45:39,790] TC_01 - Step 03: Verify message is displayed
-[INFO ] [2021-12-15 04:45:39,967] TC_01 - Step 02: Get the active Window ID
-[INFO ] [2021-12-15 04:45:39,975] TC_01 - Step 02: Click on 'Compare' button
-[INFO ] [2021-12-15 04:45:40,542] TC_01 - Step 02: Switch windown by windown ID
-[INFO ] [2021-12-15 04:45:40,589] TC_01 - Step 03: Verify popup window is displayed
-[INFO ] [2021-12-15 04:45:43,611]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-12-15 04:45:43,612] TC_01 - Step 03: Verify Heading 'Compare Products' is displayed
-[INFO ] [2021-12-15 04:45:43,698]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-12-15 04:45:43,699] TC_01 - Step 03: Verify mobile info 'Sony experia' is displayed
-[INFO ] [2021-12-15 04:45:43,772]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-12-15 04:45:43,773] TC_01 - Step 03: Verify mobile info 'Iphone' is displayed
-[INFO ] [2021-12-15 04:45:43,838]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-12-15 04:45:43,838] TC_01 - Step 03: Verify mobile info 'Iphone' is displayed
-[INFO ] [2021-12-15 04:45:43,916] TC_01 - Step 03: Switch to parent window
-[INFO ] [2021-12-15 04:45:43,925] TC_01 - Step 03: Verify URL parent window is displayed
-[INFO ] [2021-12-15 04:45:43,934]  -------------------------- PASSED -------------------------- 
-[INFO ] [2021-12-15 04:45:44,155] Post-Condition - Close Browser - firefox
-[INFO ] [2021-12-15 04:45:44,155] OS name = windows 10
+[INFO ] [2021-12-15 09:10:54,138] --------START delete file in folder---------
+[INFO ] [2021-12-15 09:10:54,140] --------END delete file in folder---------
+[INFO ] [2021-12-15 09:10:54,191] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-15 09:11:10,900] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-15 09:11:11,064] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-15 09:11:11,398] Pre-Condition - Step 04: Open 'Register' page
+[INFO ] [2021-12-15 09:11:13,082] Register_01 - Step 01: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-15 09:11:13,280] Register_01- Step 02: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-15 09:11:13,445] Register_01 - Step 03: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-15 09:11:13,544] Register_01 - Step 04: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-15 09:11:13,639] Register_01 - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-15 09:11:13,802] Register_01 - Step 06: Click to 'Register' button
+[INFO ] [2021-12-15 09:11:16,887] Register_01 - Step 07: Verify text dislayed after register successfully
+[INFO ] [2021-12-15 09:11:16,963]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 09:11:17,338] Register_02 - Step 01: Open'Account Information' menu at sidebar
+[INFO ] [2021-12-15 09:11:18,559] My_Account_01 - Step 11: Verify firstname infomation is updated successfully
+[INFO ] [2021-12-15 09:11:18,675]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 09:11:18,675] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+[INFO ] [2021-12-15 09:11:18,763]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 09:11:18,763] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+[INFO ] [2021-12-15 09:11:18,863]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 09:11:18,900] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-15 09:11:18,901] OS name = windows 10
+[INFO ] [2021-12-15 09:11:20,564] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-15 09:11:30,727] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-15 09:11:30,825] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-15 09:11:31,128] Pre-Condition - Step 04: Open 'Log In' page
+[INFO ] [2021-12-15 09:11:32,312] Login_01 - Step 01: Enter valid info to 'Email Address' textbox
+[INFO ] [2021-12-15 09:11:32,412] Login_01 - Step 02: Enter valid info to 'Password' textbox
+[INFO ] [2021-12-15 09:11:32,557] Login_01 - Step 03: Click to 'Login' button
+[INFO ] [2021-12-15 09:11:34,499] Login_01 - Step 04: Verify dashboard header text dislayed
+[INFO ] [2021-12-15 09:11:34,573]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 09:11:34,573] Login_01 - Step 05: Verify text dislayed on dashoard
+[INFO ] [2021-12-15 09:11:34,646]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 09:11:34,709] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-15 09:11:34,710] OS name = windows 10
+[INFO ] [2021-12-15 09:11:36,231] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-15 09:11:47,111] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-15 09:11:47,215] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-15 09:11:47,510] Pre-Condition - Step 04: Open 'Log In' page
+[INFO ] [2021-12-15 09:11:48,605] Pre-Condition - Step 05: Set login page cookie
+[INFO ] [2021-12-15 09:11:58,341] Pre-Condition - Step 06: Open 'TV' menu
+[INFO ] [2021-12-15 09:12:00,361] TC_01 - Step 01: Click on 'Samsung LCD' detail
+[INFO ] [2021-12-15 09:12:02,871] TC_01 - Step 01: Click on 'Add your review' link
+[INFO ] [2021-12-15 09:12:04,170] TC_01 - Step 01: Enter to 'Let us know your thoughts' textarea
+[INFO ] [2021-12-15 09:12:04,337] TC_01 - Step 01: Enter to 'Summary of Your Review' textbox
+[INFO ] [2021-12-15 09:12:04,585] TC_01 - Step 01: Enter to 'What's your nickname?' textbox
+[INFO ] [2021-12-15 09:12:04,713] TC_01 - Step 01: Click to 'Submit Review' button
+[INFO ] [2021-12-15 09:12:04,996] TC_01 - Step 01: Verify error message is displayed
+[INFO ] [2021-12-15 09:12:05,058]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 09:12:05,058] TC_01 - Step 01: Verify error message is displayed
+[INFO ] [2021-12-15 09:12:05,119]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 09:12:05,119] TC_01 - Step 01: Verify error message is displayed
+[INFO ] [2021-12-15 09:12:05,183]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 09:12:05,184] TC_01 - Step 01: Enter to 'Let us know your thoughts' textarea
+[INFO ] [2021-12-15 09:12:05,286] TC_01 - Step 01: Enter to 'Summary of Your Review' textbox
+[INFO ] [2021-12-15 09:12:05,383] TC_01 - Step 01: Enter to 'What's your nickname?' textbox
+[INFO ] [2021-12-15 09:12:05,472] TC_01 - Step 01: Select to 'Quality 1' radio button
+[INFO ] [2021-12-15 09:12:05,754] TC_01 - Step 01: Click to 'Submit Review' button
+[INFO ] [2021-12-15 09:12:06,919] TC_01 - Step 01: Verify message is displayed
+[INFO ] [2021-12-15 09:12:07,014] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-15 09:12:07,015] OS name = windows 10
