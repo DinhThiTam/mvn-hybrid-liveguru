@@ -13,6 +13,18 @@ public class MyAccountPO extends BasePage {
 		this.driver = driver;
 	}
 
+	public int getSizeProductNameElement() {
+		waitForElementVisible(driver, MyAccountPageUI.PRODUCT_NAME_IN_TABLE);
+		return getSizeElements(driver, MyAccountPageUI.PRODUCT_NAME_IN_TABLE);
+	}
+
+	public String getTextProductName() {
+		waitForElementVisible(driver, MyAccountPageUI.PRODUCT_NAME_IN_TABLE);
+		return getElementText(driver, MyAccountPageUI.PRODUCT_NAME_IN_TABLE);
+	}
+
+
+
 
 	
 

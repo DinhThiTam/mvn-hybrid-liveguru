@@ -13,11 +13,12 @@
 	<test name="Run on FIREFOX">
 		<parameter name="browser" value="firefox" />
 		<classes>
-<!-- 			<class name="com.liveguru.user.TC_01_Register" /> -->
-<!-- 			<class name="com.liveguru.user.TC_02_Login" /> -->
+			<class name="com.liveguru.user.TC_01_Register_Success" />
+			<class name="com.liveguru.user.TC_02_Login" />
 <!-- 			<class name="com.liveguru.user.TC_03_Compare_Product_Cost" /> -->
 <!-- 			<class name="com.liveguru.user.TC_05_Maximum_Quantity_Add_To_Cart" /> -->
-			<class name="com.liveguru.user.TC_06_Compare_Two_Products" />
+<!-- 			<class name="com.liveguru.user.TC_06_Compare_Two_Products" /> -->
+			<class name="com.liveguru.user.TC_07_Share_Wishlist" />
 		</classes>
 	</test>
 	

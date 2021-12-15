@@ -1,5 +1,8 @@
 package com.liveguru.user;
 
+import java.util.Set;
+
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -15,6 +18,7 @@ import pageObject.user.liveGuru99.PageGenerator;
 
 public class TC_02_Login extends BaseTest {
 	WebDriver driver;
+	public static Set<Cookie> loginPageCookie;
 
 	@Parameters({ "browser", "url" })
 	@BeforeClass
@@ -35,7 +39,7 @@ public class TC_02_Login extends BaseTest {
 		loginPage = PageGenerator.getLoginPage(driver);	
 	}
 
-	@Test
+	@Test (description = "Dependent by TC_01_Register_Success")
 	public void Login_01_Login_To_System() {
 		log.info("Login_01 - Step 01: Enter valid info to 'Email Address' textbox");
 		loginPage.enterToTextboxByID(driver, "email",TC_01_Register_Success.emailAddress);
@@ -52,6 +56,8 @@ public class TC_02_Login extends BaseTest {
 		
 		log.info("Login_01 - Step 05: Verify text dislayed on dashoard");
 		verifyTrue(myAccountPage.isTextDisplayed(driver, "welcome-msg","Hello, " + TC_01_Register_Success.fullName + "!"));
+		
+		loginPageCookie = myAccountPage.getAllCookies(driver);
 	}
 	
 

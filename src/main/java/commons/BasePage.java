@@ -630,6 +630,11 @@ public class BasePage {
 		waitForElementVisible(driver, BasePageUI.PRODUCT_INFO_IN_TABLE_BY_IMG_PRODUCTNAME_PRICE_SKU, imgSRC,productName,price,sku);
 		return isElementDisplayed(driver, BasePageUI.PRODUCT_INFO_IN_TABLE_BY_IMG_PRODUCTNAME_PRICE_SKU, imgSRC,productName,price,sku);
 	}
+	
+	public void enterToTextAreaByID(WebDriver driver, String textareaID, String value) {
+		waitForElementVisible(driver, BasePageUI.TEXTAREA_BY_ID, textareaID);
+		senkeyToElement(driver, BasePageUI.TEXTAREA_BY_ID, value, textareaID);
+	}
 
 
 

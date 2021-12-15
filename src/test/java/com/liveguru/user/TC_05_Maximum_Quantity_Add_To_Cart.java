@@ -15,7 +15,6 @@ import pageObject.user.liveGuru99.ShoppingCartPO;
 
 public class TC_05_Maximum_Quantity_Add_To_Cart extends BaseTest {
 	WebDriver driver;
-	String costProduct, costProductDetail;
 
 	@Parameters({ "browser", "url" })
 	@BeforeClass

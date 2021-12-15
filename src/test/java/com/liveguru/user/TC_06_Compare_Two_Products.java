@@ -17,7 +17,6 @@ import pageObject.user.liveGuru99.ShoppingCartPO;
 
 public class TC_06_Compare_Two_Products extends BaseTest {
 	WebDriver driver;
-	String costProduct, costProductDetail;
 
 	@Parameters({ "browser", "url" })
 	@BeforeClass

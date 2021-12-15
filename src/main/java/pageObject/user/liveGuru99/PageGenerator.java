@@ -42,4 +42,9 @@ public class PageGenerator {
 
 		return new CompareProductsListPO(driver);
 	}
+	
+	public static TVPO getTVPage(WebDriver driver) {
+
+		return new TVPO(driver);
+	}
 }
