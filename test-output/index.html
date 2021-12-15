@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-User_LiveGuru99">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-User_LiveGuru99" title="com.liveguru.user.TC_05_Maximum_Quantity_Add_To_Cart" class="method navigator-link" hash-for-method="Login_01_Login_To_System">Login_01_Login_To_System</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-User_LiveGuru99" title="com.liveguru.user.TC_06_Compare_Two_Products" class="method navigator-link" hash-for-method="TC_01_Check_Allowed_Quantity">TC_01_Check_Allowed_Quantity</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-User_LiveGuru99 -->
@@ -120,14 +120,14 @@
           <div class="suite-User_LiveGuru99-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.liveguru.user.TC_05_Maximum_Quantity_Add_To_Cart</span>
+              <span class="class-name">com.liveguru.user.TC_06_Compare_Two_Products</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Login_01_Login_To_System">
-                  </a> <!-- Login_01_Login_To_System -->
-                  <span class="method-name">Login_01_Login_To_System</span>
+                  <a name="TC_01_Check_Allowed_Quantity">
+                  </a> <!-- TC_01_Check_Allowed_Quantity -->
+                  <span class="method-name">TC_01_Check_Allowed_Quantity</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -152,7 +152,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Run on FIREFOX&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.liveguru.user.TC_05_Maximum_Quantity_Add_To_Cart&quot;/&gt;
+      &lt;class name=&quot;com.liveguru.user.TC_06_Compare_Two_Products&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Run on FIREFOX --&gt;
 &lt;/suite&gt; &lt;!-- User_LiveGuru99 --&gt;
@@ -194,14 +194,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Login_01_Login_To_System')
-data.setCell(0, 2, 'com.liveguru.user.TC_05_Maximum_Quantity_Add_To_Cart')
-data.setCell(0, 3, 5380);
+data.setCell(0, 1, 'TC_01_Check_Allowed_Quantity')
+data.setCell(0, 2, 'com.liveguru.user.TC_06_Compare_Two_Products')
+data.setCell(0, 3, 7560);
 window.suiteTableData['User_LiveGuru99']= { tableData: data, tableDiv: 'times-div-User_LiveGuru99'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-User_LiveGuru99">
               </div> <!-- times-div-User_LiveGuru99 -->
             </div> <!-- times-div -->
@@ -213,23 +213,45 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">Login_01_Login_To_System</span>
+              <span class="reporter-method-name">TC_01_Check_Allowed_Quantity</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[INFO ] [2021-12-14 09:08:26,328] Pre-Condition - Step 01: Click on 'ADD TO CART' for Sony Experia mobile
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:36,625] TC_01 - Step 01: Click on 'Add to Compare' for IPhone mobile
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-14 09:08:28,287] Pre-Condition - Step 04: Change 'QTY' value is 501
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:38,242] TC_01 - Step 03: Verify message is displayed
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-14 09:08:28,442] Pre-Condition - Step 04: Click to 'Update' button
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:38,369] TC_01 - Step 01: Click on 'Add to Compare' for Sony Experia mobile
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-14 09:08:30,045] Pre-Condition - Step 04: Verify error message is displayed
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:39,790] TC_01 - Step 03: Verify message is displayed
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-14 09:08:30,189]  -------------------------- PASSED -------------------------- 
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:39,967] TC_01 - Step 02: Get the active Window ID
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-14 09:08:30,195] Pre-Condition - Step 04: Verify error message in table is displayed
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:39,975] TC_01 - Step 02: Click on 'Compare' button
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-14 09:08:30,277]  -------------------------- PASSED -------------------------- 
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:40,542] TC_01 - Step 02: Switch windown by windown ID
 <br></span>
-                <span class="reporter-method-output">[INFO ] [2021-12-14 09:08:30,278] Pre-Condition - Step 04: Click to 'Empty Cart' link
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:40,589] TC_01 - Step 03: Verify popup window is displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:43,611]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:43,612] TC_01 - Step 03: Verify Heading 'Compare Products' is displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:43,698]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:43,699] TC_01 - Step 03: Verify mobile info 'Sony experia' is displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:43,772]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:43,773] TC_01 - Step 03: Verify mobile info 'Iphone' is displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:43,838]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:43,838] TC_01 - Step 03: Verify mobile info 'Iphone' is displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:43,916] TC_01 - Step 03: Switch to parent window
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:43,925] TC_01 - Step 03: Verify URL parent window is displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2021-12-15 04:45:43,934]  -------------------------- PASSED -------------------------- 
 <br></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -248,22 +270,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.liveguru.user.TC_05_Maximum_Quantity_Add_To_Cart</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.liveguru.user.TC_06_Compare_Two_Products</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">deleteAllFileInFolder</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">initBrowser(firefox, http://live.techpanda.org/)</span>
-                <span class="method-start">73 ms</span>
+                <span class="method-start">77 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">Login_01_Login_To_System</span>
-                <span class="method-start">16391 ms</span>
+                <span class="method-name">TC_01_Check_Allowed_Quantity</span>
+                <span class="method-start">16269 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">cleanBrowser(firefox)</span>
-                <span class="method-start">22084 ms</span>
+                <span class="method-start">24047 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

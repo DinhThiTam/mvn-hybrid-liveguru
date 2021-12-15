@@ -620,9 +620,15 @@ public class BasePage {
 		return getElementText(driver, BasePageUI.MESSAGE_AT_TABLE_BY_PRODUCTNAME, productName);
 	}
 
-	public boolean isErrorMessageDisplayed(WebDriver driver, String messageText) {
+	public boolean isMessageDisplayed(WebDriver driver, String messageText) {
 		waitForElementVisible(driver, BasePageUI.MESSAGE_DISPLAYED_BY_TEXT, messageText);
 		return isElementDisplayed(driver, BasePageUI.MESSAGE_DISPLAYED_BY_TEXT, messageText);
+	}
+	
+	public boolean isProductInfoInTableDisplayedByIMGProductnamePriceSKU(WebDriver driver, String imgSRC,
+			String productName, String price, String sku) {
+		waitForElementVisible(driver, BasePageUI.PRODUCT_INFO_IN_TABLE_BY_IMG_PRODUCTNAME_PRICE_SKU, imgSRC,productName,price,sku);
+		return isElementDisplayed(driver, BasePageUI.PRODUCT_INFO_IN_TABLE_BY_IMG_PRODUCTNAME_PRICE_SKU, imgSRC,productName,price,sku);
 	}
 
 

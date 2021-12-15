@@ -879,3 +879,188 @@
 [INFO ] [2021-12-14 09:08:30,278] Pre-Condition - Step 04: Click to 'Empty Cart' link
 [INFO ] [2021-12-14 09:08:31,875] Post-Condition - Close Browser - firefox
 [INFO ] [2021-12-14 09:08:31,875] OS name = windows 10
+[INFO ] [2021-12-14 09:17:04,679] --------START delete file in folder---------
+[INFO ] [2021-12-14 09:17:04,680] --------END delete file in folder---------
+[INFO ] [2021-12-14 09:17:04,717] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-14 09:17:24,001] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-14 09:17:24,215] Pre-Condition - Step 04: Open 'Mobile' menu
+[INFO ] [2021-12-14 09:17:26,862] Pre-Condition - Step 01: Click on 'ADD TO CART' for Sony Experia mobile
+[INFO ] [2021-12-14 09:17:29,012] Pre-Condition - Step 04: Change 'QTY' value is 501
+[INFO ] [2021-12-14 09:17:29,282] Pre-Condition - Step 04: Click to 'Update' button
+[INFO ] [2021-12-14 09:17:31,061] Pre-Condition - Step 04: Verify error message is displayed
+[INFO ] [2021-12-14 09:17:31,199]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-14 09:17:31,204] Pre-Condition - Step 04: Verify error message in table is displayed
+[INFO ] [2021-12-14 09:17:31,310]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-14 09:17:31,311] Pre-Condition - Step 04: Click to 'Empty Cart' link
+[INFO ] [2021-12-14 09:17:32,769] Pre-Condition - Step 04: Verify error message in table is displayed
+[INFO ] [2021-12-14 09:18:03,416] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-14 09:18:03,416] OS name = windows 10
+[INFO ] [2021-12-14 09:19:02,489] --------START delete file in folder---------
+[INFO ] [2021-12-14 09:19:02,491] --------END delete file in folder---------
+[INFO ] [2021-12-14 09:19:02,540] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-14 09:19:17,706] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-14 09:19:17,896] Pre-Condition - Step 03: Open 'Mobile' menu
+[INFO ] [2021-12-14 09:19:20,449] Pre-Condition - Step 01: Click on 'ADD TO CART' for Sony Experia mobile
+[INFO ] [2021-12-14 09:19:22,436] Pre-Condition - Step 02: Change 'QTY' value is 501
+[INFO ] [2021-12-14 09:19:22,585] Pre-Condition - Step 03: Click to 'Update' button
+[INFO ] [2021-12-14 09:19:24,269] Pre-Condition - Step 04: Verify error message is displayed
+[INFO ] [2021-12-14 09:19:24,394]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-14 09:19:24,400] Pre-Condition - Step 05: Verify error message in table is displayed
+[INFO ] [2021-12-14 09:19:24,485]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-14 09:19:24,485] Pre-Condition - Step 06: Click to 'Empty Cart' link
+[INFO ] [2021-12-14 09:19:25,830] Pre-Condition - Step 07: Verify error message in table is displayed
+[INFO ] [2021-12-14 09:19:56,394] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-14 09:19:56,395] OS name = windows 10
+[INFO ] [2021-12-15 03:40:03,332] --------START delete file in folder---------
+[INFO ] [2021-12-15 03:40:03,334] --------END delete file in folder---------
+[INFO ] [2021-12-15 03:40:03,437] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-15 03:40:40,498] --------START delete file in folder---------
+[INFO ] [2021-12-15 03:40:40,500] --------END delete file in folder---------
+[INFO ] [2021-12-15 03:40:40,536] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-15 03:40:53,888] TC_01 - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-15 03:40:54,148] TC_01 - Step 03: Open 'Mobile' menu
+[INFO ] [2021-12-15 03:40:56,539] TC_01 - Step 01: Click on 'Add to Compare' for Sony Experia mobile
+[INFO ] [2021-12-15 03:40:58,149] TC_01 - Step 03: Verify message is displayed
+[INFO ] [2021-12-15 03:41:58,683] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-15 03:41:58,683] OS name = windows 10
+[INFO ] [2021-12-15 03:42:25,217] --------START delete file in folder---------
+[INFO ] [2021-12-15 03:42:25,219] --------END delete file in folder---------
+[INFO ] [2021-12-15 03:42:25,265] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-15 03:42:39,572] TC_01 - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-15 03:42:39,809] TC_01 - Step 03: Open 'Mobile' menu
+[INFO ] [2021-12-15 03:42:42,181] TC_01 - Step 01: Click on 'Add to Compare' for IPhone mobile
+[INFO ] [2021-12-15 03:42:43,904] TC_01 - Step 03: Verify message is displayed
+[INFO ] [2021-12-15 03:42:44,035] TC_01 - Step 01: Click on 'Add to Compare' for Sony Experia mobile
+[INFO ] [2021-12-15 03:42:45,613] TC_01 - Step 03: Verify message is displayed
+[INFO ] [2021-12-15 03:42:45,794] TC_01 - Step 02: Click on 'Compare' button
+[INFO ] [2021-12-15 03:42:46,342] TC_01 - Step 03: Verify popup window is displayed
+[INFO ] [2021-12-15 03:42:46,357]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-15 03:42:46,755] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-15 03:42:46,755] OS name = windows 10
+[INFO ] [2021-12-15 03:43:55,029] --------START delete file in folder---------
+[INFO ] [2021-12-15 03:43:55,031] --------END delete file in folder---------
+[INFO ] [2021-12-15 03:43:55,076] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-15 03:44:07,866] TC_01 - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-15 03:44:08,123] TC_01 - Step 03: Open 'Mobile' menu
+[INFO ] [2021-12-15 03:44:10,213] TC_01 - Step 01: Click on 'Add to Compare' for IPhone mobile
+[INFO ] [2021-12-15 03:44:11,945] TC_01 - Step 03: Verify message is displayed
+[INFO ] [2021-12-15 03:44:12,067] TC_01 - Step 01: Click on 'Add to Compare' for Sony Experia mobile
+[INFO ] [2021-12-15 03:44:13,656] TC_01 - Step 03: Verify message is displayed
+[INFO ] [2021-12-15 03:44:13,815] TC_01 - Step 02: Click on 'Compare' button
+[INFO ] [2021-12-15 03:44:14,396] TC_01 - Step 03: Verify popup window is displayed
+[INFO ] [2021-12-15 03:44:19,415]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-15 03:44:19,726] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-15 03:44:19,726] OS name = windows 10
+[INFO ] [2021-12-15 03:44:45,907] --------START delete file in folder---------
+[INFO ] [2021-12-15 03:44:45,909] --------END delete file in folder---------
+[INFO ] [2021-12-15 03:44:45,954] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-15 03:44:58,746] TC_01 - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-15 03:44:58,998] TC_01 - Step 03: Open 'Mobile' menu
+[INFO ] [2021-12-15 03:45:01,223] TC_01 - Step 01: Click on 'Add to Compare' for IPhone mobile
+[INFO ] [2021-12-15 03:45:02,840] TC_01 - Step 03: Verify message is displayed
+[INFO ] [2021-12-15 03:45:02,940] TC_01 - Step 01: Click on 'Add to Compare' for Sony Experia mobile
+[INFO ] [2021-12-15 03:45:04,472] TC_01 - Step 03: Verify message is displayed
+[INFO ] [2021-12-15 03:45:04,609] TC_01 - Step 02: Click on 'Compare' button
+[INFO ] [2021-12-15 03:45:05,210] TC_01 - Step 03: Verify popup window is displayed
+[INFO ] [2021-12-15 03:45:10,235]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 03:45:10,462] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-15 03:45:10,462] OS name = windows 10
+[INFO ] [2021-12-15 03:50:46,485] --------START delete file in folder---------
+[INFO ] [2021-12-15 03:50:46,487] --------END delete file in folder---------
+[INFO ] [2021-12-15 03:50:46,522] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-15 03:51:00,651] TC_01 - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-15 03:51:00,836] TC_01 - Step 03: Open 'Mobile' menu
+[INFO ] [2021-12-15 03:51:03,060] TC_01 - Step 01: Click on 'Add to Compare' for IPhone mobile
+[INFO ] [2021-12-15 03:51:04,467] TC_01 - Step 03: Verify message is displayed
+[INFO ] [2021-12-15 03:51:04,557] TC_01 - Step 01: Click on 'Add to Compare' for Sony Experia mobile
+[INFO ] [2021-12-15 03:51:06,070] TC_01 - Step 03: Verify message is displayed
+[INFO ] [2021-12-15 03:51:06,203] TC_01 - Step 02: Get the active Window ID
+[INFO ] [2021-12-15 03:51:06,209] TC_01 - Step 02: Click on 'Compare' button
+[INFO ] [2021-12-15 03:51:06,848] TC_01 - Step 02: Switch windown by windown ID
+[INFO ] [2021-12-15 03:51:06,897] TC_01 - Step 03: Verify popup window is displayed
+[INFO ] [2021-12-15 03:51:09,922]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 03:51:10,152] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-15 03:51:10,153] OS name = windows 10
+[INFO ] [2021-12-15 04:40:29,745] --------START delete file in folder---------
+[INFO ] [2021-12-15 04:40:29,747] --------END delete file in folder---------
+[INFO ] [2021-12-15 04:40:47,743] --------START delete file in folder---------
+[INFO ] [2021-12-15 04:40:47,744] --------END delete file in folder---------
+[INFO ] [2021-12-15 04:40:47,776] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-15 04:41:02,672] TC_01 - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-15 04:41:02,937] TC_01 - Step 03: Open 'Mobile' menu
+[INFO ] [2021-12-15 04:41:05,358] TC_01 - Step 01: Click on 'Add to Compare' for IPhone mobile
+[INFO ] [2021-12-15 04:41:07,003] TC_01 - Step 03: Verify message is displayed
+[INFO ] [2021-12-15 04:41:07,146] TC_01 - Step 01: Click on 'Add to Compare' for Sony Experia mobile
+[INFO ] [2021-12-15 04:41:08,599] TC_01 - Step 03: Verify message is displayed
+[INFO ] [2021-12-15 04:41:08,753] TC_01 - Step 02: Get the active Window ID
+[INFO ] [2021-12-15 04:41:08,764] TC_01 - Step 02: Click on 'Compare' button
+[INFO ] [2021-12-15 04:41:09,308] TC_01 - Step 02: Switch windown by windown ID
+[INFO ] [2021-12-15 04:41:09,348] TC_01 - Step 03: Verify popup window is displayed
+[INFO ] [2021-12-15 04:41:12,362]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 04:41:12,363] TC_01 - Step 03: Verify Heading 'Compare Products' is displayed
+[INFO ] [2021-12-15 04:41:12,435]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 04:41:12,435] TC_01 - Step 03: Verify mobile info 'Sony experia' is displayed
+[INFO ] [2021-12-15 04:41:12,499]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 04:41:12,500] TC_01 - Step 03: Verify mobile info 'Iphone' is displayed
+[INFO ] [2021-12-15 04:41:12,566]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 04:41:12,566] TC_01 - Step 03: Verify mobile info 'Iphone' is displayed
+[INFO ] [2021-12-15 04:41:12,642] TC_01 - Step 03: Verify popup window is displayed
+[INFO ] [2021-12-15 04:41:15,910] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-15 04:41:15,911] OS name = windows 10
+[INFO ] [2021-12-15 04:41:15,922] Browsing context has been discarded
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EIC3NR5', ip: '172.28.96.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 95.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211129150630, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 5352, moz:profile: C:\Users\DT TAM\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2770033b-2d30-48de-808d-fe87db4a2989
+[INFO ] [2021-12-15 04:43:17,721] --------START delete file in folder---------
+[INFO ] [2021-12-15 04:43:17,723] --------END delete file in folder---------
+[INFO ] [2021-12-15 04:43:17,767] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-15 04:43:31,636] TC_01 - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-15 04:43:31,881] TC_01 - Step 03: Open 'Mobile' menu
+[INFO ] [2021-12-15 04:43:34,267] TC_01 - Step 01: Click on 'Add to Compare' for IPhone mobile
+[INFO ] [2021-12-15 04:43:35,831] TC_01 - Step 03: Verify message is displayed
+[INFO ] [2021-12-15 04:43:35,943] TC_01 - Step 01: Click on 'Add to Compare' for Sony Experia mobile
+[INFO ] [2021-12-15 04:43:37,441] TC_01 - Step 03: Verify message is displayed
+[INFO ] [2021-12-15 04:43:37,584] TC_01 - Step 02: Get the active Window ID
+[INFO ] [2021-12-15 04:43:37,590] TC_01 - Step 02: Click on 'Compare' button
+[INFO ] [2021-12-15 04:43:38,141] TC_01 - Step 02: Switch windown by windown ID
+[INFO ] [2021-12-15 04:43:38,183] TC_01 - Step 03: Verify popup window is displayed
+[INFO ] [2021-12-15 04:43:41,227]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 04:43:41,227] TC_01 - Step 03: Verify Heading 'Compare Products' is displayed
+[INFO ] [2021-12-15 04:43:41,313]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 04:43:41,313] TC_01 - Step 03: Verify mobile info 'Sony experia' is displayed
+[INFO ] [2021-12-15 04:43:41,384]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 04:43:41,384] TC_01 - Step 03: Verify mobile info 'Iphone' is displayed
+[INFO ] [2021-12-15 04:43:41,456]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 04:43:41,457] TC_01 - Step 03: Verify mobile info 'Iphone' is displayed
+[INFO ] [2021-12-15 04:43:41,539] TC_01 - Step 03: Verify popup window is displayed
+[INFO ] [2021-12-15 04:43:44,561]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 04:43:44,799] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-15 04:43:44,800] OS name = windows 10
+[INFO ] [2021-12-15 04:45:20,163] --------START delete file in folder---------
+[INFO ] [2021-12-15 04:45:20,165] --------END delete file in folder---------
+[INFO ] [2021-12-15 04:45:20,194] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-15 04:45:33,618] TC_01 - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-15 04:45:33,892] TC_01 - Step 03: Open 'Mobile' menu
+[INFO ] [2021-12-15 04:45:36,625] TC_01 - Step 01: Click on 'Add to Compare' for IPhone mobile
+[INFO ] [2021-12-15 04:45:38,242] TC_01 - Step 03: Verify message is displayed
+[INFO ] [2021-12-15 04:45:38,369] TC_01 - Step 01: Click on 'Add to Compare' for Sony Experia mobile
+[INFO ] [2021-12-15 04:45:39,790] TC_01 - Step 03: Verify message is displayed
+[INFO ] [2021-12-15 04:45:39,967] TC_01 - Step 02: Get the active Window ID
+[INFO ] [2021-12-15 04:45:39,975] TC_01 - Step 02: Click on 'Compare' button
+[INFO ] [2021-12-15 04:45:40,542] TC_01 - Step 02: Switch windown by windown ID
+[INFO ] [2021-12-15 04:45:40,589] TC_01 - Step 03: Verify popup window is displayed
+[INFO ] [2021-12-15 04:45:43,611]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 04:45:43,612] TC_01 - Step 03: Verify Heading 'Compare Products' is displayed
+[INFO ] [2021-12-15 04:45:43,698]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 04:45:43,699] TC_01 - Step 03: Verify mobile info 'Sony experia' is displayed
+[INFO ] [2021-12-15 04:45:43,772]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 04:45:43,773] TC_01 - Step 03: Verify mobile info 'Iphone' is displayed
+[INFO ] [2021-12-15 04:45:43,838]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 04:45:43,838] TC_01 - Step 03: Verify mobile info 'Iphone' is displayed
+[INFO ] [2021-12-15 04:45:43,916] TC_01 - Step 03: Switch to parent window
+[INFO ] [2021-12-15 04:45:43,925] TC_01 - Step 03: Verify URL parent window is displayed
+[INFO ] [2021-12-15 04:45:43,934]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-15 04:45:44,155] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-15 04:45:44,155] OS name = windows 10

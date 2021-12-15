@@ -37,4 +37,9 @@ public class PageGenerator {
 
 		return new ShoppingCartPO(driver);
 	}
+	
+	public static CompareProductsListPO getCompareProductListPage(WebDriver driver) {
+
+		return new CompareProductsListPO(driver);
+	}
 }

@@ -67,7 +67,7 @@ public class TC_01_Register_Success extends BaseTest {
 		myAccountPage = PageGenerator.getMyAccountPage(driver);
 		
 		log.info("Register_01 - Step 07: Verify text dislayed after register successfully");
-		verifyTrue(myAccountPage.isErrorMessageDisplayed(driver,"Thank you for registering with Main Website Store."));
+		verifyTrue(myAccountPage.isMessageDisplayed(driver,"Thank you for registering with Main Website Store."));
 		
 	}
 	

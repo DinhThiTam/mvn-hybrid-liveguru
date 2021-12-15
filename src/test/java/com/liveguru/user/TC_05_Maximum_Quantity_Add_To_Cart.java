@@ -46,7 +46,7 @@ public class TC_05_Maximum_Quantity_Add_To_Cart extends BaseTest {
 		shoppingCartPage.clickToButtonByProductNameAndTitle(driver,"Sony Xperia", "Update");
 		
 		log.info("TC_01 - Step 04: Verify error message is displayed");
-		verifyTrue(shoppingCartPage.isErrorMessageDisplayed(driver, "Some of the products cannot be ordered in requested quantity."));
+		verifyTrue(shoppingCartPage.isMessageDisplayed(driver, "Some of the products cannot be ordered in requested quantity."));
 		
 		log.info("TC_01 - Step 05: Verify error message in table is displayed");
 		verifyEquals(shoppingCartPage.getErrorMessageInTableDisplayedByProductName(driver, "Sony Xperia"), "* The maximum quantity allowed for purchase is 500.");
