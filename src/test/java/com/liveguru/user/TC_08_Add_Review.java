@@ -56,53 +56,53 @@ public class TC_08_Add_Review extends BaseTest {
 		tiviPage = PageGenerator.getTVPage(driver);	
 	}
 
-	@Test (description = "Dependent by TC_02_Login")
+	@Test (description = "Dependent by TC_02_Login and TC_07_Share_Wishlist")
 	public void TC_01_Add_Your_Review() {		
 		log.info("TC_01 - Step 01: Click on 'Samsung LCD' detail");
 		tiviPage.openProductDetail(driver, "Samsung LCD");
 		productDetailsPage = PageGenerator.getProductDetailsPage(driver);
 		
-		log.info("TC_01 - Step 01: Click on 'Add your review' link");
+		log.info("TC_01 - Step 02: Click on 'Add your review' link");
 		productDetailsPage.clickToLinkInProductDeatailsPage(driver, "extra-info", "Add Your Review");
 		reviewPage = PageGenerator.getReviewPage(driver);
 		
-		log.info("TC_01 - Step 01: Enter to 'Let us know your thoughts' textarea");
+		log.info("TC_01 - Step 03: Enter to 'Let us know your thoughts' textarea");
 		reviewPage.enterToTextAreaByID(driver, "review_field", "");
 		
-		log.info("TC_01 - Step 01: Enter to 'Summary of Your Review' textbox");
+		log.info("TC_01 - Step 04: Enter to 'Summary of Your Review' textbox");
 		reviewPage.enterToTextboxByID(driver, "summary_field", "");
 		
-		log.info("TC_01 - Step 01: Enter to 'What's your nickname?' textbox");
+		log.info("TC_01 - Step 05: Enter to 'What's your nickname?' textbox");
 		reviewPage.enterToTextboxByID(driver, "nickname_field", "");
 		
-		log.info("TC_01 - Step 01: Click to 'Submit Review' button");
+		log.info("TC_01 - Step 06: Click to 'Submit Review' button");
 		reviewPage.clickToButtonByTitle(driver, "Submit Review");
 		
-		log.info("TC_01 - Step 01: Verify error message is displayed");
+		log.info("TC_01 - Step 07: Verify error message is displayed");
 		verifyTrue(reviewPage.isErrorMessageDisplayedByContainsIDAndText(driver, "review_field", "This is a required field."));
 		
-		log.info("TC_01 - Step 01: Verify error message is displayed");
+		log.info("TC_01 - Step 08: Verify error message is displayed");
 		verifyTrue(reviewPage.isErrorMessageDisplayedByContainsIDAndText(driver, "nickname_field", "This is a required field."));
 		
-		log.info("TC_01 - Step 01: Verify error message is displayed");
+		log.info("TC_01 - Step 09: Verify error message is displayed");
 		verifyTrue(reviewPage.isErrorMessageDisplayedByContainsIDAndText(driver, "summary_field", "This is a required field."));
 		
-		log.info("TC_01 - Step 01: Enter to 'Let us know your thoughts' textarea");
+		log.info("TC_01 - Step 10: Enter to 'Let us know your thoughts' textarea");
 		reviewPage.enterToTextAreaByID(driver, "review_field", myThoughts);
 		
-		log.info("TC_01 - Step 01: Enter to 'Summary of Your Review' textbox");
+		log.info("TC_01 - Step 11: Enter to 'Summary of Your Review' textbox");
 		reviewPage.enterToTextboxByID(driver, "summary_field", myReview);
 		
-		log.info("TC_01 - Step 01: Enter to 'What's your nickname?' textbox");
+		log.info("TC_01 - Step 12: Enter to 'What's your nickname?' textbox");
 		reviewPage.enterToTextboxByID(driver, "nickname_field", nickName);
 		
-		log.info("TC_01 - Step 01: Select to 'Quality 1' radio button");
+		log.info("TC_01 - Step 13: Select to 'Quality 1' radio button");
 		reviewPage.checkToRadioButton(driver, "Quality 1_3");
 		
-		log.info("TC_01 - Step 01: Click to 'Submit Review' button");
+		log.info("TC_01 - Step 14: Click to 'Submit Review' button");
 		reviewPage.clickToButtonByTitle(driver, "Submit Review");
 		
-		log.info("TC_01 - Step 01: Verify message is displayed");
+		log.info("TC_01 - Step 15: Verify message is displayed");
 		reviewPage.isMessageDisplayed(driver, "Your review has been accepted for moderation.");
 	}
 	

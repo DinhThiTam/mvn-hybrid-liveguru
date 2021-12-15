@@ -650,6 +650,19 @@ public class BasePage {
 		waitForElementClickable(driver, BasePageUI.RADIO_BUTTON_BY_ID, radioID);
 		checkTheCheckboxOrRadio(driver, BasePageUI.RADIO_BUTTON_BY_ID, radioID);	
 	}
+	
+	public void selectItemInDropdownByID(WebDriver driver, String dropdownID, String value) {
+		waitForElementClickable(driver, BasePageUI.DROPDOWN_BY_ID, dropdownID);
+		selectDropdownByText(driver, BasePageUI.DROPDOWN_BY_ID, value, dropdownID);
+		
+	}
+	
+	public String getSelectItemInDropdownByID(WebDriver driver, String dropdownID) {
+		waitForElementVisible(driver, BasePageUI.DROPDOWN_BY_ID, dropdownID);
+		return getSelectedItemDropdown(driver, BasePageUI.DROPDOWN_BY_ID, dropdownID);
+	}
+	
+	
 
 
 
