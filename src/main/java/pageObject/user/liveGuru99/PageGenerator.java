@@ -57,4 +57,14 @@ public class PageGenerator {
 
 		return new ReviewPO(driver);
 	}
+	
+	public static LoginAdminPO getLoginAdminPage(WebDriver driver) {
+
+		return new LoginAdminPO(driver);
+	}
+	
+	public static CustomerAdminPO getCustomerAdminPage(WebDriver driver) {
+
+		return new CustomerAdminPO(driver);
+	}
 }

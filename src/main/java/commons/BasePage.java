@@ -675,6 +675,17 @@ public class BasePage {
 		
 	}
 	
+
+	public void clickToButtonAdminByTitle(WebDriver driver, String buttonTitle) {
+		waitForElementClickable(driver, BasePageUI.BUTTON_ADMIN_BY_TITLE, buttonTitle);
+		clickToElement(driver, BasePageUI.BUTTON_ADMIN_BY_TITLE, buttonTitle);
+	}
+	
+	public boolean isInfoAccountAtTableDisplayed(WebDriver driver, String username, String emailAddress) {
+		waitForElementVisible(driver, BasePageUI.ROW_VALUE, username, emailAddress);
+		return isElementDisplayed(driver, BasePageUI.ROW_VALUE, username, emailAddress);
+	}
+	
 	
 	
 	

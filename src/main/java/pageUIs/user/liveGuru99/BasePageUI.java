@@ -23,4 +23,6 @@ public class BasePageUI {
 	public static final String MESSAGE_ERROR_BY_ID_AND_TEXT = "//div[contains(@id,'%s') and text()='%s']";
 	public static final String LINK_PRODUCT_INFO_IN_PRODUCT_DETAIL_BY_CLASS_AND_TEXT = "//div[@class='product-shop']/div[@class='%s']//*[text()='%s']";
 	public static final String CONTINUE_BUTTON_BY_ONCLICK = "//button[@onclick='%s']";
+	public static final String BUTTON_ADMIN_BY_TITLE = "//input[@title='%s']";
+	public static final String ROW_VALUE = "//td[contains(string(),'%s')]/following-sibling::td[contains(string(),'%s')]";
 }

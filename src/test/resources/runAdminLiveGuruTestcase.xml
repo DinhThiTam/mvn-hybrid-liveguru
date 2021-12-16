@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE project>
+<suite name="User_LiveGuru99" parallel="false">
+	<parameter name="urlUser" value="http://live.techpanda.org/" />
+	<parameter name="urlAdmin" value="http://live.techpanda.org/index.php/backendlogin/index/index/key" />
+	
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="reportConfig.MethodListener" />
+		<listener class-name="reportConfig.ReportNGListener" />
+	</listeners>
+
+	<test name="Run on FIREFOX">
+		<parameter name="browser" value="firefox" />
+		<classes>
+<!-- 			<class name="com.liveguru.user.TC_01_Register_Success" /> -->
+<!-- 			<class name="com.liveguru.user.TC_02_Login" /> -->
+<!-- 			<class name="com.liveguru.user.TC_03_Compare_Product_Cost" /> -->
+<!-- 			<class name="com.liveguru.user.TC_05_Maximum_Quantity_Add_To_Cart" /> -->
+<!-- 			<class name="com.liveguru.user.TC_06_Compare_Two_Products" /> -->
+<!-- 			<class name="com.liveguru.user.TC_07_Share_Wishlist" /> -->
+<!-- 			<class name="com.liveguru.user.TC_08_Add_Review" /> -->
+<!-- 			<class name="com.liveguru.user.TC_09_Purchase_Products" /> -->
+			<class name="com.liveguru.admin.TC_01_Check_Account_Created_Success" />
+		</classes>
+	</test>
+	
+<!-- 	<test name="Run on CHROME"> -->
+<!-- 		<parameter name="browser" value="chrome" /> -->
+<!-- 		<classes> -->
+<!-- 			<class name="com.liveguru.user.TC_01_Register" /> -->
+<!-- 		</classes> -->
+<!-- 	</test> -->
+</suite>
