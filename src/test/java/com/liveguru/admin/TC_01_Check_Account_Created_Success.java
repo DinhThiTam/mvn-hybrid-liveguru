@@ -53,73 +53,65 @@ public class TC_01_Check_Account_Created_Success extends BaseTest {
 		homePage.clickToMenuLink(driver, "header", "Register");
 		registerPage = PageGenerator.getRegisterPage(driver);
 		
-		log.info("Register_01 - Step 01: Enter valid info to 'First Name' textbox");
+		log.info("Pre-Condition - Step 05: Enter valid info to 'First Name' textbox");
 		registerPage.enterToTextboxByID(driver, "firstname",firstName);
 
-		log.info("Register_01- Step 02: Enter valid info to 'First Name' textbox");
+		log.info("Pre-Condition- Step 06: Enter valid info to 'First Name' textbox");
 		registerPage.enterToTextboxByID(driver, "lastname",lastName);
 
-		log.info("Register_01 - Step 03: Enter valid info to 'First Name' textbox");
+		log.info("Pre-Condition - Step 07: Enter valid info to 'First Name' textbox");
 		registerPage.enterToTextboxByID(driver, "email_address",emailAddress);
 
-		log.info("Register_01 - Step 04: Enter valid info to 'First Name' textbox");
+		log.info("Pre-Condition - Step 08: Enter valid info to 'First Name' textbox");
 		registerPage.enterToTextboxByID(driver, "password",password);
 
-		log.info("Register_01 - Step 05: Enter valid info to 'First Name' textbox");
+		log.info("Pre-Condition - Step 09: Enter valid info to 'First Name' textbox");
 		registerPage.enterToTextboxByID(driver, "confirmation",password);
 
-		log.info("Register_01 - Step 06: Click to 'Register' button");
+		log.info("Pre-Condition - Step 10: Click to 'Register' button");
 		registerPage.clickToButtonByTitle(driver, "Register");
 		myAccountPage = PageGenerator.getMyAccountPage(driver);
 		
-		log.info("Register_01 - Step 07: Verify text dislayed after register successfully");
+		log.info("Pre-Condition - Step 11: Verify text dislayed after register successfully");
 		verifyTrue(myAccountPage.isMessageDisplayed(driver,"Thank you for registering with Main Website Store."));
 		cleanBrowserAndDriver();
 		
-		log.info("Pre-Condition - Step 01: Open browser '" + browserName + "' and navigate '" + urlAdmin + "'");
+		log.info("Pre-Condition - Step 12: Open browser '" + browserName + "' and navigate '" + urlAdmin + "'");
 		driver = getBrowserDriver(browserName, urlAdmin);
 		loginAdminPage = PageGenerator.getLoginAdminPage(driver);
-		
-		log.info("Register_01 - Step 06: Enter to 'User Name' textbox");
-		loginAdminPage.enterToTextboxByID(driver, "username", "user01");
-		
-		log.info("Register_01 - Step 06: Enter to 'Password' textbox");
-		loginAdminPage.enterToTextboxByID(driver, "login", "guru99com");
-		
-		log.info("Register_01 - Step 06: Click to 'Log In' button");
-		loginAdminPage.clickToButtonAdminByTitle(driver, "Login");
-		customerAdminPage = PageGenerator.getCustomerAdminPage(driver);
-		
-		log.info("Register_01 - Step 06: Close popup");
-		customerAdminPage.clickToIconCloseInPopup();
-		
-		verifyTrue(customerAdminPage.isInfoAccountAtTableDisplayed(driver, fullName, emailAddress));
-		
 		
 	}
 
 	@Test
-	public void  Register_01_Success_To_System() {
+	public void  TC_01_Check_Account_Info_Created_Success() {
+		log.info("TC_01 - Step 01: Enter to 'User Name' textbox");
+		loginAdminPage.enterToTextboxByID(driver, "username", "user01");
 		
+		log.info("TC_01 - Step 02: Enter to 'Password' textbox");
+		loginAdminPage.enterToTextboxByID(driver, "login", "guru99com");
+		
+		log.info("TC_01 - Step 03: Click to 'Log In' button");
+		loginAdminPage.clickToButtonAdminByTitle(driver, "Login");
+		customerAdminPage = PageGenerator.getCustomerAdminPage(driver);
+		
+		log.info("TC_01 - Step 04: Close popup");
+		customerAdminPage.clickToIconCloseInPopup();
+		
+		log.info("TC_01 - Step 05: Verify the account created on the user site is displayed on the admin site");
+		verifyTrue(customerAdminPage.isInfoAccountAtTableDisplayed(driver, fullName, emailAddress));
 		
 	}
 	
 
-//	@Parameters("browser")
-//	@AfterClass(alwaysRun=true)
-//	public void cleanBrowser(String browserName) {
-//		log.info("Post-Condition - Close Browser - " + browserName + "");
-//		cleanBrowserAndDriver();
-//	}
+	@Parameters("browser")
+	@AfterClass(alwaysRun=true)
+	public void cleanBrowser(String browserName) {
+		log.info("Post-Condition - Close Browser - " + browserName + "");
+		cleanBrowserAndDriver();
+	}
 	HomePO homePage;
 	RegisterPO registerPage;
-	ShoppingCartPO shoppingCartPage;
-	TVPO tiviPage;
 	MyAccountPO myAccountPage;
-	DataUtil fakerData;
-	LoginPO loginPage;
-	ProductDetailsPO productDetailsPage;
-	ReviewPO reviewPage;
 	DataUtil fakeData;
 	LoginAdminPO loginAdminPage;
 	CustomerAdminPO customerAdminPage;

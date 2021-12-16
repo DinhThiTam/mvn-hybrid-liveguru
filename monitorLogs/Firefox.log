@@ -1,13 +1,7 @@
-1639610573564	geckodriver	INFO	Listening on 127.0.0.1:16132
-1639610574076	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\DTTAM~1\\AppData\\Local\\Temp\\rust_mozprofilexpfdnc"
-1639610574521	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DT TAM\\AppData\\Local\\Temp\\rust_mozprofilexpfdnc\\search.json.mozlz4", (void 0)))
-1639610577677	Marionette	INFO	Listening on port 50221
-1639610577809	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: , line 0: uncaught exception: undefined
-JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 7433 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 1292 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 2275 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 3492 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/EnZy1JEvhtfL3qsMHM2VNqoz8zWnsWCdOjk5wdd4Ig4.js line 1 > eval line 1019 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-1639610620437	Marionette	INFO	Stopped listening on port 50221
+1639666389732	geckodriver	INFO	Listening on 127.0.0.1:6062
+1639666390182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\DTTAM~1\\AppData\\Local\\Temp\\rust_mozprofiletH6aYx"
+1639666390904	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DT TAM\\AppData\\Local\\Temp\\rust_mozprofiletH6aYx\\search.json.mozlz4", (void 0)))
+1639666394849	Marionette	INFO	Listening on port 55772
+1639666395049	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://live.techpanda.org/js/calendar/calendar.js, line 138: unreachable code after return statement
