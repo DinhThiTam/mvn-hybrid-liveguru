@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.liveguru.common.Common_01_Login_User;
 
 import commons.BaseTest;
 import pageObject.user.liveGuru99.HomePO;
@@ -49,7 +50,7 @@ public class TC_10_Advanced_Search extends BaseTest {
 		loginPage = PageGenerator.getLoginPage(driver);	
 		
 		log.info("Pre-Condition - Step 05: Set login page cookie");
-		loginPage.setAllCookies(driver, TC_02_Login.loginPageCookie);
+		loginPage.setAllCookies(driver, Common_01_Login_User.loginPageCookie);
 		loginPage.sleepInsecond(5);
 		loginPage.refreshPage(driver);
 		myAccountPage = PageGenerator.getMyAccountPage(driver);

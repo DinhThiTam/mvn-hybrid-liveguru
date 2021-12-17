@@ -55,7 +55,7 @@ public class TC_06_Compare_Two_Products extends BaseTest {
 		mobilePage.clickToButtonByTitle(driver, "Compare");
 		compareProductPage = PageGenerator.getCompareProductListPage(driver);
 		 
-		log.info("TC_01 - Step 07: Switch windown by windown ID");
+		log.info("TC_01 - Step 07: Switch sub-windown by windown ID");
 		compareProductPage.switchWindowByID(driver, parentID);
 			
 		log.info("TC_01 - Step 08: Verify popup window is displayed");

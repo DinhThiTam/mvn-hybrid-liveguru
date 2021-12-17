@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.liveguru.common.Common_01_Login_User;
 
 import commons.BaseTest;
 import pageObject.user.liveGuru99.HomePO;
@@ -49,7 +50,7 @@ public class TC_09_Purchase_Products extends BaseTest {
 		loginPage = PageGenerator.getLoginPage(driver);	
 		
 		log.info("Pre-Condition - Step 05: Set login page cookie");
-		loginPage.setAllCookies(driver, TC_02_Login.loginPageCookie);
+		loginPage.setAllCookies(driver, Common_01_Login_User.loginPageCookie);
 		loginPage.sleepInsecond(5);
 		loginPage.refreshPage(driver);
 		myAccountPage = PageGenerator.getMyAccountPage(driver);
@@ -61,7 +62,7 @@ public class TC_09_Purchase_Products extends BaseTest {
 		myAccountPage.clickToMenuLink(driver, "header", "My Wishlist (1 item)");
 	}
 
-	@Test (description = "Dependent by TC_02_Login and TC_07_Share_Wishlist")
+	@Test (description = "Dependent by Common_01_Login_User and TC_07_Share_Wishlist")
 	public void TC_01_Add_Your_Review() {		
 		log.info("TC_01 - Step 01: Click on 'Add to Cart' button");
 		myAccountPage.clickToButtonByTitle(driver, "Add to Cart");

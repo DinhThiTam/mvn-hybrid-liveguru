@@ -1,7 +1,16 @@
-1639666389732	geckodriver	INFO	Listening on 127.0.0.1:6062
-1639666390182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\DTTAM~1\\AppData\\Local\\Temp\\rust_mozprofiletH6aYx"
-1639666390904	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DT TAM\\AppData\\Local\\Temp\\rust_mozprofiletH6aYx\\search.json.mozlz4", (void 0)))
-1639666394849	Marionette	INFO	Listening on port 55772
-1639666395049	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1639743189607	geckodriver	INFO	Listening on 127.0.0.1:23479
+1639743189991	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\DTTAM~1\\AppData\\Local\\Temp\\rust_mozprofile199vMI"
+1639743190714	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DT TAM\\AppData\\Local\\Temp\\rust_mozprofile199vMI\\search.json.mozlz4", (void 0)))
+1639743194962	Marionette	INFO	Listening on port 54241
+1639743195324	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 6807 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 4773 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: undefined
 JavaScript warning: http://live.techpanda.org/js/calendar/calendar.js, line 138: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 6720 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 3701 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: http://live.techpanda.org/js/calendar/calendar.js, line 138: unreachable code after return statement
+JavaScript warning: http://live.techpanda.org/js/calendar/calendar.js, line 138: unreachable code after return statement
+JavaScript warning: http://live.techpanda.org/js/calendar/calendar.js, line 138: unreachable code after return statement
+1639743329081	Marionette	INFO	Stopped listening on port 54241

@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.liveguru.common.Common_01_Login_User;
 
 import commons.BaseTest;
 import pageObject.user.liveGuru99.HomePO;
@@ -44,7 +45,7 @@ public class TC_07_Share_Wishlist extends BaseTest {
 		loginPage = PageGenerator.getLoginPage(driver);	
 		
 		log.info("Pre-Condition - Step 05: Set login page cookie");
-		loginPage.setAllCookies(driver, TC_02_Login.loginPageCookie);
+		loginPage.setAllCookies(driver, Common_01_Login_User.loginPageCookie);
 		loginPage.sleepInsecond(5);
 		loginPage.refreshPage(driver);
 		myAccountPage = PageGenerator.getMyAccountPage(driver);
@@ -54,7 +55,7 @@ public class TC_07_Share_Wishlist extends BaseTest {
 		tiviPage = PageGenerator.getTVPage(driver);	
 	}
 
-	@Test (description = "Dependent by TC_02_Login")
+	@Test (description = "Dependent by Common_01_Login_User")
 	public void TC_01_Share_Wishlist() {		
 		log.info("TC_01 - Step 01: Click on 'Add to Wishlist' for 'LG LCD' Tivi");
 		tiviPage.clickToActionByProductNameAndActionName(driver, "LG LCD", "Add to Wishlist");

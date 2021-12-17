@@ -14,14 +14,7 @@
 	<test name="Run on FIREFOX">
 		<parameter name="browser" value="firefox" />
 		<classes>
-<!-- 			<class name="com.liveguru.user.TC_01_Register_Success" /> -->
-<!-- 			<class name="com.liveguru.user.TC_02_Login" /> -->
-<!-- 			<class name="com.liveguru.user.TC_03_Compare_Product_Cost" /> -->
-<!-- 			<class name="com.liveguru.user.TC_05_Maximum_Quantity_Add_To_Cart" /> -->
-<!-- 			<class name="com.liveguru.user.TC_06_Compare_Two_Products" /> -->
-<!-- 			<class name="com.liveguru.user.TC_07_Share_Wishlist" /> -->
-<!-- 			<class name="com.liveguru.user.TC_08_Add_Review" /> -->
-<!-- 			<class name="com.liveguru.user.TC_09_Purchase_Products" /> -->
+			<class name="com.liveguru.common.Common_01_Login_Admin" />
 			<class name="com.liveguru.admin.TC_01_Check_Account_Created_Success" />
 		</classes>
 	</test>

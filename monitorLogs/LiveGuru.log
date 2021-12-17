@@ -2667,3 +2667,841 @@ Session ID: 2770033b-2d30-48de-808d-fe87db4a2989
 [INFO ] [2021-12-15 15:23:40,422]  -------------------------- PASSED -------------------------- 
 [INFO ] [2021-12-15 15:23:40,426] Post-Condition - Close Browser - firefox
 [INFO ] [2021-12-15 15:23:40,426] OS name = windows 10
+[INFO ] [2021-12-17 00:31:37,596] --------START delete file in folder---------
+[INFO ] [2021-12-17 00:31:37,598] --------END delete file in folder---------
+[INFO ] [2021-12-17 00:31:37,647] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:31:54,721] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:31:54,942] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 00:31:55,405] Pre-Condition - Step 04: Open 'Register' page
+[INFO ] [2021-12-17 00:31:57,355] Register_01 - Step 01: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 00:31:57,547] Register_01- Step 02: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 00:31:57,702] Register_01 - Step 03: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 00:31:57,815] Register_01 - Step 04: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 00:31:57,902] Register_01 - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 00:31:58,053] Register_01 - Step 06: Click to 'Register' button
+[INFO ] [2021-12-17 00:32:01,012] Register_01 - Step 07: Verify text dislayed after register successfully
+[INFO ] [2021-12-17 00:32:01,134]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:32:01,512] Register_02 - Step 01: Open'Account Information' menu at sidebar
+[INFO ] [2021-12-17 00:32:02,713] My_Account_01 - Step 11: Verify firstname infomation is updated successfully
+[INFO ] [2021-12-17 00:32:02,852]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:32:02,852] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+[INFO ] [2021-12-17 00:32:02,984]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:32:02,984] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+[INFO ] [2021-12-17 00:32:03,089]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:32:03,129] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:32:03,130] OS name = windows 10
+[INFO ] [2021-12-17 00:32:04,845] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:32:15,997] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:32:16,129] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 00:32:16,442] Pre-Condition - Step 04: Open 'Log In' page
+[INFO ] [2021-12-17 00:32:17,705] Login_01 - Step 01: Enter valid info to 'Email Address' textbox
+[INFO ] [2021-12-17 00:32:17,816] Login_01 - Step 02: Enter valid info to 'Password' textbox
+[INFO ] [2021-12-17 00:32:17,982] Login_01 - Step 03: Click to 'Login' button
+[INFO ] [2021-12-17 00:32:19,686] Login_01 - Step 04: Verify dashboard header text dislayed
+[INFO ] [2021-12-17 00:32:19,812]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:32:19,812] Login_01 - Step 05: Verify text dislayed on dashoard
+[INFO ] [2021-12-17 00:32:19,928]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:32:19,993] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:32:19,993] OS name = windows 10
+[INFO ] [2021-12-17 00:32:21,584] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:32:31,667] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:32:31,802] Pre-Condition - Step 03: Open 'Mobile' page
+[INFO ] [2021-12-17 00:32:34,085] TC_01 - Step 01: Get cost of Sony Experia mobile
+[INFO ] [2021-12-17 00:32:34,162] TC_01 - Step 02: Click on Sony Experia detail
+[INFO ] [2021-12-17 00:32:36,112] TC_01 - Step 03: Get cost of Sony Experia mobile from detail page
+[INFO ] [2021-12-17 00:32:36,187] TC_01 - Step 04: Compare value product is equal
+[INFO ] [2021-12-17 00:32:36,188]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:32:36,193] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:32:36,194] OS name = windows 10
+[INFO ] [2021-12-17 00:32:38,531] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:32:49,690] TC_01 - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:32:49,798] TC_01 - Step 03: Open 'Mobile' menu
+[INFO ] [2021-12-17 00:32:51,424] TC_01 - Step 01: Click on 'ADD TO CART' for Sony Experia mobile
+[INFO ] [2021-12-17 00:32:53,325] TC_01 - Step 02: Change 'QTY' value is 501
+[INFO ] [2021-12-17 00:32:53,459] TC_01 - Step 03: Click to 'Update' button
+[INFO ] [2021-12-17 00:32:55,027] TC_01 - Step 04: Verify error message is displayed
+[INFO ] [2021-12-17 00:32:55,141]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:32:55,141] TC_01 - Step 05: Verify error message in table is displayed
+[INFO ] [2021-12-17 00:32:55,229]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:32:55,229] TC_01 - Step 06: Click to 'Empty Cart' link
+[INFO ] [2021-12-17 00:32:56,590] TC_01 - Step 07: Verify message is displayed
+[INFO ] [2021-12-17 00:32:56,684]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:32:56,693] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:32:56,694] OS name = windows 10
+[INFO ] [2021-12-17 00:32:58,302] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:33:07,961] TC_01 - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:33:08,064] TC_01 - Step 03: Open 'Mobile' menu
+[INFO ] [2021-12-17 00:33:09,773] TC_01 - Step 01: Click on 'Add to Compare' for IPhone mobile
+[INFO ] [2021-12-17 00:33:11,125] TC_01 - Step 02: Verify message is displayed
+[INFO ] [2021-12-17 00:33:11,226] TC_01 - Step 03: Click on 'Add to Compare' for Sony Experia mobile
+[INFO ] [2021-12-17 00:33:12,691] TC_01 - Step 04: Verify message is displayed
+[INFO ] [2021-12-17 00:33:12,820] TC_01 - Step 05: Get the active Window ID
+[INFO ] [2021-12-17 00:33:12,827] TC_01 - Step 06: Click on 'Compare' button
+[INFO ] [2021-12-17 00:33:13,323] TC_01 - Step 07: Switch windown by windown ID
+[INFO ] [2021-12-17 00:33:13,345] TC_01 - Step 08: Verify popup window is displayed
+[INFO ] [2021-12-17 00:33:16,357]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:33:16,357] TC_01 - Step 09: Verify Heading 'Compare Products' is displayed
+[INFO ] [2021-12-17 00:33:16,440]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:33:16,440] TC_01 - Step 10: Verify mobile info 'Sony experia' is displayed
+[INFO ] [2021-12-17 00:33:16,499]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:33:16,499] TC_01 - Step 11: Verify mobile info 'Iphone' is displayed
+[INFO ] [2021-12-17 00:33:16,560]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:33:16,560] TC_01 - Step 12: Verify mobile info 'Iphone' is displayed
+[INFO ] [2021-12-17 00:33:16,633] TC_01 - Step 13: Switch to parent window
+[INFO ] [2021-12-17 00:33:16,641] TC_01 - Step 14: Verify URL parent window is displayed
+[INFO ] [2021-12-17 00:33:16,646]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:33:16,661] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:33:16,661] OS name = windows 10
+[INFO ] [2021-12-17 00:33:18,185] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:33:28,273] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:33:28,431] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 00:33:28,751] Pre-Condition - Step 04: Open 'Log In' page
+[INFO ] [2021-12-17 00:33:29,917] Pre-Condition - Step 05: Set login page cookie
+[INFO ] [2021-12-17 00:33:29,988] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:33:29,988] OS name = windows 10
+[INFO ] [2021-12-17 00:33:31,586] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:33:40,888] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:33:41,028] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 00:33:41,323] Pre-Condition - Step 04: Open 'Log In' page
+[INFO ] [2021-12-17 00:33:42,774] Pre-Condition - Step 05: Set login page cookie
+[INFO ] [2021-12-17 00:33:42,801] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:33:42,802] OS name = windows 10
+[INFO ] [2021-12-17 00:33:44,455] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:33:53,817] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:33:53,910] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 00:33:54,224] Pre-Condition - Step 04: Open 'Log In' page
+[INFO ] [2021-12-17 00:33:55,546] Pre-Condition - Step 05: Set login page cookie
+[INFO ] [2021-12-17 00:33:55,570] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:33:55,570] OS name = windows 10
+[INFO ] [2021-12-17 00:37:24,120] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:37:40,239] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:37:40,491] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 00:37:40,851] Pre-Condition - Step 04: Open 'Register' page
+[INFO ] [2021-12-17 00:37:42,403] Register_01 - Step 01: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 00:37:42,616] Register_01- Step 02: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 00:37:42,802] Register_01 - Step 03: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 00:37:42,909] Register_01 - Step 04: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 00:37:43,003] Register_01 - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 00:37:43,165] Register_01 - Step 06: Click to 'Register' button
+[INFO ] [2021-12-17 00:37:45,055] Register_01 - Step 07: Verify text dislayed after register successfully
+[INFO ] [2021-12-17 00:37:45,166]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:37:45,526] Register_02 - Step 01: Open'Account Information' menu at sidebar
+[INFO ] [2021-12-17 00:37:46,822] My_Account_01 - Step 11: Verify firstname infomation is updated successfully
+[INFO ] [2021-12-17 00:37:46,990]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:37:46,991] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+[INFO ] [2021-12-17 00:37:47,087]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:37:47,088] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+[INFO ] [2021-12-17 00:37:47,189]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:37:47,251] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:37:47,252] OS name = windows 10
+[INFO ] [2021-12-17 00:37:48,893] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:38:00,741] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:38:00,855] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 00:38:01,190] Pre-Condition - Step 04: Open 'Log In' page
+[INFO ] [2021-12-17 00:38:02,458] Login_01 - Step 01: Enter valid info to 'Email Address' textbox
+[INFO ] [2021-12-17 00:38:02,687] Login_01 - Step 02: Enter valid info to 'Password' textbox
+[INFO ] [2021-12-17 00:38:02,886] Login_01 - Step 03: Click to 'Login' button
+[INFO ] [2021-12-17 00:38:04,672] Login_01 - Step 04: Verify dashboard header text dislayed
+[INFO ] [2021-12-17 00:38:04,783]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:38:04,783] Login_01 - Step 05: Verify text dislayed on dashoard
+[INFO ] [2021-12-17 00:38:04,927]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:38:04,985] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:38:04,985] OS name = windows 10
+[INFO ] [2021-12-17 00:38:06,702] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:38:16,221] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:38:16,316] Pre-Condition - Step 03: Open 'Mobile' page
+[INFO ] [2021-12-17 00:38:17,980] TC_01 - Step 01: Get cost of Sony Experia mobile
+[INFO ] [2021-12-17 00:38:18,073] TC_01 - Step 02: Click on Sony Experia detail
+[INFO ] [2021-12-17 00:38:20,130] TC_01 - Step 03: Get cost of Sony Experia mobile from detail page
+[INFO ] [2021-12-17 00:38:20,212] TC_01 - Step 04: Compare value product is equal
+[INFO ] [2021-12-17 00:38:20,212]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:38:20,218] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:38:20,218] OS name = windows 10
+[INFO ] [2021-12-17 00:38:21,861] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:38:31,724] TC_01 - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:38:31,848] TC_01 - Step 03: Open 'Mobile' menu
+[INFO ] [2021-12-17 00:38:33,912] TC_01 - Step 01: Click on 'ADD TO CART' for Sony Experia mobile
+[INFO ] [2021-12-17 00:38:35,849] TC_01 - Step 02: Change 'QTY' value is 501
+[INFO ] [2021-12-17 00:38:35,970] TC_01 - Step 03: Click to 'Update' button
+[INFO ] [2021-12-17 00:38:37,518] TC_01 - Step 04: Verify error message is displayed
+[INFO ] [2021-12-17 00:38:37,705]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:38:37,705] TC_01 - Step 05: Verify error message in table is displayed
+[INFO ] [2021-12-17 00:38:37,780]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:38:37,780] TC_01 - Step 06: Click to 'Empty Cart' link
+[INFO ] [2021-12-17 00:38:39,152] TC_01 - Step 07: Verify message is displayed
+[INFO ] [2021-12-17 00:38:39,253]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:38:39,263] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:38:39,263] OS name = windows 10
+[INFO ] [2021-12-17 00:38:40,962] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:38:50,685] TC_01 - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:38:50,778] TC_01 - Step 03: Open 'Mobile' menu
+[INFO ] [2021-12-17 00:38:53,123] TC_01 - Step 01: Click on 'Add to Compare' for IPhone mobile
+[INFO ] [2021-12-17 00:38:54,529] TC_01 - Step 02: Verify message is displayed
+[INFO ] [2021-12-17 00:38:54,627] TC_01 - Step 03: Click on 'Add to Compare' for Sony Experia mobile
+[INFO ] [2021-12-17 00:38:56,251] TC_01 - Step 04: Verify message is displayed
+[INFO ] [2021-12-17 00:38:56,392] TC_01 - Step 05: Get the active Window ID
+[INFO ] [2021-12-17 00:38:56,397] TC_01 - Step 06: Click on 'Compare' button
+[INFO ] [2021-12-17 00:38:56,868] TC_01 - Step 07: Switch windown by windown ID
+[INFO ] [2021-12-17 00:38:56,893] TC_01 - Step 08: Verify popup window is displayed
+[INFO ] [2021-12-17 00:38:59,903]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:38:59,904] TC_01 - Step 09: Verify Heading 'Compare Products' is displayed
+[INFO ] [2021-12-17 00:38:59,994]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:38:59,994] TC_01 - Step 10: Verify mobile info 'Sony experia' is displayed
+[INFO ] [2021-12-17 00:39:00,066]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:39:00,066] TC_01 - Step 11: Verify mobile info 'Iphone' is displayed
+[INFO ] [2021-12-17 00:39:00,125]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:39:00,125] TC_01 - Step 12: Verify mobile info 'Iphone' is displayed
+[INFO ] [2021-12-17 00:39:00,208] TC_01 - Step 13: Switch to parent window
+[INFO ] [2021-12-17 00:39:00,216] TC_01 - Step 14: Verify URL parent window is displayed
+[INFO ] [2021-12-17 00:39:00,220]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:39:00,229] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:39:00,229] OS name = windows 10
+[INFO ] [2021-12-17 00:39:01,901] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:39:11,698] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:39:11,844] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 00:39:12,207] Pre-Condition - Step 04: Open 'Log In' page
+[INFO ] [2021-12-17 00:39:13,405] Pre-Condition - Step 05: Set login page cookie
+[INFO ] [2021-12-17 00:39:13,473] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:39:13,474] OS name = windows 10
+[INFO ] [2021-12-17 00:39:14,967] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:39:25,860] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:39:25,997] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 00:39:26,294] Pre-Condition - Step 04: Open 'Log In' page
+[INFO ] [2021-12-17 00:39:28,611] Pre-Condition - Step 05: Set login page cookie
+[INFO ] [2021-12-17 00:39:28,645] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:39:28,646] OS name = windows 10
+[INFO ] [2021-12-17 00:39:31,021] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:39:40,892] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:39:41,005] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 00:39:41,316] Pre-Condition - Step 04: Open 'Log In' page
+[INFO ] [2021-12-17 00:39:42,598] Pre-Condition - Step 05: Set login page cookie
+[INFO ] [2021-12-17 00:39:42,623] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:39:42,623] OS name = windows 10
+[INFO ] [2021-12-17 00:40:16,475] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:40:30,743] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:40:31,051] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 00:40:31,411] Pre-Condition - Step 04: Open 'Register' page
+[INFO ] [2021-12-17 00:40:33,312] Register_01 - Step 01: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 00:40:33,475] Register_01- Step 02: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 00:40:33,684] Register_01 - Step 03: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 00:40:33,849] Register_01 - Step 04: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 00:40:33,983] Register_01 - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 00:40:34,139] Register_01 - Step 06: Click to 'Register' button
+[INFO ] [2021-12-17 00:40:36,016] Register_01 - Step 07: Verify text dislayed after register successfully
+[INFO ] [2021-12-17 00:40:36,116]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:40:36,468] Register_02 - Step 01: Open'Account Information' menu at sidebar
+[INFO ] [2021-12-17 00:40:37,672] My_Account_01 - Step 11: Verify firstname infomation is updated successfully
+[INFO ] [2021-12-17 00:40:37,789]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:40:37,790] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+[INFO ] [2021-12-17 00:40:37,889]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:40:37,889] My_Account_01 - Step 12: Verify lastname infomation is updated successfully
+[INFO ] [2021-12-17 00:40:38,019]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:40:38,068] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:40:38,069] OS name = windows 10
+[INFO ] [2021-12-17 00:40:39,766] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:40:50,236] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:40:50,368] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 00:40:50,666] Pre-Condition - Step 04: Open 'Log In' page
+[INFO ] [2021-12-17 00:40:51,841] Login_01 - Step 01: Enter valid info to 'Email Address' textbox
+[INFO ] [2021-12-17 00:40:51,994] Login_01 - Step 02: Enter valid info to 'Password' textbox
+[INFO ] [2021-12-17 00:40:52,247] Login_01 - Step 03: Click to 'Login' button
+[INFO ] [2021-12-17 00:40:54,041] Login_01 - Step 04: Verify dashboard header text dislayed
+[INFO ] [2021-12-17 00:40:54,121]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:40:54,121] Login_01 - Step 05: Verify text dislayed on dashoard
+[INFO ] [2021-12-17 00:40:54,227]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:40:54,239] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:40:54,240] OS name = windows 10
+[INFO ] [2021-12-17 00:40:55,809] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:41:06,156] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:41:06,321] Pre-Condition - Step 03: Open 'Mobile' page
+[INFO ] [2021-12-17 00:41:08,466] TC_01 - Step 01: Get cost of Sony Experia mobile
+[INFO ] [2021-12-17 00:41:08,548] TC_01 - Step 02: Click on Sony Experia detail
+[INFO ] [2021-12-17 00:41:10,848] TC_01 - Step 03: Get cost of Sony Experia mobile from detail page
+[INFO ] [2021-12-17 00:41:10,926] TC_01 - Step 04: Compare value product is equal
+[INFO ] [2021-12-17 00:41:10,927]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:41:10,932] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:41:10,932] OS name = windows 10
+[INFO ] [2021-12-17 00:41:12,462] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:41:22,350] TC_01 - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:41:22,454] TC_01 - Step 03: Open 'Mobile' menu
+[INFO ] [2021-12-17 00:41:24,454] TC_01 - Step 01: Click on 'ADD TO CART' for Sony Experia mobile
+[INFO ] [2021-12-17 00:41:26,465] TC_01 - Step 02: Change 'QTY' value is 501
+[INFO ] [2021-12-17 00:41:26,661] TC_01 - Step 03: Click to 'Update' button
+[INFO ] [2021-12-17 00:41:28,352] TC_01 - Step 04: Verify error message is displayed
+[INFO ] [2021-12-17 00:41:28,500]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:41:28,500] TC_01 - Step 05: Verify error message in table is displayed
+[INFO ] [2021-12-17 00:41:28,582]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:41:28,582] TC_01 - Step 06: Click to 'Empty Cart' link
+[INFO ] [2021-12-17 00:41:29,987] TC_01 - Step 07: Verify message is displayed
+[INFO ] [2021-12-17 00:41:30,091]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:41:30,096] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:41:30,096] OS name = windows 10
+[INFO ] [2021-12-17 00:41:31,965] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:41:41,779] TC_01 - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:41:41,885] TC_01 - Step 03: Open 'Mobile' menu
+[INFO ] [2021-12-17 00:41:44,545] TC_01 - Step 01: Click on 'Add to Compare' for IPhone mobile
+[INFO ] [2021-12-17 00:41:45,901] TC_01 - Step 02: Verify message is displayed
+[INFO ] [2021-12-17 00:41:45,979] TC_01 - Step 03: Click on 'Add to Compare' for Sony Experia mobile
+[INFO ] [2021-12-17 00:41:47,341] TC_01 - Step 04: Verify message is displayed
+[INFO ] [2021-12-17 00:41:47,448] TC_01 - Step 05: Get the active Window ID
+[INFO ] [2021-12-17 00:41:47,456] TC_01 - Step 06: Click on 'Compare' button
+[INFO ] [2021-12-17 00:41:48,023] TC_01 - Step 07: Switch windown by windown ID
+[INFO ] [2021-12-17 00:41:48,055] TC_01 - Step 08: Verify popup window is displayed
+[INFO ] [2021-12-17 00:41:51,076]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:41:51,076] TC_01 - Step 09: Verify Heading 'Compare Products' is displayed
+[INFO ] [2021-12-17 00:41:51,165]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:41:51,166] TC_01 - Step 10: Verify mobile info 'Sony experia' is displayed
+[INFO ] [2021-12-17 00:41:51,224]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:41:51,225] TC_01 - Step 11: Verify mobile info 'Iphone' is displayed
+[INFO ] [2021-12-17 00:41:51,322]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:41:51,322] TC_01 - Step 12: Verify mobile info 'Iphone' is displayed
+[INFO ] [2021-12-17 00:41:51,403] TC_01 - Step 13: Switch to parent window
+[INFO ] [2021-12-17 00:41:51,411] TC_01 - Step 14: Verify URL parent window is displayed
+[INFO ] [2021-12-17 00:41:51,415]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 00:41:51,424] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:41:51,424] OS name = windows 10
+[INFO ] [2021-12-17 00:41:52,899] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:42:02,576] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:42:02,706] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 00:42:02,995] Pre-Condition - Step 04: Open 'Log In' page
+[INFO ] [2021-12-17 00:42:04,059] Pre-Condition - Step 05: Set login page cookie
+[INFO ] [2021-12-17 00:42:04,128] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:42:04,129] OS name = windows 10
+[INFO ] [2021-12-17 00:42:05,626] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:42:15,124] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:42:15,256] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 00:42:15,563] Pre-Condition - Step 04: Open 'Log In' page
+[INFO ] [2021-12-17 00:42:16,582] Pre-Condition - Step 05: Set login page cookie
+[INFO ] [2021-12-17 00:42:16,607] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:42:16,608] OS name = windows 10
+[INFO ] [2021-12-17 00:42:18,230] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 00:42:28,312] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 00:42:28,478] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 00:42:28,841] Pre-Condition - Step 04: Open 'Log In' page
+[INFO ] [2021-12-17 00:42:30,233] Pre-Condition - Step 05: Set login page cookie
+[INFO ] [2021-12-17 00:42:30,254] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 00:42:30,255] OS name = windows 10
+[INFO ] [2021-12-17 01:04:12,336] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 01:04:12,339] OS name = windows 10
+[INFO ] [2021-12-17 01:04:12,339] Cannot invoke "Object.toString()" because "this.driver" is null
+[INFO ] [2021-12-17 01:04:12,382] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 01:04:12,383] OS name = windows 10
+[INFO ] [2021-12-17 01:04:12,383] Cannot invoke "Object.toString()" because "this.driver" is null
+[INFO ] [2021-12-17 01:04:12,423] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 01:04:12,424] OS name = windows 10
+[INFO ] [2021-12-17 01:04:12,424] Cannot invoke "Object.toString()" because "this.driver" is null
+[INFO ] [2021-12-17 01:04:12,487] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 01:04:12,488] OS name = windows 10
+[INFO ] [2021-12-17 01:04:12,490] Cannot invoke "Object.toString()" because "this.driver" is null
+[INFO ] [2021-12-17 01:04:12,542] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 01:04:12,544] OS name = windows 10
+[INFO ] [2021-12-17 01:04:12,545] Cannot invoke "Object.toString()" because "this.driver" is null
+[INFO ] [2021-12-17 01:04:12,596] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 01:04:12,597] OS name = windows 10
+[INFO ] [2021-12-17 01:04:12,599] Cannot invoke "Object.toString()" because "this.driver" is null
+[INFO ] [2021-12-17 01:06:43,876] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 01:06:55,203] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 01:06:55,336] Pre-Condition - Step 03: Open 'Mobile' page
+[INFO ] [2021-12-17 01:06:58,003] TC_01 - Step 01: Get cost of Sony Experia mobile
+[INFO ] [2021-12-17 01:06:58,139] TC_01 - Step 02: Click on Sony Experia detail
+[INFO ] [2021-12-17 01:07:00,947] TC_01 - Step 03: Get cost of Sony Experia mobile from detail page
+[INFO ] [2021-12-17 01:07:01,033] TC_01 - Step 04: Compare value product is equal
+[INFO ] [2021-12-17 01:07:01,033]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:07:01,498] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 01:07:01,499] OS name = windows 10
+[INFO ] [2021-12-17 01:07:03,676] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 01:07:13,556] TC_01 - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 01:07:13,701] TC_01 - Step 03: Open 'Mobile' menu
+[INFO ] [2021-12-17 01:07:16,145] TC_01 - Step 01: Click on 'ADD TO CART' for Sony Experia mobile
+[INFO ] [2021-12-17 01:07:20,056] TC_01 - Step 02: Change 'QTY' value is 501
+[INFO ] [2021-12-17 01:07:20,251] TC_01 - Step 03: Click to 'Update' button
+[INFO ] [2021-12-17 01:07:21,934] TC_01 - Step 04: Verify error message is displayed
+[INFO ] [2021-12-17 01:07:22,064]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:07:22,065] TC_01 - Step 05: Verify error message in table is displayed
+[INFO ] [2021-12-17 01:07:22,132]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:07:22,132] TC_01 - Step 06: Click to 'Empty Cart' link
+[INFO ] [2021-12-17 01:07:23,572] TC_01 - Step 07: Verify message is displayed
+[INFO ] [2021-12-17 01:07:23,673]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:07:23,718] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 01:07:23,718] OS name = windows 10
+[INFO ] [2021-12-17 01:07:25,348] TC_01 - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 01:07:35,951] TC_01 - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 01:07:36,113] TC_01 - Step 03: Open 'Mobile' menu
+[INFO ] [2021-12-17 01:07:38,641] TC_01 - Step 01: Click on 'Add to Compare' for IPhone mobile
+[INFO ] [2021-12-17 01:07:40,148] TC_01 - Step 02: Verify message is displayed
+[INFO ] [2021-12-17 01:07:40,266] TC_01 - Step 03: Click on 'Add to Compare' for Sony Experia mobile
+[INFO ] [2021-12-17 01:07:41,705] TC_01 - Step 04: Verify message is displayed
+[INFO ] [2021-12-17 01:07:41,870] TC_01 - Step 05: Get the active Window ID
+[INFO ] [2021-12-17 01:07:41,877] TC_01 - Step 06: Click on 'Compare' button
+[INFO ] [2021-12-17 01:07:42,427] TC_01 - Step 07: Switch windown by windown ID
+[INFO ] [2021-12-17 01:07:42,451] TC_01 - Step 08: Verify popup window is displayed
+[INFO ] [2021-12-17 01:07:45,472]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:07:45,473] TC_01 - Step 09: Verify Heading 'Compare Products' is displayed
+[INFO ] [2021-12-17 01:07:45,572]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:07:45,573] TC_01 - Step 10: Verify mobile info 'Sony experia' is displayed
+[INFO ] [2021-12-17 01:07:45,698]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:07:45,698] TC_01 - Step 11: Verify mobile info 'Iphone' is displayed
+[INFO ] [2021-12-17 01:07:45,791]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:07:45,791] TC_01 - Step 12: Verify mobile info 'Iphone' is displayed
+[INFO ] [2021-12-17 01:07:45,897] TC_01 - Step 13: Switch to parent window
+[INFO ] [2021-12-17 01:07:45,904] TC_01 - Step 14: Verify URL parent window is displayed
+[INFO ] [2021-12-17 01:07:45,911]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:07:45,927] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 01:07:45,927] OS name = windows 10
+[INFO ] [2021-12-17 01:07:47,867] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 01:07:59,414] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 01:07:59,616] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 01:07:59,957] Pre-Condition - Step 04: Open 'Log In' page
+[INFO ] [2021-12-17 01:08:01,047] Pre-Condition - Step 05: Set login page cookie
+[INFO ] [2021-12-17 01:08:10,284] Pre-Condition - Step 06: Open 'TV' menu
+[INFO ] [2021-12-17 01:08:12,722] TC_01 - Step 01: Click on 'Add to Wishlist' for 'LG LCD' Tivi
+[INFO ] [2021-12-17 01:08:14,480] TC_01 - Step 02: Verify message is displayed
+[INFO ] [2021-12-17 01:08:14,615]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:08:14,616] TC_01 - Step 03: Verify message is displayed
+[INFO ] [2021-12-17 01:08:14,754]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:08:14,754] TC_01 - Step 04: Verify message is displayed
+[INFO ] [2021-12-17 01:08:14,901]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:08:14,902] TC_01 - Step 05: Click on 'Share Wishlist' button
+[INFO ] [2021-12-17 01:08:16,760] TC_01 - Step 06: Enter to 'Email' textarea
+[INFO ] [2021-12-17 01:08:17,060] TC_01 - Step 07: Enter to 'Email' textarea
+[INFO ] [2021-12-17 01:08:17,290] TC_01 - Step 08: Click on 'Share Wishlist' button
+[INFO ] [2021-12-17 01:08:22,738] TC_01 - Step 09: Verify message is displayed
+[INFO ] [2021-12-17 01:08:25,532] TC_01 - Step 10: Verify element size of product name is 1
+[INFO ] [2021-12-17 01:08:25,691]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:08:25,691] TC_01 - Step 11: Verify product name is 'LG LCD'
+[INFO ] [2021-12-17 01:08:25,826]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:08:25,832] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 01:08:25,833] OS name = windows 10
+[INFO ] [2021-12-17 01:08:27,925] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 01:08:39,663] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 01:08:39,840] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 01:08:40,182] Pre-Condition - Step 04: Open 'Log In' page
+[INFO ] [2021-12-17 01:08:41,375] Pre-Condition - Step 05: Set login page cookie
+[INFO ] [2021-12-17 01:08:50,707] Pre-Condition - Step 06: Open 'TV' menu
+[INFO ] [2021-12-17 01:08:53,002] TC_01 - Step 01: Click on 'Samsung LCD' detail
+[INFO ] [2021-12-17 01:08:55,433] TC_01 - Step 02: Click on 'Add your review' link
+[INFO ] [2021-12-17 01:08:56,576] TC_01 - Step 03: Enter to 'Let us know your thoughts' textarea
+[INFO ] [2021-12-17 01:08:56,714] TC_01 - Step 04: Enter to 'Summary of Your Review' textbox
+[INFO ] [2021-12-17 01:08:56,991] TC_01 - Step 05: Enter to 'What's your nickname?' textbox
+[INFO ] [2021-12-17 01:08:57,139] TC_01 - Step 06: Click to 'Submit Review' button
+[INFO ] [2021-12-17 01:08:57,475] TC_01 - Step 07: Verify error message is displayed
+[INFO ] [2021-12-17 01:08:57,539]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:08:57,539] TC_01 - Step 08: Verify error message is displayed
+[INFO ] [2021-12-17 01:08:57,623]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:08:57,623] TC_01 - Step 09: Verify error message is displayed
+[INFO ] [2021-12-17 01:08:57,696]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:08:57,696] TC_01 - Step 10: Enter to 'Let us know your thoughts' textarea
+[INFO ] [2021-12-17 01:08:57,803] TC_01 - Step 11: Enter to 'Summary of Your Review' textbox
+[INFO ] [2021-12-17 01:08:57,902] TC_01 - Step 12: Enter to 'What's your nickname?' textbox
+[INFO ] [2021-12-17 01:08:57,985] TC_01 - Step 13: Select to 'Quality 1' radio button
+[INFO ] [2021-12-17 01:08:58,264] TC_01 - Step 14: Click to 'Submit Review' button
+[INFO ] [2021-12-17 01:08:59,355] TC_01 - Step 15: Verify message is displayed
+[INFO ] [2021-12-17 01:08:59,450] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 01:08:59,450] OS name = windows 10
+[INFO ] [2021-12-17 01:09:01,185] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 01:09:12,551] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 01:09:12,676] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 01:09:13,021] Pre-Condition - Step 04: Open 'Log In' page
+[INFO ] [2021-12-17 01:09:14,005] Pre-Condition - Step 05: Set login page cookie
+[INFO ] [2021-12-17 01:09:23,409] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 01:09:23,681] Pre-Condition - Step 04: Open 'Register' page
+[INFO ] [2021-12-17 01:09:24,947] TC_01 - Step 01: Click on 'Add to Cart' button
+[INFO ] [2021-12-17 01:09:27,257] TC_01 - Step 02: Select 'Country' dropdown list
+[INFO ] [2021-12-17 01:09:27,402] TC_01 - Step 02: Verify item is selected
+[INFO ] [2021-12-17 01:09:29,193]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:09:29,194] TC_01 - Step 02: Select 'State/Province' dropdown list
+[INFO ] [2021-12-17 01:09:29,496] TC_01 - Step 02: Verify item is selected
+[INFO ] [2021-12-17 01:09:29,816]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:09:29,816] TC_01 - Step 02: Enter to 'Zip' textbox
+[INFO ] [2021-12-17 01:09:29,945] TC_01 - Step 02: Click to 'Estimate' button
+[INFO ] [2021-12-17 01:09:31,771]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:09:33,571]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:09:35,522] TC_01 - Step 02: Select 'State/Province' dropdown list
+[INFO ] [2021-12-17 01:09:36,024] TC_01 - Step 02: Verify item is selected
+[INFO ] [2021-12-17 01:09:36,312]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:09:41,013]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:09:41,085]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 01:09:41,094] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 01:09:41,094] OS name = windows 10
+[INFO ] [2021-12-17 01:13:52,047] --------START delete file in folder---------
+[INFO ] [2021-12-17 01:13:52,049] --------END delete file in folder---------
+[INFO ] [2021-12-17 03:04:03,287] --------START delete file in folder---------
+[INFO ] [2021-12-17 03:04:03,290] --------END delete file in folder---------
+[INFO ] [2021-12-17 03:04:03,346] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:04:25,292] TC_01 - Step 01: Enter to 'User Name' textbox
+[INFO ] [2021-12-17 03:04:25,945] TC_01 - Step 02: Enter to 'Password' textbox
+[INFO ] [2021-12-17 03:04:26,133] TC_01 - Step 03: Click to 'Log In' button
+[INFO ] [2021-12-17 03:04:31,291] TC_01 - Step 04: Verify the popup is displayed
+[INFO ] [2021-12-17 03:04:31,451]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:04:31,589] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:04:31,589] OS name = windows 10
+[INFO ] [2021-12-17 03:04:33,070] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 03:04:44,449] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 03:04:44,577] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 03:04:44,924] Pre-Condition - Step 04: Open 'Register' page
+[INFO ] [2021-12-17 03:04:46,216] Pre-Condition - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:04:46,311] Pre-Condition- Step 06: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:04:46,525] Pre-Condition - Step 07: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:04:46,658] Pre-Condition - Step 08: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:04:46,759] Pre-Condition - Step 09: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:04:46,889] Pre-Condition - Step 10: Click to 'Register' button
+[INFO ] [2021-12-17 03:04:49,325] Pre-Condition - Step 11: Verify text dislayed after register successfully
+[INFO ] [2021-12-17 03:04:49,416]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:04:49,417] TC_01 - Step 05: Get the active Window ID
+[INFO ] [2021-12-17 03:04:49,422] Pre-Condition - Step 12: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:04:58,840] TC_01 - Step 01: Set login page cookie
+[INFO ] [2021-12-17 03:05:08,060] TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site
+[INFO ] [2021-12-17 03:05:08,217]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:05:08,696] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:05:08,696] OS name = windows 10
+[INFO ] [2021-12-17 03:07:14,722] --------START delete file in folder---------
+[INFO ] [2021-12-17 03:07:14,725] --------END delete file in folder---------
+[INFO ] [2021-12-17 03:07:14,739] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:07:27,962] TC_01 - Step 01: Enter to 'User Name' textbox
+[INFO ] [2021-12-17 03:07:28,191] TC_01 - Step 02: Enter to 'Password' textbox
+[INFO ] [2021-12-17 03:07:28,336] TC_01 - Step 03: Click to 'Log In' button
+[INFO ] [2021-12-17 03:07:33,617] TC_01 - Step 04: Verify the popup is displayed
+[INFO ] [2021-12-17 03:07:33,808]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:07:33,864] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:07:33,865] OS name = windows 10
+[INFO ] [2021-12-17 03:07:35,898] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 03:07:47,742] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 03:07:47,949] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 03:07:48,342] Pre-Condition - Step 04: Open 'Register' page
+[INFO ] [2021-12-17 03:07:49,923] Pre-Condition - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:07:50,030] Pre-Condition- Step 06: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:07:50,204] Pre-Condition - Step 07: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:07:50,475] Pre-Condition - Step 08: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:07:50,610] Pre-Condition - Step 09: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:07:50,815] Pre-Condition - Step 10: Click to 'Register' button
+[INFO ] [2021-12-17 03:07:52,775] Pre-Condition - Step 11: Verify text dislayed after register successfully
+[INFO ] [2021-12-17 03:07:52,850]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:07:52,850] TC_01 - Step 05: Get the active Window ID
+[INFO ] [2021-12-17 03:07:52,854] Pre-Condition - Step 12: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:08:02,175] TC_01 - Step 01: Set login page cookie
+[INFO ] [2021-12-17 03:08:11,264] TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site
+[INFO ] [2021-12-17 03:08:11,450]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:08:12,025] TC_01 - Step 07: Switch the user page by windown ID
+[INFO ] [2021-12-17 03:08:12,046] TC_01 - Step 08: Verify the url of user site is displayed
+[INFO ] [2021-12-17 03:08:12,055]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-17 03:08:12,056] TC_01 - Step 07: Open 'Account Information' in the left-menu 
+[INFO ] [2021-12-17 03:09:12,248] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:09:12,249] OS name = windows 10
+[INFO ] [2021-12-17 03:11:56,050] --------START delete file in folder---------
+[INFO ] [2021-12-17 03:11:56,052] --------END delete file in folder---------
+[INFO ] [2021-12-17 03:11:56,070] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:12:09,446] TC_01 - Step 01: Enter to 'User Name' textbox
+[INFO ] [2021-12-17 03:12:09,701] TC_01 - Step 02: Enter to 'Password' textbox
+[INFO ] [2021-12-17 03:12:09,879] TC_01 - Step 03: Click to 'Log In' button
+[INFO ] [2021-12-17 03:12:13,993] TC_01 - Step 04: Verify the popup is displayed
+[INFO ] [2021-12-17 03:12:14,152]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:12:14,215] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:12:14,216] OS name = windows 10
+[INFO ] [2021-12-17 03:12:16,459] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 03:12:29,236] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 03:12:29,395] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 03:12:29,762] Pre-Condition - Step 04: Open 'Register' page
+[INFO ] [2021-12-17 03:12:30,975] Pre-Condition - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:12:31,122] Pre-Condition- Step 06: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:12:31,308] Pre-Condition - Step 07: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:12:31,518] Pre-Condition - Step 08: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:12:31,637] Pre-Condition - Step 09: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:12:31,795] Pre-Condition - Step 10: Click to 'Register' button
+[INFO ] [2021-12-17 03:12:33,467] Pre-Condition - Step 11: Verify text dislayed after register successfully
+[INFO ] [2021-12-17 03:12:33,547]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:12:33,547] TC_01 - Step 05: Get the active Window ID
+[INFO ] [2021-12-17 03:12:33,552] Pre-Condition - Step 12: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:12:44,494] TC_01 - Step 01: Set login page cookie
+[INFO ] [2021-12-17 03:12:53,677] TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site
+[INFO ] [2021-12-17 03:12:53,820]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:12:53,821] TC_01 - Step 05: Get the active Window ID
+[INFO ] [2021-12-17 03:12:54,506] TC_01 - Step 07: Switch the user page by windown ID
+[INFO ] [2021-12-17 03:12:54,513] TC_01 - Step 08: Verify the url of user site is displayed
+[INFO ] [2021-12-17 03:12:54,523]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-17 03:12:54,524] TC_01 - Step 07: Open 'Account Information' in the left-menu 
+[INFO ] [2021-12-17 03:13:54,764] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:13:54,764] OS name = windows 10
+[INFO ] [2021-12-17 03:26:36,588] --------START delete file in folder---------
+[INFO ] [2021-12-17 03:26:36,591] --------END delete file in folder---------
+[INFO ] [2021-12-17 03:26:36,606] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:26:51,356] TC_01 - Step 01: Enter to 'User Name' textbox
+[INFO ] [2021-12-17 03:26:51,673] TC_01 - Step 02: Enter to 'Password' textbox
+[INFO ] [2021-12-17 03:26:51,841] TC_01 - Step 03: Click to 'Log In' button
+[INFO ] [2021-12-17 03:26:56,958] TC_01 - Step 04: Verify the popup is displayed
+[INFO ] [2021-12-17 03:26:57,200]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:26:57,269] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:26:57,271] OS name = windows 10
+[INFO ] [2021-12-17 03:26:59,671] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 03:27:12,387] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 03:27:12,554] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 03:27:12,917] Pre-Condition - Step 04: Open 'Register' page
+[INFO ] [2021-12-17 03:27:14,384] Pre-Condition - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:27:14,524] Pre-Condition- Step 06: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:27:14,704] Pre-Condition - Step 07: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:27:14,872] Pre-Condition - Step 08: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:27:14,974] Pre-Condition - Step 09: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:27:15,096] Pre-Condition - Step 10: Click to 'Register' button
+[INFO ] [2021-12-17 03:27:18,608] Pre-Condition - Step 11: Verify text dislayed after register successfully
+[INFO ] [2021-12-17 03:27:18,680]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:27:18,680] TC_01 - Step 05: Get the active Window ID
+[INFO ] [2021-12-17 03:27:18,685] Pre-Condition - Step 12: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:27:27,610] TC_01 - Step 07: Switch the user page by windown ID
+[INFO ] [2021-12-17 03:27:27,864] TC_01 - Step 01: Set login page cookie
+[INFO ] [2021-12-17 03:27:37,354] TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site
+[INFO ] [2021-12-17 03:27:37,539]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:27:38,051] TC_01 - Step 07: Switch the user page by windown ID
+[INFO ] [2021-12-17 03:27:38,320] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:27:38,320] OS name = windows 10
+[INFO ] [2021-12-17 03:39:15,387] --------START delete file in folder---------
+[INFO ] [2021-12-17 03:39:15,390] --------END delete file in folder---------
+[INFO ] [2021-12-17 03:39:15,409] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:39:24,950] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:39:24,951] OS name = windows 10
+[INFO ] [2021-12-17 03:39:24,951] Cannot invoke "Object.toString()" because "this.driver" is null
+[INFO ] [2021-12-17 03:39:59,913] --------START delete file in folder---------
+[INFO ] [2021-12-17 03:39:59,921] --------END delete file in folder---------
+[INFO ] [2021-12-17 03:39:59,944] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:40:14,709] TC_01 - Step 01: Enter to 'User Name' textbox
+[INFO ] [2021-12-17 03:40:15,084] TC_01 - Step 02: Enter to 'Password' textbox
+[INFO ] [2021-12-17 03:40:15,193] TC_01 - Step 03: Click to 'Log In' button
+[INFO ] [2021-12-17 03:40:19,861] TC_01 - Step 04: Verify the popup is displayed
+[INFO ] [2021-12-17 03:40:20,036]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:40:20,094] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:40:20,094] OS name = windows 10
+[INFO ] [2021-12-17 03:40:24,902] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 03:40:37,490] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 03:40:37,705] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 03:40:38,195] Pre-Condition - Step 04: Open 'Register' page
+[INFO ] [2021-12-17 03:40:39,563] Pre-Condition - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:40:39,725] Pre-Condition- Step 06: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:40:39,984] Pre-Condition - Step 07: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:40:40,172] Pre-Condition - Step 08: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:40:40,342] Pre-Condition - Step 09: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:40:40,531] Pre-Condition - Step 10: Click to 'Register' button
+[INFO ] [2021-12-17 03:40:45,916] Pre-Condition - Step 11: Verify text dislayed after register successfully
+[INFO ] [2021-12-17 03:41:46,478] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:41:46,478] OS name = windows 10
+[INFO ] [2021-12-17 03:42:16,592] --------START delete file in folder---------
+[INFO ] [2021-12-17 03:42:16,594] --------END delete file in folder---------
+[INFO ] [2021-12-17 03:42:16,620] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:42:30,141] TC_01 - Step 01: Enter to 'User Name' textbox
+[INFO ] [2021-12-17 03:42:30,395] TC_01 - Step 02: Enter to 'Password' textbox
+[INFO ] [2021-12-17 03:42:30,540] TC_01 - Step 03: Click to 'Log In' button
+[INFO ] [2021-12-17 03:42:34,445] TC_01 - Step 04: Verify the popup is displayed
+[INFO ] [2021-12-17 03:42:34,610]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:42:34,675] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:42:34,675] OS name = windows 10
+[INFO ] [2021-12-17 03:42:37,018] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 03:42:48,532] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 03:42:48,760] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 03:42:49,090] Pre-Condition - Step 04: Open 'Register' page
+[INFO ] [2021-12-17 03:42:50,325] Pre-Condition - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:42:50,457] Pre-Condition- Step 06: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:42:50,659] Pre-Condition - Step 07: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:42:50,874] Pre-Condition - Step 08: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:42:50,992] Pre-Condition - Step 09: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:42:51,156] Pre-Condition - Step 10: Click to 'Register' button
+[INFO ] [2021-12-17 03:42:53,250] Pre-Condition - Step 11: Verify text dislayed after register successfully
+[INFO ] [2021-12-17 03:42:53,384]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:42:53,385] TC_01 - Step 05: Get the active Window ID
+[INFO ] [2021-12-17 03:42:54,853] Pre-Condition - Step 12: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:42:54,854] TC_01 - Step 07: Switch the user page by windown ID
+[INFO ] [2021-12-17 03:42:55,107] TC_01 - Step 01: Set login page cookie
+[INFO ] [2021-12-17 03:43:04,903] TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site
+[INFO ] [2021-12-17 03:43:05,049]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:43:05,641] TC_01 - Step 07: Switch the user page by windown ID
+[INFO ] [2021-12-17 03:43:05,658] TC_01 - Step 08: Verify the url of user site is displayed
+[INFO ] [2021-12-17 03:43:05,673]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-17 03:43:05,674] TC_01 - Step 07: Open 'Account Information' in the left-menu 
+[INFO ] [2021-12-17 03:44:05,975] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:44:05,975] OS name = windows 10
+[INFO ] [2021-12-17 03:51:35,110] --------START delete file in folder---------
+[INFO ] [2021-12-17 03:51:35,112] --------END delete file in folder---------
+[INFO ] [2021-12-17 03:51:35,128] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:51:49,024] TC_01 - Step 01: Enter to 'User Name' textbox
+[INFO ] [2021-12-17 03:51:49,307] TC_01 - Step 02: Enter to 'Password' textbox
+[INFO ] [2021-12-17 03:51:49,454] TC_01 - Step 03: Click to 'Log In' button
+[INFO ] [2021-12-17 03:51:53,908] TC_01 - Step 04: Verify the popup is displayed
+[INFO ] [2021-12-17 03:51:54,131]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:51:54,205] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:51:54,205] OS name = windows 10
+[INFO ] [2021-12-17 03:51:56,385] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 03:52:07,463] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 03:52:07,662] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 03:52:08,033] Pre-Condition - Step 04: Open 'Register' page
+[INFO ] [2021-12-17 03:52:09,464] Pre-Condition - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:52:09,599] Pre-Condition- Step 06: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:52:09,778] Pre-Condition - Step 07: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:52:09,982] Pre-Condition - Step 08: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:52:10,099] Pre-Condition - Step 09: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:52:10,242] Pre-Condition - Step 10: Click to 'Register' button
+[INFO ] [2021-12-17 03:52:12,273] Pre-Condition - Step 11: Verify text dislayed after register successfully
+[INFO ] [2021-12-17 03:52:12,367]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:52:12,367] TC_01 - Step 05: Get the active Window ID
+[INFO ] [2021-12-17 03:52:13,677] Pre-Condition - Step 12: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:52:13,913] TC_01 - Step 01: Set login page cookie
+[INFO ] [2021-12-17 03:52:23,016] TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site
+[INFO ] [2021-12-17 03:52:23,125]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:52:25,374] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:52:25,374] OS name = windows 10
+[INFO ] [2021-12-17 03:53:14,813] --------START delete file in folder---------
+[INFO ] [2021-12-17 03:53:14,816] --------END delete file in folder---------
+[INFO ] [2021-12-17 03:53:14,835] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:53:26,633] TC_01 - Step 01: Enter to 'User Name' textbox
+[INFO ] [2021-12-17 03:53:26,953] TC_01 - Step 02: Enter to 'Password' textbox
+[INFO ] [2021-12-17 03:53:27,128] TC_01 - Step 03: Click to 'Log In' button
+[INFO ] [2021-12-17 03:53:31,393] TC_01 - Step 04: Verify the popup is displayed
+[INFO ] [2021-12-17 03:53:31,607]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:53:31,691] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:53:31,692] OS name = windows 10
+[INFO ] [2021-12-17 03:53:33,276] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 03:53:43,771] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 03:53:43,971] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 03:53:44,402] Pre-Condition - Step 04: Open 'Register' page
+[INFO ] [2021-12-17 03:53:45,462] Pre-Condition - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:53:45,544] Pre-Condition- Step 06: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:53:45,687] Pre-Condition - Step 07: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:53:45,896] Pre-Condition - Step 08: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:53:45,995] Pre-Condition - Step 09: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:53:46,114] Pre-Condition - Step 10: Click to 'Register' button
+[INFO ] [2021-12-17 03:53:47,794] Pre-Condition - Step 11: Verify text dislayed after register successfully
+[INFO ] [2021-12-17 03:53:47,877]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:53:47,877] TC_01 - Step 05: Get the active Window ID
+[INFO ] [2021-12-17 03:53:49,291] Pre-Condition - Step 12: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:53:49,525] TC_01 - Step 01: Set login page cookie
+[INFO ] [2021-12-17 03:53:58,648] TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site
+[INFO ] [2021-12-17 03:53:58,755]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:54:00,559] TC_01 - Step 07: Switch the user page by windown ID
+[INFO ] [2021-12-17 03:54:00,559] TC_01 - Step 08: Verify the url of user site is displayed
+[INFO ] [2021-12-17 03:54:00,572]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:54:00,573] TC_01 - Step 07: Open 'Account Information' in the left-menu 
+[INFO ] [2021-12-17 03:54:01,741] Pre-Condition - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:54:01,882] Pre-Condition- Step 06: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:54:02,113] Pre-Condition - Step 08: Enter valid info to 'Current Password' textbox
+[INFO ] [2021-12-17 03:54:02,269] Pre-Condition - Step 10: Click to 'Save' button
+[INFO ] [2021-12-17 03:54:03,741] TC_01 - Step 13: Switch to parent window
+[INFO ] [2021-12-17 03:54:04,735] TC_01 - Step 08: Verify the url of admin site is displayed
+[INFO ] [2021-12-17 03:54:04,744]  -------------------------- FAILED -------------------------- 
+[INFO ] [2021-12-17 03:54:04,744] TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site
+[INFO ] [2021-12-17 03:55:04,957] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:55:04,957] OS name = windows 10
+[INFO ] [2021-12-17 03:55:41,299] --------START delete file in folder---------
+[INFO ] [2021-12-17 03:55:41,303] --------END delete file in folder---------
+[INFO ] [2021-12-17 03:55:41,327] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:55:52,955] TC_01 - Step 01: Enter to 'User Name' textbox
+[INFO ] [2021-12-17 03:55:53,236] TC_01 - Step 02: Enter to 'Password' textbox
+[INFO ] [2021-12-17 03:55:53,358] TC_01 - Step 03: Click to 'Log In' button
+[INFO ] [2021-12-17 03:55:57,261] TC_01 - Step 04: Verify the popup is displayed
+[INFO ] [2021-12-17 03:55:57,488]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:55:57,606] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:55:57,606] OS name = windows 10
+[INFO ] [2021-12-17 03:55:59,611] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 03:56:09,867] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 03:56:10,116] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 03:56:10,441] Pre-Condition - Step 04: Open 'Register' page
+[INFO ] [2021-12-17 03:56:11,713] Pre-Condition - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:56:11,801] Pre-Condition- Step 06: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:56:11,928] Pre-Condition - Step 07: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:56:12,105] Pre-Condition - Step 08: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:56:12,243] Pre-Condition - Step 09: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:56:12,369] Pre-Condition - Step 10: Click to 'Register' button
+[INFO ] [2021-12-17 03:56:14,158] Pre-Condition - Step 11: Verify text dislayed after register successfully
+[INFO ] [2021-12-17 03:56:14,235]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:56:14,235] TC_01 - Step 05: Get the active Window ID
+[INFO ] [2021-12-17 03:56:15,569] Pre-Condition - Step 12: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 03:56:15,832] TC_01 - Step 01: Set login page cookie
+[INFO ] [2021-12-17 03:56:25,639] TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site
+[INFO ] [2021-12-17 03:56:25,812]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:56:27,894] TC_01 - Step 07: Switch the user page by windown ID
+[INFO ] [2021-12-17 03:56:27,896] TC_01 - Step 08: Verify the url of user site is displayed
+[INFO ] [2021-12-17 03:56:27,905]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 03:56:27,906] TC_01 - Step 07: Open 'Account Information' in the left-menu 
+[INFO ] [2021-12-17 03:56:29,566] Pre-Condition - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:56:29,847] Pre-Condition- Step 06: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 03:56:30,108] Pre-Condition - Step 08: Enter valid info to 'Current Password' textbox
+[INFO ] [2021-12-17 03:56:30,405] Pre-Condition - Step 10: Click to 'Save' button
+[INFO ] [2021-12-17 03:56:32,277] TC_01 - Step 13: Switch to parent window
+[INFO ] [2021-12-17 03:56:33,552] TC_01 - Step 08: Verify the url of admin site is displayed
+[INFO ] [2021-12-17 03:56:33,552] TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site
+[INFO ] [2021-12-17 03:57:33,777] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 03:57:33,777] OS name = windows 10
+[INFO ] [2021-12-17 04:01:01,544] --------START delete file in folder---------
+[INFO ] [2021-12-17 04:01:01,546] --------END delete file in folder---------
+[INFO ] [2021-12-17 04:01:01,561] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 04:01:14,856] TC_01 - Step 01: Enter to 'User Name' textbox
+[INFO ] [2021-12-17 04:01:15,119] TC_01 - Step 02: Enter to 'Password' textbox
+[INFO ] [2021-12-17 04:01:15,278] TC_01 - Step 03: Click to 'Log In' button
+[INFO ] [2021-12-17 04:01:19,873] TC_01 - Step 04: Verify the popup is displayed
+[INFO ] [2021-12-17 04:01:20,055]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 04:01:20,140] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 04:01:20,142] OS name = windows 10
+[INFO ] [2021-12-17 04:01:22,143] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 04:01:32,583] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 04:01:32,778] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 04:01:33,146] Pre-Condition - Step 04: Open 'Register' page
+[INFO ] [2021-12-17 04:01:34,506] Pre-Condition - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 04:01:34,664] Pre-Condition- Step 06: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 04:01:34,899] Pre-Condition - Step 07: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 04:01:35,009] Pre-Condition - Step 08: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 04:01:35,099] Pre-Condition - Step 09: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 04:01:35,225] Pre-Condition - Step 10: Click to 'Register' button
+[INFO ] [2021-12-17 04:01:37,369] Pre-Condition - Step 11: Verify text dislayed after register successfully
+[INFO ] [2021-12-17 04:01:37,478]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 04:01:37,478] TC_01 - Step 05: Get the active Window ID
+[INFO ] [2021-12-17 04:01:38,865] Pre-Condition - Step 12: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 04:01:39,100] TC_01 - Step 01: Set login page cookie
+[INFO ] [2021-12-17 04:01:48,914] TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site
+[INFO ] [2021-12-17 04:01:49,084]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 04:01:51,164] TC_01 - Step 07: Switch the user page by windown ID
+[INFO ] [2021-12-17 04:01:51,165] TC_01 - Step 08: Verify the url of user site is displayed
+[INFO ] [2021-12-17 04:01:51,172]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 04:01:51,173] TC_01 - Step 07: Open 'Account Information' in the left-menu 
+[INFO ] [2021-12-17 04:01:52,867] Pre-Condition - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 04:01:53,012] Pre-Condition- Step 06: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 04:01:53,255] Pre-Condition - Step 08: Enter valid info to 'Current Password' textbox
+[INFO ] [2021-12-17 04:01:53,513] Pre-Condition - Step 10: Click to 'Save' button
+[INFO ] [2021-12-17 04:01:55,333] TC_01 - Step 13: Switch to parent window
+[INFO ] [2021-12-17 04:02:00,047] TC_01 - Step 08: Verify the url of admin site is displayed
+[INFO ] [2021-12-17 04:02:00,047] TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site
+[INFO ] [2021-12-17 04:03:00,224] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 04:03:00,225] OS name = windows 10
+[INFO ] [2021-12-17 04:12:42,484] --------START delete file in folder---------
+[INFO ] [2021-12-17 04:12:42,486] --------END delete file in folder---------
+[INFO ] [2021-12-17 04:12:42,501] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 04:12:58,561] TC_01 - Step 01: Enter to 'User Name' textbox
+[INFO ] [2021-12-17 04:12:58,856] TC_01 - Step 02: Enter to 'Password' textbox
+[INFO ] [2021-12-17 04:12:59,012] TC_01 - Step 03: Click to 'Log In' button
+[INFO ] [2021-12-17 04:13:03,558] TC_01 - Step 04: Verify the popup is displayed
+[INFO ] [2021-12-17 04:13:03,917]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 04:13:03,976] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 04:13:03,976] OS name = windows 10
+[INFO ] [2021-12-17 04:13:08,113] Pre-Condition - Step 01: Open browser 'firefox' and navigate 'http://live.techpanda.org/'
+[INFO ] [2021-12-17 04:13:20,120] Pre-Condition - Step 02: Verify HomePage is displayed
+[INFO ] [2021-12-17 04:13:20,361] Pre-Condition - Step 03: Click 'Account' menu on header
+[INFO ] [2021-12-17 04:13:20,765] Pre-Condition - Step 04: Open 'Register' page
+[INFO ] [2021-12-17 04:13:22,048] Pre-Condition - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 04:13:22,193] Pre-Condition- Step 06: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 04:13:22,392] Pre-Condition - Step 07: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 04:13:22,537] Pre-Condition - Step 08: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 04:13:22,690] Pre-Condition - Step 09: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 04:13:22,859] Pre-Condition - Step 10: Click to 'Register' button
+[INFO ] [2021-12-17 04:13:24,529] Pre-Condition - Step 11: Verify text dislayed after register successfully
+[INFO ] [2021-12-17 04:13:24,598]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 04:13:24,598] TC_01 - Step 05: Get the active Window ID
+[INFO ] [2021-12-17 04:13:25,921] Pre-Condition - Step 12: Open browser 'firefox' and navigate 'http://live.techpanda.org/index.php/backendlogin/index/index/key'
+[INFO ] [2021-12-17 04:13:26,110] TC_01 - Step 01: Set login page cookie
+[INFO ] [2021-12-17 04:13:35,256] TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site
+[INFO ] [2021-12-17 04:13:35,390]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 04:13:37,326] TC_01 - Step 07: Switch the user page by windown ID
+[INFO ] [2021-12-17 04:13:37,326] TC_01 - Step 08: Verify the url of user site is displayed
+[INFO ] [2021-12-17 04:13:37,334]  -------------------------- PASSED -------------------------- 
+[INFO ] [2021-12-17 04:13:37,335] TC_01 - Step 07: Open 'Account Information' in the left-menu 
+[INFO ] [2021-12-17 04:13:39,205] Pre-Condition - Step 05: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 04:13:39,363] Pre-Condition- Step 06: Enter valid info to 'First Name' textbox
+[INFO ] [2021-12-17 04:13:39,565] Pre-Condition - Step 08: Enter valid info to 'Current Password' textbox
+[INFO ] [2021-12-17 04:13:39,759] Pre-Condition - Step 10: Click to 'Save' button
+[INFO ] [2021-12-17 04:13:41,328] TC_01 - Step 13: Switch to parent window
+[INFO ] [2021-12-17 04:13:46,139] TC_01 - Step 08: Verify the url of admin site is displayed
+[INFO ] [2021-12-17 04:13:46,139] TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site Landon Crooks
+[INFO ] [2021-12-17 04:15:29,065] Post-Condition - Close Browser - firefox
+[INFO ] [2021-12-17 04:15:29,065] OS name = windows 10

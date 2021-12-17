@@ -7,25 +7,20 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.liveguru.user.TC_02_Login;
+import com.liveguru.common.Common_01_Login_Admin;
 
 import commons.BaseTest;
 import pageObject.user.liveGuru99.CustomerAdminPO;
 import pageObject.user.liveGuru99.HomePO;
 import pageObject.user.liveGuru99.LoginAdminPO;
-import pageObject.user.liveGuru99.LoginPO;
 import pageObject.user.liveGuru99.MyAccountPO;
 import pageObject.user.liveGuru99.PageGenerator;
-import pageObject.user.liveGuru99.ProductDetailsPO;
 import pageObject.user.liveGuru99.RegisterPO;
-import pageObject.user.liveGuru99.ReviewPO;
-import pageObject.user.liveGuru99.ShoppingCartPO;
-import pageObject.user.liveGuru99.TVPO;
 import utilities.DataUtil;
 
 public class TC_01_Check_Account_Created_Success extends BaseTest {
 	WebDriver driver;
-	public static String firstName, lastName,fullName, emailAddress, password;
+	public static String firstName, lastName,fullName, emailAddress, password, userWindownID, adminWindownID, editFirstName, editLastName, editFullName;
 	
 	@Parameters({ "browser", "urlUser", "urlAdmin"})
 	@BeforeClass
@@ -38,6 +33,9 @@ public class TC_01_Check_Account_Created_Success extends BaseTest {
 		firstName = fakeData.getFirstName();
 		lastName = fakeData.getLastName();
 		fullName = firstName + " " + lastName;
+		editFirstName = fakeData.getFirstName();
+		editLastName = fakeData.getLastName();
+		editFullName = editFirstName + " " + editLastName;
 		emailAddress = fakeData.getEmailAddress();
 		password = fakeData.getPassword();
 		
@@ -74,32 +72,75 @@ public class TC_01_Check_Account_Created_Success extends BaseTest {
 		
 		log.info("Pre-Condition - Step 11: Verify text dislayed after register successfully");
 		verifyTrue(myAccountPage.isMessageDisplayed(driver,"Thank you for registering with Main Website Store."));
-		cleanBrowserAndDriver();
 		
+		log.info("TC_01 - Step 05: Get the active Window ID");
+//		userWindownID = driver.getWindowHandle();
+		
+		
+		driver.navigate().to(urlAdmin);
+		
+	
+				
 		log.info("Pre-Condition - Step 12: Open browser '" + browserName + "' and navigate '" + urlAdmin + "'");
-		driver = getBrowserDriver(browserName, urlAdmin);
+//		driver = getBrowserDriver(browserName, urlAdmin);
 		loginAdminPage = PageGenerator.getLoginAdminPage(driver);
 		
+//		log.info("TC_01 - Step 07: Switch the user page by windown ID");
+//		loginAdminPage.switchWindowByID(driver, userWindownID);		
 	}
 
+	
 	@Test
 	public void  TC_01_Check_Account_Info_Created_Success() {
-		log.info("TC_01 - Step 01: Enter to 'User Name' textbox");
-		loginAdminPage.enterToTextboxByID(driver, "username", "user01");
-		
-		log.info("TC_01 - Step 02: Enter to 'Password' textbox");
-		loginAdminPage.enterToTextboxByID(driver, "login", "guru99com");
-		
-		log.info("TC_01 - Step 03: Click to 'Log In' button");
-		loginAdminPage.clickToButtonAdminByTitle(driver, "Login");
+		log.info("TC_01 - Step 01: Set login page cookie");
+		loginAdminPage.setAllCookies(driver, Common_01_Login_Admin.loginPageCookie);
+		loginAdminPage.sleepInsecond(5);
+		loginAdminPage.refreshPage(driver);
 		customerAdminPage = PageGenerator.getCustomerAdminPage(driver);
+				
+		log.info("TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site");
+		verifyTrue(customerAdminPage.isInfoAccountAtTableDisplayed(driver, fullName, emailAddress));	
+		driver.navigate().back();
+	}
+	
+	@Parameters("urlAdmin")
+	@Test
+	public void  TC_01_Check_Account_Info_Updated_Success(String urlAdmin) {
+		log.info("TC_01 - Step 07: Switch the user page by windown ID");
+		myAccountPage = PageGenerator.getMyAccountPage(driver);
 		
-		log.info("TC_01 - Step 04: Close popup");
-		customerAdminPage.clickToIconCloseInPopup();
+//		driver.switchTo().window(userWindownID);
 		
-		log.info("TC_01 - Step 05: Verify the account created on the user site is displayed on the admin site");
-		verifyTrue(customerAdminPage.isInfoAccountAtTableDisplayed(driver, fullName, emailAddress));
 		
+		log.info("TC_01 - Step 08: Verify the url of user site is displayed");
+		verifyEquals(myAccountPage.getPageURL(driver), "http://live.techpanda.org/index.php/customer/account/index/");
+		
+		log.info("TC_01 - Step 07: Open 'Account Information' in the left-menu ");
+		myAccountPage.OpenMenuAtSidebar(driver, "Account Information");
+		
+		log.info("Pre-Condition - Step 05: Enter valid info to 'First Name' textbox");
+		myAccountPage.enterToTextboxByID(driver, "firstname",firstName);
+
+		log.info("Pre-Condition- Step 06: Enter valid info to 'First Name' textbox");
+		myAccountPage.enterToTextboxByID(driver, "lastname",lastName);
+
+		log.info("Pre-Condition - Step 08: Enter valid info to 'Current Password' textbox");
+		myAccountPage.enterToTextboxByID(driver, "current_password",password);
+
+		log.info("Pre-Condition - Step 10: Click to 'Save' button");
+		myAccountPage.clickToButtonByTitle(driver, "Save");
+		
+		log.info("TC_01 - Step 13: Switch to parent window");
+		driver.navigate().to(urlAdmin);
+		
+//		myAccountPage.switchWindowByID(driver, userWindownID);	
+		customerAdminPage = PageGenerator.getCustomerAdminPage(driver);
+		customerAdminPage.refreshPage(driver);
+		
+		log.info("TC_01 - Step 08: Verify the url of admin site is displayed");
+		
+		log.info("TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site " + editFullName);
+		verifyTrue(customerAdminPage.isInfoAccountAtTableDisplayed(driver, editFullName, emailAddress));
 	}
 	
 

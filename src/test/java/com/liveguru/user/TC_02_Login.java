@@ -18,7 +18,6 @@ import pageObject.user.liveGuru99.PageGenerator;
 
 public class TC_02_Login extends BaseTest {
 	WebDriver driver;
-	public static Set<Cookie> loginPageCookie;
 
 	@Parameters({ "browser", "url" })
 	@BeforeClass
@@ -57,7 +56,6 @@ public class TC_02_Login extends BaseTest {
 		log.info("Login_01 - Step 05: Verify text dislayed on dashoard");
 		verifyTrue(myAccountPage.isTextDisplayed(driver, "welcome-msg","Hello, " + TC_01_Register_Success.fullName + "!"));
 		
-		loginPageCookie = myAccountPage.getAllCookies(driver);
 	}
 	
 

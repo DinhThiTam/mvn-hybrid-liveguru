@@ -12,31 +12,14 @@ public class CustomerAdminPO extends BasePage {
 		this.driver = driver;
 	}
 
-
 	public void clickToIconCloseInPopup() {
 		waitForElementClickable(driver, CustomerAdminPageUI.ICON_CLOSE);
 		clickToElement(driver, CustomerAdminPageUI.ICON_CLOSE);
 	}
 
-
-	
-
-
-
-	
-
-
-
-	
-	
-
-
-
-
-
-	
-
-	
-	
+	public boolean isPopupDisplayed() {
+		waitForElementVisible(driver, CustomerAdminPageUI.ICON_CLOSE);
+		return isElementDisplayed(driver, CustomerAdminPageUI.ICON_CLOSE);
+	}
 
 }
