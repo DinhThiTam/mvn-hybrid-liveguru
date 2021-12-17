@@ -73,20 +73,10 @@ public class TC_01_Check_Account_Created_Success extends BaseTest {
 		log.info("Pre-Condition - Step 11: Verify text dislayed after register successfully");
 		verifyTrue(myAccountPage.isMessageDisplayed(driver,"Thank you for registering with Main Website Store."));
 		
-		log.info("TC_01 - Step 05: Get the active Window ID");
-//		userWindownID = driver.getWindowHandle();
-		
-		
+		log.info("Pre-Condition - Step 12: Navigate '" + urlAdmin + "'");
 		driver.navigate().to(urlAdmin);
-		
-	
-				
-		log.info("Pre-Condition - Step 12: Open browser '" + browserName + "' and navigate '" + urlAdmin + "'");
-//		driver = getBrowserDriver(browserName, urlAdmin);
 		loginAdminPage = PageGenerator.getLoginAdminPage(driver);
-		
-//		log.info("TC_01 - Step 07: Switch the user page by windown ID");
-//		loginAdminPage.switchWindowByID(driver, userWindownID);		
+
 	}
 
 	
@@ -100,17 +90,14 @@ public class TC_01_Check_Account_Created_Success extends BaseTest {
 				
 		log.info("TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site");
 		verifyTrue(customerAdminPage.isInfoAccountAtTableDisplayed(driver, fullName, emailAddress));	
-		driver.navigate().back();
 	}
 	
-	@Parameters("urlAdmin")
+	@Parameters({"urlAdmin","urlUser"})
 	@Test
-	public void  TC_01_Check_Account_Info_Updated_Success(String urlAdmin) {
-		log.info("TC_01 - Step 07: Switch the user page by windown ID");
-		myAccountPage = PageGenerator.getMyAccountPage(driver);
-		
-//		driver.switchTo().window(userWindownID);
-		
+	public void  TC_02_Check_Account_Info_Updated_Success(String urlAdmin, String urlUser) {
+		log.info("Pre-Condition - Step 12: Back to user site '" + urlUser + "'");
+		driver.navigate().back();
+		myAccountPage = PageGenerator.getMyAccountPage(driver);		
 		
 		log.info("TC_01 - Step 08: Verify the url of user site is displayed");
 		verifyEquals(myAccountPage.getPageURL(driver), "http://live.techpanda.org/index.php/customer/account/index/");
@@ -119,10 +106,10 @@ public class TC_01_Check_Account_Created_Success extends BaseTest {
 		myAccountPage.OpenMenuAtSidebar(driver, "Account Information");
 		
 		log.info("Pre-Condition - Step 05: Enter valid info to 'First Name' textbox");
-		myAccountPage.enterToTextboxByID(driver, "firstname",firstName);
+		myAccountPage.enterToTextboxByID(driver, "firstname",editFirstName);
 
 		log.info("Pre-Condition- Step 06: Enter valid info to 'First Name' textbox");
-		myAccountPage.enterToTextboxByID(driver, "lastname",lastName);
+		myAccountPage.enterToTextboxByID(driver, "lastname",editLastName);
 
 		log.info("Pre-Condition - Step 08: Enter valid info to 'Current Password' textbox");
 		myAccountPage.enterToTextboxByID(driver, "current_password",password);
@@ -130,16 +117,11 @@ public class TC_01_Check_Account_Created_Success extends BaseTest {
 		log.info("Pre-Condition - Step 10: Click to 'Save' button");
 		myAccountPage.clickToButtonByTitle(driver, "Save");
 		
-		log.info("TC_01 - Step 13: Switch to parent window");
+		log.info("Pre-Condition - Step 12: Navigate '" + urlAdmin + "'");
 		driver.navigate().to(urlAdmin);
-		
-//		myAccountPage.switchWindowByID(driver, userWindownID);	
 		customerAdminPage = PageGenerator.getCustomerAdminPage(driver);
-		customerAdminPage.refreshPage(driver);
 		
-		log.info("TC_01 - Step 08: Verify the url of admin site is displayed");
-		
-		log.info("TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site " + editFullName);
+		log.info("TC_01 - Step 03: Verify the account created on the user site is displayed on the admin site ");
 		verifyTrue(customerAdminPage.isInfoAccountAtTableDisplayed(driver, editFullName, emailAddress));
 	}
 	
