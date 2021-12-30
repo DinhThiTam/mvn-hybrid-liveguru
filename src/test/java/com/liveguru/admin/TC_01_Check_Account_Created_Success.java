@@ -92,6 +92,10 @@ public class TC_01_Check_Account_Created_Success extends BaseTest {
 		verifyTrue(customerAdminPage.isInfoAccountAtTableDisplayed(driver, fullName, emailAddress));	
 	}
 	
+	@Test
+	public void  TC_02_TestJenkins() {
+	}
+	
 	@Parameters({"urlAdmin","urlUser"})
 	@Test
 	public void  TC_02_Check_Account_Info_Updated_Success(String urlAdmin, String urlUser) {
