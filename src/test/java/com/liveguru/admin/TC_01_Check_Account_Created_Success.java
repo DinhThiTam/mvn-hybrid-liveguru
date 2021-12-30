@@ -81,7 +81,7 @@ public class TC_01_Check_Account_Created_Success extends BaseTest {
 
 	
 	@Test
-	public void  TC_01_Check_Account_Info_Created_Success() {
+	public void  TC_01_Account_Info_Created_Success() {
 		log.info("TC_01 - Step 01: Set login page cookie");
 		loginAdminPage.setAllCookies(driver, Common_01_Login_Admin.loginPageCookie);
 		loginAdminPage.sleepInsecond(5);
